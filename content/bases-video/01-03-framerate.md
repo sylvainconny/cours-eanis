@@ -19,8 +19,6 @@ Il existe trois grandes normes de diffusion :
 
 Ces deux dernières fréquences viennent des différences de courant électrique, en 50Hz pour les pays concernés par le PAL/SECAM, et 60Hz pour les pays ayant adopté le NTSC. Cette idée persiste notamment avec les ampoules, toujours en 50 ou 60Hz où le flickering apparaît.
 
-![Flickering](https://www.diffusioneshop.com/img/cms/perchè-sfarfallio-luci-video.webp)
-
 Il existe bien d'autres framerates relativement courants comme 23.976, 48, 50, 59.94, 60, 120...
 
 Ces différents framerates permettent par exemple de faire des ralentis : une vidéo 50ips dans un projet en 25 sera ralentie par deux.
