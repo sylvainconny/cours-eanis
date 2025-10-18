@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sylvainconny.github.io/cours-eanis/'
 languageCode = 'fr-FR'
 title = 'Cours EANIS'
 theme = 'ananke'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
