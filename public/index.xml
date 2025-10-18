@@ -3,7 +3,7 @@
   <channel>
     <title>Accueil :: Cours EANIS</title>
     <link>https://sylvainconny.github.io/cours-eanis/index.html</link>
-    <description>Sommaire Bases de la vidéo Définition image Aspect Ratio Framerate Anamorphose Affichage Codecs Couleurs Espaces colorimétriques Échantillonage Quantification Workflow recommandé Pour chaque projet, créer une arborescence de ce genre :&#xA;PROJETS_EANIS NOM_PROJET RUSHES PROXY AUDIO VIDEO SONS SFX MUSIQUES ELEMENTS TITRES MOTION STOCK PROJETS PREMIERE AFTER yyyymmdd_nom_projet.aep yyyymmdd_nom_projet.aep EXPORTS FINAL RENDUS_3D AFTER Resolve Project Library</description>
+    <description>Workflow recommandé Pour chaque projet, créer une arborescence de ce genre :&#xA;PROJETS_EANIS NOM_PROJET RUSHES PROXY AUDIO VIDEO SONS SFX MUSIQUES ELEMENTS TITRES MOTION STOCK PROJETS PREMIERE AFTER yyyymmdd_nom_projet.aep yyyymmdd_nom_projet.aep EXPORTS FINAL RENDUS_3D AFTER Resolve Project Library</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
     <atom:link href="https://sylvainconny.github.io/cours-eanis/index.xml" rel="self" type="application/rss+xml" />

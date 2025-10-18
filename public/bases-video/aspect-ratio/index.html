@@ -19,29 +19,29 @@
     <meta property="article:section" content="Bases de la vidéo">
     <meta itemprop="name" content="Aspect Ratio :: Cours EANIS">
     <meta itemprop="description" content="L’aspect ratio  c’est le rapport entre la largeur et la hauteur de l’image">
-    <meta itemprop="wordCount" content="266">
+    <meta itemprop="wordCount" content="277">
     <title>Aspect Ratio :: Cours EANIS</title>
     <link href="/cours-eanis/bases-video/aspect-ratio/index.print.html" rel="alternate" type="text/html" title="Aspect Ratio :: Cours EANIS">
-    <link href="/cours-eanis/css/auto-complete/auto-complete.min.css?1760785135" rel="stylesheet">
-    <script src="/cours-eanis/js/auto-complete/auto-complete.min.js?1760785135" defer></script>
-    <script src="/cours-eanis/js/search-lunr.min.js?1760785135" defer></script>
-    <script src="/cours-eanis/js/search.min.js?1760785135" defer></script>
+    <link href="/cours-eanis/css/auto-complete/auto-complete.min.css?1760789962" rel="stylesheet">
+    <script src="/cours-eanis/js/auto-complete/auto-complete.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/search-lunr.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/search.min.js?1760789962" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cours-eanis/searchindex.fr.js?1760785135";
+      window.relearn.index_js_url="/cours-eanis/searchindex.fr.js?1760789962";
     </script>
-    <script src="/cours-eanis/js/lunr/lunr.min.js?1760785135" defer></script>
-    <script src="/cours-eanis/js/lunr/lunr.stemmer.support.min.js?1760785135" defer></script>
-    <script src="/cours-eanis/js/lunr/lunr.multi.min.js?1760785135" defer></script>
-    <script src="/cours-eanis/js/lunr/lunr.fr.min.js?1760785135" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.stemmer.support.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.multi.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.fr.min.js?1760789962" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1760785135" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1760785135" rel="stylesheet"></noscript>
-    <link href="/cours-eanis/css/perfect-scrollbar/perfect-scrollbar.min.css?1760785135" rel="stylesheet">
-    <link href="/cours-eanis/css/theme.min.css?1760785135" rel="stylesheet">
-    <link href="/cours-eanis/css/format-html.min.css?1760785135" rel="stylesheet" id="R-format-style">
+    <link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1760789962" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1760789962" rel="stylesheet"></noscript>
+    <link href="/cours-eanis/css/perfect-scrollbar/perfect-scrollbar.min.css?1760789962" rel="stylesheet">
+    <link href="/cours-eanis/css/theme.min.css?1760789962" rel="stylesheet">
+    <link href="/cours-eanis/css/format-html.min.css?1760789962" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -149,25 +149,25 @@
 <li>4/3</li>
 <li>1:1</li>
 </ul>
-<p>À noter que 16/9 = 1,77 donc on peut aussi l&rsquo;écrire 1,77:1</p>
-<p>Cette norme d&rsquo;écriture facilite la visualisation :</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>    1920 | 16 | 1,77
-_______________________
-|                     |
-|                     |
-|                     | 1080 | 9 | 1
-|                     |
-|                     |
-_______________________</code></pre></div>
+<p>À noter que 16/9 = 1,77 donc on peut aussi l&rsquo;écrire sous cette forme :</p>
+<span class="math align-center">$$\frac{1920}{1080} = \frac{16}{9} = \frac{1.77}{1} = 1.77$$</span>
+<p>Cette norme d&rsquo;écriture facilite la visualisation, un rectangle 1,77 fois plus grand que large :</p>
+<pre class="mermaid align-center ">block-beta
+  columns 8
+    r1[&#34;1920px x 1080px&#34;]:2 space r2[&#34;16/9&#34;]:2 space r3[&#34;1.77:1&#34;]:2
+  r1--&gt;r2
+  r2--&gt;r3
+
+  style r1 height:150px</pre>
 <p>Egalement, le 4/3 c&rsquo;est du 1,33:1</p>
 <p>Exemple, si on a des rushes en Full HD qu&rsquo;on souhaite exporter dans un ratio 2:1, on se retrouvera avec une définition de 1920x960 car on préserve la largeur (ici 2) et pour la hauteur on divise la largeur par 2, donc 960.</p>
 <p>Si on souhaite maintenant un ratio cinémascope 2,4:1 on divise la largeur par 2,4 et ça donne du 1920x800.</p>
 <p>À l&rsquo;inverse, si à partir d&rsquo;une définition on souhaite retrouver le ratio d&rsquo;une définition, par exemple 1920x768, le ratio étant le rapport largeur / hauteur on effectue l&rsquo;opération suivante :</p>
-<p><code>1920 / 768 = 2.5</code>
-Le ratio est donc de 2.5:1 ou simplement 2.5</p>
+<span class="math align-left">$$1920 / 768 = 2.5$$</span>
+<p>Le ratio est donc de 2.5:1 ou simplement 2.5</p>
 <p>Il existe des sites pour calculer facilement ces opérations comme <a href="https://www.unravel.com.au/aspect-ratio-cheat-sheet" rel="external">unravel</a>.</p>
-<p><a href="#R-image-6032b1c9c6e4a0057d679bad61f69337" class="lightbox-link"><img alt="Les principales définitions" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Filmaspectratios.svg/320px-Filmaspectratios.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6032b1c9c6e4a0057d679bad61f69337"><img alt="Les principales définitions" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Filmaspectratios.svg/320px-Filmaspectratios.svg.png"></a></p>
+<p><a href="#R-image-629f7993c7b3be37668b42df769bc780" class="lightbox-link"><img alt="Les principales définitions" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Filmaspectratios.svg/320px-Filmaspectratios.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-629f7993c7b3be37668b42df769bc780"><img alt="Les principales définitions" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Filmaspectratios.svg/320px-Filmaspectratios.svg.png"></a></p>
 <p><strong>Quelques exemples de définitions vs ratios :</strong></p>
 <ul>
 <li>720x480 (SD NTSC) | 1.5:1</li>
@@ -261,8 +261,34 @@ Le ratio est donc de 2.5:1 ou simplement 2.5</p>
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/cours-eanis/js/clipboard/clipboard.min.js?1760785135" defer></script>
-    <script src="/cours-eanis/js/perfect-scrollbar/perfect-scrollbar.min.js?1760785135" defer></script>
-    <script src="/cours-eanis/js/theme.min.js?1760785135" defer></script>
+    <script>
+      window.MathJax = Object.assign( window.MathJax || {}, {
+        tex: {
+          inlineMath:  [['\\(', '\\)'], ['$',  '$']],  
+          displayMath: [['\\[', '\\]'], ['$$', '$$']], 
+        },
+        options: {
+          enableMenu: false 
+        }
+      }, JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="/cours-eanis/js/mathjax/tex-mml-chtml.js?1760789962"></script>
+    <script src="/cours-eanis/js/js-yaml/js-yaml.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/d3/d3-color.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/d3/d3-dispatch.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/d3/d3-drag.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/d3/d3-ease.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/d3/d3-interpolate.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/d3/d3-selection.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/d3/d3-timer.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/d3/d3-transition.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/d3/d3-zoom.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/mermaid/mermaid.min.js?1760789962" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/cours-eanis/js/clipboard/clipboard.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/perfect-scrollbar/perfect-scrollbar.min.js?1760789962" defer></script>
+    <script src="/cours-eanis/js/theme.min.js?1760789962" defer></script>
   </body>
 </html>

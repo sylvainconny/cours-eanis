@@ -5,13 +5,15 @@ summary = "C'est le nombre de pixels dans une image. S'écrit avec un rapport la
 weight = 1
 slug = 'definition-image'
 editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
-[menu.main]
 +++
 
 > [!primary]
 > C'est le nombre de pixels dans une image. S'écrit avec un rapport largeur x hauteur.
 
-Exemple HD: 1920 x 1080 = 2 073 600 pixels
+Exemple Full HD :
+```math {align="left"}
+$$1920 \times 1080 = 2\ 073\ 600\ \text{pixels}$$
+```
 Il y a 1920 colonnes et 1080 lignes de pixels.
 
 Elle peut être appelée résolution, mais c'est un anglicisme. La résolution, en français, représente la densité de pixels, plus exactement c'est le nombre de pixels par unité de longueur (en général le pouce = 2.54cm), exprimée en dpi (Dot Per Inch) ou ppp (Point / Pixel Par Pouce). Un écran de smartphone FHD a une plus grande résolution qu'un téléviseur FHD.

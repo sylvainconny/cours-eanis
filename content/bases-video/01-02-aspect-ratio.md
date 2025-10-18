@@ -13,18 +13,22 @@ L'aspect ratio  c'est le rapport entre la largeur et la hauteur de l'image.
 * 4/3
 * 1:1
 
-À noter que 16/9 = 1,77 donc on peut aussi l'écrire 1,77:1
+À noter que 16/9 = 1,77 donc on peut aussi l'écrire sous cette forme :
 
-Cette norme d'écriture facilite la visualisation :
+```math
+$$\frac{1920}{1080} = \frac{16}{9} = \frac{1.77}{1} = 1.77$$
 ```
-    1920 | 16 | 1,77
-_______________________
-|                     |
-|                     |
-|                     | 1080 | 9 | 1
-|                     |
-|                     |
-_______________________
+
+Cette norme d'écriture facilite la visualisation, un rectangle 1,77 fois plus grand que large :
+
+```mermaid
+block-beta
+  columns 8
+    r1["1920px x 1080px"]:2 space r2["16/9"]:2 space r3["1.77:1"]:2
+  r1-->r2
+  r2-->r3
+
+  style r1 height:150px
 ```
 
 Egalement, le 4/3 c'est du 1,33:1
@@ -35,7 +39,9 @@ Si on souhaite maintenant un ratio cinémascope 2,4:1 on divise la largeur par 2
 
 À l'inverse, si à partir d'une définition on souhaite retrouver le ratio d'une définition, par exemple 1920x768, le ratio étant le rapport largeur / hauteur on effectue l'opération suivante :
 
-`1920 / 768 = 2.5`
+```math {align="left"}
+$$1920 / 768 = 2.5$$
+```
 Le ratio est donc de 2.5:1 ou simplement 2.5
 
 Il existe des sites pour calculer facilement ces opérations comme [unravel](https://www.unravel.com.au/aspect-ratio-cheat-sheet).

@@ -10,7 +10,6 @@ type = 'chapter'
     menuPre = '&nbsp;<i class="fa-solid fa-photo-film"></i>&nbsp;'
 [build]
   render = 'never'
-[menu.main]
 +++
 
 Cours dispensé par Vincent
