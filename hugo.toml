@@ -1,7 +1,11 @@
 baseURL = 'https://sylvainconny.github.io/cours-eanis/'
 languageCode = 'fr-FR'
 title = 'Cours EANIS'
-theme = 'ananke'
+#theme = 'hugo-theme-relearn'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
