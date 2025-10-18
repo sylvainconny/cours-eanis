@@ -4,6 +4,7 @@ title = 'Codecs'
 summary = "Littéralement 'codeur / décodeur', permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles"
 weight = 6
 slug = 'codecs'
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
 Littéralement "codeur / décodeur", permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles.

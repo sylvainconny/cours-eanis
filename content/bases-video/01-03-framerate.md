@@ -4,6 +4,7 @@ title = 'Framerate'
 summary = "C'est le nombre d'images par seconde"
 weight = 3
 slug = 'framerate'
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
 C'est le nombre d'images par seconde, présente deux unités :

@@ -4,6 +4,7 @@ title = 'Anamorphose'
 summary = "Consiste en l'adaptation d'une image à son support de diffusion"
 weight = 4
 slug = 'anamorphose'
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
 Consiste en l'adaptation d'une image à son support de diffusion, il existe 3 manière de faire :

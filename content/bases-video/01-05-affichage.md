@@ -4,6 +4,7 @@ title = 'Affichage'
 summary = "Progressif ou entrelacé ?"
 weight = 5
 slug = 'affichage'
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
 Il existe deux types d'affichage :

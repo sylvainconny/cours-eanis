@@ -4,6 +4,7 @@ title = 'Échantillonage'
 summary = "Désigne la compression de la chrominance, du plus ou moins compressé"
 weight = 2
 slug = 'echantillonage'
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
 Chroma subsampling en anglais.

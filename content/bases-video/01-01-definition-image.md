@@ -4,10 +4,13 @@ title = 'Définition Image'
 summary = "C'est le nombre de pixels dans une image. S'écrit avec un rapport largeur x hauteur."
 weight = 1
 slug = 'definition-image'
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
+[menu.main]
 +++
 
-C'est le nombre de pixels dans une image.
-S'écrit avec un rapport largeur x hauteur.
+> [!primary]
+> C'est le nombre de pixels dans une image. S'écrit avec un rapport largeur x hauteur.
+
 Exemple HD: 1920 x 1080 = 2 073 600 pixels
 Il y a 1920 colonnes et 1080 lignes de pixels.
 

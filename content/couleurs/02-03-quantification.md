@@ -4,6 +4,7 @@ title = 'Quantification'
 summary = "Désigne la compression de la luminance du plus au moins compressés et donc le nombre de nuances de gris"
 weight = 3
 slug = 'quantification'
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
 En anglais, Grayscale quantization ou level quantization.

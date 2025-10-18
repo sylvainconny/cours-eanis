@@ -4,6 +4,7 @@ title = 'Aspect Ratio'
 summary = "L'aspect ratio  c'est le rapport entre la largeur et la hauteur de l'image"
 weight = 2
 slug = 'aspect-ratio'
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
 L'aspect ratio  c'est le rapport entre la largeur et la hauteur de l'image.

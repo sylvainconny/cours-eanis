@@ -4,6 +4,7 @@ title = 'Espaces Colorimétriques'
 summary = "Un espace colorimétrique c'est une zone définie dans le diagramme de chromaticité, lequel représente l'ensemble des chrominances (ou couleurs pures sous-entendu sans luminance, sans les nuances de luminosité) visibles à l'œil nu"
 weight = 1
 slug = 'espaces-colorimetriques'
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
 ![Diagramme de chromaticité](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SRGB_chromaticity_CIE1931.svg/800px-SRGB_chromaticity_CIE1931.svg.png)
