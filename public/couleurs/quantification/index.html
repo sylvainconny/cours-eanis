@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Quantification | Cours EANIS</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Désigne la compression de la luminance du plus au moins compressés et donc le nombre de nuances de gris">
+    <meta name="generator" content="Hugo 0.151.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/couleurs/quantification/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/couleurs/quantification/">
+  <meta property="og:site_name" content="Cours EANIS">
+  <meta property="og:title" content="Quantification">
+  <meta property="og:description" content="Désigne la compression de la luminance du plus au moins compressés et donc le nombre de nuances de gris">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="couleurs">
+
+  <meta itemprop="name" content="Quantification">
+  <meta itemprop="description" content="Désigne la compression de la luminance du plus au moins compressés et donc le nombre de nuances de gris">
+  <meta itemprop="wordCount" content="203">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Quantification">
+  <meta name="twitter:description" content="Désigne la compression de la luminance du plus au moins compressés et donc le nombre de nuances de gris">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Cours EANIS
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/bases-video/" title="Bases de la vidéo page">
+              Bases de la vidéo
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/couleurs/" title="Couleurs page">
+              Couleurs
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Couleurs
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Quantification</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>En anglais, Grayscale quantization ou level quantization.
+Désigne la compression de la luminance du plus au moins compressés et donc le nombre de nuances de gris :</p>
+<ul>
+<li>8 bits (2^8 soit 256 nuances de gris)</li>
+<li>10 bits (2^10 = 1024)</li>
+<li>12 bits (2^12 = 4096)</li>
+<li>14 bits (2^14 = 16 384)</li>
+<li>16 bits (2^16 = 65 536)</li>
+<li>32 bits (2^32 = 4 294 967 296)</li>
+</ul>
+<p>La diffusion se fait essentiellement en 8 bits, exception faite des Blu-Ray qui peuvent monter jusqu&rsquo;à 10 bits. Les caméras captent de 8 à 14 bits, sauf la Sony Venice 2 qui peut aller jusqu&rsquo;à 16 bits. Le 32 bits ne peut être créé que numériquement.</p>
+<p><img src="https://www.researchgate.net/profile/Saddam-Bekhet/publication/318818149/figure/fig4/AS:525091446038533@1502202964332/grayscale-levels-quantized-into-two-different-levels.png" alt="Exemple de quantification"></p>
+<p>Ainsi, quand on fait la synthèse additive avec les vert, bleu et rouge purs, en 8 bits donc 256 nuances par couleur ça fait 256x256x256 = 16 millions de couleurs.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Synthese%2B.svg/800px-Synthese%2B.svg.png" alt="Synthèse additive"></p>
+<p>Du coup, en 8 bits, ce vert pur s&rsquo;écrit R0 V255 B0 #00FF00.</p>
+<p>Pour éviter l&rsquo;effet de banding, on peut monter la quantification, mais vu qu&rsquo;on diffuse en 8 bits la plupart du temps, c&rsquo;est difficile à éviter.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Colour_banding_example01.png" alt="Banding"></p>
+<p>À noter qu&rsquo;en lumière / vidéo, les couleurs primaires sont rouge / vert / bleu tandis qu&rsquo;en peinture c&rsquo;est rouge / jaune / bleu.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Cours EANIS 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Framerate | Cours EANIS</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="C&rsquo;est le nombre d&rsquo;images par seconde">
+    <meta name="generator" content="Hugo 0.151.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/bases-video/framerate/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/bases-video/framerate/">
+  <meta property="og:site_name" content="Cours EANIS">
+  <meta property="og:title" content="Framerate">
+  <meta property="og:description" content="C’est le nombre d’images par seconde">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="bases-video">
+
+  <meta itemprop="name" content="Framerate">
+  <meta itemprop="description" content="C’est le nombre d’images par seconde">
+  <meta itemprop="wordCount" content="346">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Framerate">
+  <meta name="twitter:description" content="C’est le nombre d’images par seconde">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Cours EANIS
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/bases-video/" title="Bases de la vidéo page">
+              Bases de la vidéo
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Bases de la vidéo
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Framerate</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>C&rsquo;est le nombre d&rsquo;images par seconde, présente deux unités :</p>
+<ul>
+<li>FPS (Frames Per Second)</li>
+<li>IPS (Images Par Seconde)</li>
+</ul>
+<p>Il existe trois grandes normes de diffusion :</p>
+<ul>
+<li>24fps est la norme cinéma qu&rsquo;on retrouve dans les DCP, issue de l &lsquo;apparition du son imposant ce minimum pour ne pas saccader le son lu en même temps que la pellicule</li>
+<li>25fps est une norme télévisuelle héritée du PAL</li>
+<li>29,97fps est une normale télévisuelle héritée du NTSC</li>
+</ul>
+<p>Ces deux dernières fréquences viennent des différences de courant électrique, en 50Hz pour les pays concernés par le PAL/SECAM, et 60Hz pour les pays ayant adopté le NTSC. Cette idée persiste notamment avec les ampoules, toujours en 50 ou 60Hz où le flickering apparaît.</p>
+<p><img src="https://www.diffusioneshop.com/img/cms/perch%C3%A8-sfarfallio-luci-video.webp" alt="Flickering"></p>
+<p>Il existe bien d&rsquo;autres framerates relativement courants comme 23.976, 48, 50, 59.94, 60, 120&hellip;</p>
+<p>Ces différents framerates permettent par exemple de faire des ralentis : une vidéo 50ips dans un projet en 25 sera ralentie par deux.</p>
+<p>L&rsquo;interpolation (retime) d&rsquo;image, c&rsquo;est le fait de recréer des images manquantes. Dans un projet 25fps avec des sources 25fps, si on veut ralentir par deux un rush, il manquera des images et la vidéo sera saccadée. Le logiciel doit compléter ces lacunes :</p>
+<ul>
+<li>en interpolation par défaut, le logiciel recopie les images</li>
+<li>avec le frameblend, en fusionnant deux images avec une opacité à 50%</li>
+<li>ou l&rsquo;optical flow (flux optique) où le logiciel calcule la différence entre deux images, mais fonctionne surtout pour les mouvements lents</li>
+</ul>
+<p>Ça peut dépanner mais il vaut mieux prévoir dans son projet le framerate final et donc un framerate de captation plus élevé pour faire des ralentis.</p>
+<div class="video-container">
+  <video
+    controls
+    autoplay
+    loop
+    muted
+    playsinline
+  >
+    <source src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Interframe_motion_interpolation.webm" type="video/webm">
+    Votre navigateur ne supporte pas la vidéo WebM.
+  </video>
+</div>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;  
+  margin: 0 auto;    
+  aspect-ratio: 16 / 9;  
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+.video-container video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+</style>
+
+<p>À noter également qu&rsquo;un tournage à haut framerate, si l&rsquo;on souhaite garder un flou de mouvement naturel on doit augmenter la fréquence d&rsquo;obturation (ex : 50fps =&gt; 1/100), ce qui implique moins de lumière en entrée pour chaque image, donc une vidéo plus sombre, qu&rsquo;il faut compenser.</p>
+<p>Dans un projet en 25ips où l&rsquo;on souhaite intégrer un timelapse, il serait nécessaire de prendre assez de clichés pour en avoir 25 par secondes.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Cours EANIS 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

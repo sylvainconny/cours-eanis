@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bases de la vidéo on Cours EANIS</title>
+    <link>http://localhost:1313/bases-video/</link>
+    <description>Recent content in Bases de la vidéo on Cours EANIS</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="http://localhost:1313/bases-video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Définition Image</title>
+      <link>http://localhost:1313/bases-video/definition-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/definition-image/</guid>
+      <description>C&amp;rsquo;est le nombre de pixels dans une image. S&amp;rsquo;écrit avec un rapport largeur x hauteur.</description>
+    </item>
+    <item>
+      <title>Aspect Ratio</title>
+      <link>http://localhost:1313/bases-video/aspect-ratio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/aspect-ratio/</guid>
+      <description>L&amp;rsquo;aspect ratio  c&amp;rsquo;est le rapport entre la largeur et la hauteur de l&amp;rsquo;image</description>
+    </item>
+    <item>
+      <title>Framerate</title>
+      <link>http://localhost:1313/bases-video/framerate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/framerate/</guid>
+      <description>C&amp;rsquo;est le nombre d&amp;rsquo;images par seconde</description>
+    </item>
+    <item>
+      <title>Anamorphose</title>
+      <link>http://localhost:1313/bases-video/anamorphose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/anamorphose/</guid>
+      <description>Consiste en l&amp;rsquo;adaptation d&amp;rsquo;une image à son support de diffusion</description>
+    </item>
+    <item>
+      <title>Affichage</title>
+      <link>http://localhost:1313/bases-video/affichage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/affichage/</guid>
+      <description>Progressif ou entrelacé ?</description>
+    </item>
+    <item>
+      <title>Codecs</title>
+      <link>http://localhost:1313/bases-video/codecs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/codecs/</guid>
+      <description>Littéralement &amp;lsquo;codeur / décodeur&amp;rsquo;, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles</description>
+    </item>
+  </channel>
+</rss>

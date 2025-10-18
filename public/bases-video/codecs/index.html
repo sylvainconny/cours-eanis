@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Codecs | Cours EANIS</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Littéralement &lsquo;codeur / décodeur&rsquo;, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles">
+    <meta name="generator" content="Hugo 0.151.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/bases-video/codecs/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/bases-video/codecs/">
+  <meta property="og:site_name" content="Cours EANIS">
+  <meta property="og:title" content="Codecs">
+  <meta property="og:description" content="Littéralement ‘codeur / décodeur’, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="bases-video">
+
+  <meta itemprop="name" content="Codecs">
+  <meta itemprop="description" content="Littéralement ‘codeur / décodeur’, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles">
+  <meta itemprop="wordCount" content="1207">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Codecs">
+  <meta name="twitter:description" content="Littéralement ‘codeur / décodeur’, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Cours EANIS
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/bases-video/" title="Bases de la vidéo page">
+              Bases de la vidéo
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Bases de la vidéo
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Codecs</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Littéralement &ldquo;codeur / décodeur&rdquo;, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles.</p>
+<p>Il existe plusieurs types de codecs :</p>
+<ul>
+<li>les codecs de diffusion permettant d&rsquo;obtenir le fichier vidéo le plus léger possible tout en conservant la meilleure qualité visuelle possible</li>
+<li>les codecs de montage dont la priorité absolue est de conserver le plus d&rsquo;information possible sans se préoccuper de la taille du fichier</li>
+</ul>
+<h2 id="codecs-de-diffusion">Codecs de diffusion</h2>
+<ul>
+<li>MPEG-2 (norme et codec), le plus ancien, toujours utilisé par certaines chaînes de télévision</li>
+<li>H264 (ou AVC - Advanced Video Coding) fait partie de la norme MPEG-4 (différent de MP4, qui est un conteneur, voir plus bas)</li>
+<li>H265 (ou HEVC - High Efficiency Video Coding) qui à qualité visuelle également génèrera un fichier vidéo plus léger, il est surtout utilisé pour l&rsquo;enregistrement dans des petits dispositifs qui capturent en 4K/UHD comme des drones ou des caméras d&rsquo;action</li>
+<li>VP8/VP9, les codecs de Google sont plus performants que les H264 et H265, utilisé notamment par YouTube et qu&rsquo;il est recommandé d&rsquo;utiliser pour la publication sur la plateforme</li>
+<li>AV1, le plus performant actuellement, il est open source mais encore peu répandu même si très apprécié des plateformes de streaming</li>
+</ul>
+<p>D&rsquo;autres codecs sont à venir comme le H266 (ou VVC - Versatile Video Coding) et le AV2.</p>
+<p>Pour les métiers des VFX ou de l&rsquo;étalonnage, il est nécessaire d&rsquo;avoir les fichiers avec le plus d&rsquo;informations possibles. Ce n&rsquo;est pas recommandé non plus en montage, car plus un fichier est compressé, plus le décodage à la volée demandera des ressources à l&rsquo;ordinateur, et une quantité importante de vidéos compressées dans un logiciel de montage peut rendre l&rsquo;expérience plus difficile. De plus, ces codecs utilisent une méthode de compréhension nommée <strong>Long GOP</strong> (Group Of Pictures) dont le principe est de compresser via des groupes d&rsquo;images selon trois types :</p>
+<ul>
+<li>les I Frame (Intra Frame) où le codec va enregistrer toute l&rsquo;image, elle est peu ou pas compressée, elle sert de référence</li>
+<li>les P Frame (Predictive Frame) et B Frame (Bidirectional predictive Frame) qui ne garderont les différences avec l&rsquo;image de référence (I Frame)</li>
+</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/I_P_and_B_frames.svg/1920px-I_P_and_B_frames.svg.png" alt="Schéma explicatif du long GOP"></p>
+<p>C&rsquo;est pour cette raison, à chaque fois qu&rsquo;on fait un arrêt sur une frame précise, qu&rsquo;on a une chance sur X (dépend du codec) de tomber sur une P ou B Frame que l&rsquo;ordinateur doit recalculer à partir de son image de référence, ce qui n&rsquo;est absolument pas optimal.</p>
+<p>À noter qu&rsquo;il existe d&rsquo;autres méthodes de compression comme l&rsquo;INTRA qui ne contient que des I Frame, moins efficace que le Long GOP, plus utilisé dans les codecs de montage.</p>
+<h2 id="codecs-de-montage">Codecs de montage</h2>
+<p>Il en existe deux grandes familles. D&rsquo;abord, dans la famille <strong>Apple</strong>, créés avec l&rsquo;arrivée de Final Cut, dont les plus courants sont, du plus au moins compressif et donc du plus léger au plus lourd :</p>
+<ul>
+<li>Apple ProRes Proxy</li>
+<li>Apple ProRes 422</li>
+<li>Apple ProRes 422HQ</li>
+<li>Apple ProRes 4444</li>
+<li>Apple ProRes 4444 XQ</li>
+</ul>
+<p>Ces différents codecs existent aussi pour répondre aux besoins différents métiers, les monteurs nécessitent moins d&rsquo;informations que les étalonneurs ou les VFX.</p>
+<p>Bien que le transcodage permette par exemple de changer la méthode de compression d&rsquo;un codec de diffusion (H264) à un codec de montage (Apple ProRes Proxy), donc de Long GOP à INTRA, ce qui doit fluidifier le montage car il n&rsquo;y a plus que des I Frame, cela ne peut pas pour autant recréer les informations qui ont été perdues à l&rsquo;encodage.</p>
+<p>L&rsquo;autre famille c&rsquo;est <strong>DNx du constructeur AVID</strong> avec deux sous-familles le DNxHD, plus ancienne avec des codecs permettant d&rsquo;aller jusqu&rsquo;au Full HD dans des framerates très normés, et le DNxHR pour tout le reste.</p>
+<p>Dans l&rsquo;ordre du plus au moins compressif :</p>
+<ul>
+<li>DNxHD LB (anciennement <em>DNxHD 36</em>)</li>
+<li>DNxHD SQ (anciennement <em>DNxHD 120</em>)</li>
+<li>DNxHD HQ (anciennement <em>DNxHD 185</em>)</li>
+<li>DNxHD HQx (anciennement <em>DNxHD 185x</em>)
+et</li>
+<li>DNxHR LB</li>
+<li>DNxHR SQ</li>
+<li>DNxHR HQ</li>
+<li>DNxHR HQx</li>
+<li>DNxHR 444</li>
+</ul>
+<p>À cas d&rsquo;usage similaire, un codec équivalent de chaque famille est quasiment identique à quelques subtilités près.</p>
+<p>À noter que le <em>x</em> de HQx indique qu&rsquo;il peut aller jusqu&rsquo;à 10 bits de profondeur de pixel.</p>
+<h2 id="codecs-denregistrement">Codecs &ldquo;d&rsquo;enregistrement&rdquo;</h2>
+<p>Ces codecs issus essentiellement des fabricants de caméras compressent extrêmement peu. Ils peuvent en sortir régulièrement, et tous les logiciels ne sont pas compatibles avec tous ces codecs, il peut être utile de se renseigner auprès du constructeur afin de connaître son utilisation dans son workflow. Quand bien même ils possèdent souvent la dénomination RAW, c&rsquo;est un abus de langage car le simple fait que ce soit un codec n&rsquo;en fait pas du RAW.</p>
+<p>Dans les plus courants, on a :</p>
+<ul>
+<li>Blackmagic RAW</li>
+<li>REDcode RAW</li>
+<li>Sony X-OCN</li>
+<li>ArriRAW</li>
+<li>Apple ProRes RAW</li>
+</ul>
+<p>Bien qu&rsquo;étant peu compressés, ces codecs ne sont pas adaptés au montage car l&rsquo;immense quantité de données des fichiers en question rend la lecture très compliquée dû à la vitesse trop limitée des solutions de stockage (HDD, SDD). C&rsquo;est pourquoi on utilise des proxys parmi les codecs de montage.</p>
+<h2 id="bitrate--débit-vidéo">Bitrate / Débit vidéo</h2>
+<p>Définit comme la quantité d&rsquo;information par seconde de vidéo, notée en bits/seconde. Les codecs de montage n&rsquo;étant pas concerné par la question du poids, on s&rsquo;intéressera surtout au bitrate pour les codecs de diffusion.</p>
+<p>Par exemple, pour un fichier 1080p25 encodé en H264, la meilleure qualité visuelle atteignable se trouve pour un bitrate de 15Mbits/s. C&rsquo;est une valeur de référence connue. Dans ce cas, il est donc inutile d&rsquo;aller plus haut et à l&rsquo;inverse, on peut donc réduire le bitrate pour alléger le fichier, aux dépends de la qualité, sachant qu&rsquo;on garde une image magnifique entre 10 et 15Mbits/s.</p>
+<p>Logiquement pour une vidéo H264 en UHD à 25ips aura une qualité maximale à 60Mb/s (4 fois plus de pixels), 30Mb/s pour une vidéo Full HD à 50ips (2 fois plus d&rsquo;images).
+Pour les autres codecs, notamment plus performants comme VP8/VP9 ou AV1, forcément à qualité égale le bitrate sera plus faible, mais connaître cette valeur &ldquo;maximale&rdquo; est à chercher.</p>
+<h2 id="cbr--vbr">CBR / VBR</h2>
+<p>Ce sont deux traitements de débit vidéo différents :</p>
+<ul>
+<li>CBR : Constant BitRate</li>
+<li>VBR : Variable BitRate</li>
+</ul>
+<p>Dans le premier cas c&rsquo;est simple, chaque seconde de vidéo aura un bitrate fixe, par exemple 15Mb/s. Dans le deuxième, on choisit une fourchette, entre 10 et 15Mb/s par exemple, alors le codec donnera plus de bitrate pour les scènes compliquées à encoder, et moins pour les scènes plus simples. Ainsi, en VBR, la qualité sera équivalente au CBR mais le poids du fichier sera sensiblement plus léger, plus optimisé.</p>
+<p><img src="https://streaminglearningcenter.com/wp-content/uploads/2021/07/OTT_MI_5-476x525.png" alt="Comparaison CBR / VBR"></p>
+<h2 id="les-conteneurs">Les conteneurs</h2>
+<p>Différent du codec, improprement appelés extension, c&rsquo;est le grand tiroir dans lequel on range tous les flux (audio / vidéo / sous-titres…) du fichier vidéo.</p>
+<p>Quelques exemples connus :</p>
+<ul>
+<li>MOV (Apple QuickTime)</li>
+<li>MP4  (MPEG4)</li>
+<li>AVI</li>
+<li>MXF (AVID)</li>
+<li>MKV Matroska</li>
+<li>WebM</li>
+</ul>
+<p>Les conteneurs sont relativement indépendants des codecs, un MOV peut contenir du H264 comme du ProRes, le MP4 peut contenir du H264 également.</p>
+<h2 id="fichiers-raw">Fichiers RAW</h2>
+<p>Les fichiers RAW contiennent des images directement issues du capteur sans codec. Mais du coup, elles ne sont pas lisibles, l&rsquo;intérêt étant de pouvoir choisir le codec, et un espace colorimétrique, on appelle ça la débayerisation.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bayer_pattern_on_sensor.svg/1024px-Bayer_pattern_on_sensor.svg.png" alt="Matrice de Bayer"></p>
+<p>Bien que la dénomination RAW sur les codecs d&rsquo;enregistrement, ils permettent tout de même d&rsquo;avoir plus la main sur le fichier et de pouvoir appliquer des traitements supplémentaires.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Cours EANIS 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

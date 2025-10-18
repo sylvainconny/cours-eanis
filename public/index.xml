@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🏠 on Cours EANIS</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in 🏠 on Cours EANIS</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Définition Image</title>
+      <link>http://localhost:1313/bases-video/definition-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/definition-image/</guid>
+      <description>C&amp;rsquo;est le nombre de pixels dans une image. S&amp;rsquo;écrit avec un rapport largeur x hauteur.</description>
+    </item>
+    <item>
+      <title>Espaces Colorimétriques</title>
+      <link>http://localhost:1313/couleurs/espaces-colorimetriques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/couleurs/espaces-colorimetriques/</guid>
+      <description>Un espace colorimétrique c&amp;rsquo;est une zone définie dans le diagramme de chromaticité, lequel représente l&amp;rsquo;ensemble des chrominances (ou couleurs pures sous-entendu sans luminance, sans les nuances de luminosité) visibles à l&amp;rsquo;œil nu</description>
+    </item>
+    <item>
+      <title>Aspect Ratio</title>
+      <link>http://localhost:1313/bases-video/aspect-ratio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/aspect-ratio/</guid>
+      <description>L&amp;rsquo;aspect ratio  c&amp;rsquo;est le rapport entre la largeur et la hauteur de l&amp;rsquo;image</description>
+    </item>
+    <item>
+      <title>Échantillonage</title>
+      <link>http://localhost:1313/couleurs/echantillonage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/couleurs/echantillonage/</guid>
+      <description>Désigne la compression de la chrominance, du plus ou moins compressé</description>
+    </item>
+    <item>
+      <title>Framerate</title>
+      <link>http://localhost:1313/bases-video/framerate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/framerate/</guid>
+      <description>C&amp;rsquo;est le nombre d&amp;rsquo;images par seconde</description>
+    </item>
+    <item>
+      <title>Quantification</title>
+      <link>http://localhost:1313/couleurs/quantification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/couleurs/quantification/</guid>
+      <description>Désigne la compression de la luminance du plus au moins compressés et donc le nombre de nuances de gris</description>
+    </item>
+    <item>
+      <title>Anamorphose</title>
+      <link>http://localhost:1313/bases-video/anamorphose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/anamorphose/</guid>
+      <description>Consiste en l&amp;rsquo;adaptation d&amp;rsquo;une image à son support de diffusion</description>
+    </item>
+    <item>
+      <title>Affichage</title>
+      <link>http://localhost:1313/bases-video/affichage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/affichage/</guid>
+      <description>Progressif ou entrelacé ?</description>
+    </item>
+    <item>
+      <title>Codecs</title>
+      <link>http://localhost:1313/bases-video/codecs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bases-video/codecs/</guid>
+      <description>Littéralement &amp;lsquo;codeur / décodeur&amp;rsquo;, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles</description>
+    </item>
+  </channel>
+</rss>

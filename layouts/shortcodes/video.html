@@ -1,0 +1,33 @@
+<div class="video-container">
+  <video
+    controls
+    {{ if eq (.Get "autoplay") "true" }}autoplay{{ end }}
+    {{ if eq (.Get "loop") "true" }}loop{{ end }}
+    {{ if eq (.Get "muted") "true" }}muted{{ end }}
+    playsinline
+  >
+    <source src="{{ .Get "src" }}" type="video/webm">
+    Votre navigateur ne supporte pas la vidéo WebM.
+  </video>
+</div>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* largeur max du lecteur */
+  margin: 0 auto;   /* centre horizontalement */
+  aspect-ratio: 16 / 9; /* garde le ratio vidéo */
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+.video-container video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ou "contain" si tu veux garder les bandes noires */
+}
+</style>
