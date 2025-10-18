@@ -2,7 +2,7 @@
 draft = false
 title = 'Framerate'
 summary = "C'est le nombre d'images par seconde"
-weight = 30
+weight = 3
 slug = 'framerate'
 +++
 

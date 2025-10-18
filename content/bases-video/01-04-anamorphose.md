@@ -2,7 +2,7 @@
 draft = false
 title = 'Anamorphose'
 summary = "Consiste en l'adaptation d'une image à son support de diffusion"
-weight = 40
+weight = 4
 slug = 'anamorphose'
 +++
 

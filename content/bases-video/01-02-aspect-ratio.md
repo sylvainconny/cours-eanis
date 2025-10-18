@@ -2,7 +2,7 @@
 draft = false
 title = 'Aspect Ratio'
 summary = "L'aspect ratio  c'est le rapport entre la largeur et la hauteur de l'image"
-weight = 20
+weight = 2
 slug = 'aspect-ratio'
 +++
 

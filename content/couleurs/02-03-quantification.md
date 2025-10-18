@@ -2,7 +2,7 @@
 draft = false
 title = 'Quantification'
 summary = "Désigne la compression de la luminance du plus au moins compressés et donc le nombre de nuances de gris"
-weight = 30
+weight = 3
 slug = 'quantification'
 +++
 

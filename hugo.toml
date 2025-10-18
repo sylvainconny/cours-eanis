@@ -1,10 +1,15 @@
 baseURL = 'https://sylvainconny.github.io/cours-eanis/'
 languageCode = 'fr-FR'
 title = 'Cours EANIS'
-#theme = 'hugo-theme-relearn'
+defaultContentLanguage = 'fr'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[linkEffects]
+  download = false
+  target = '_blank'
 
 [module]
   [[module.imports]]

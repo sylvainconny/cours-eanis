@@ -2,6 +2,14 @@
 draft = false
 title = 'Bases de la vidéo'
 slug = 'bases-video'
-weight = 10
-menus = ['main', 'footer']
+weight = 1
+type = 'chapter'
+[params]
+    alwaysopen = false
+    collapsibleMenu = true
+    menuPre = '&nbsp;<i class="fa-solid fa-photo-film"></i>&nbsp;'
+[build]
+  render = 'never'
 +++
+
+Cours dispensé par Vincent

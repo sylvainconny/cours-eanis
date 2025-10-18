@@ -2,7 +2,7 @@
 draft = false
 title = 'Codecs'
 summary = "Littéralement 'codeur / décodeur', permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles"
-weight = 60
+weight = 6
 slug = 'codecs'
 +++
 

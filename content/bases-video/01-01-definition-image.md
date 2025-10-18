@@ -2,7 +2,7 @@
 draft = false
 title = 'Définition Image'
 summary = "C'est le nombre de pixels dans une image. S'écrit avec un rapport largeur x hauteur."
-weight = 10
+weight = 1
 slug = 'definition-image'
 +++
 

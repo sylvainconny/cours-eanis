@@ -2,7 +2,7 @@
 draft = false
 title = 'Échantillonage'
 summary = "Désigne la compression de la chrominance, du plus ou moins compressé"
-weight = 20
+weight = 2
 slug = 'echantillonage'
 +++
 

@@ -84,7 +84,7 @@ var relearn_searchindex = [
     "content": "",
     "description": "",
     "tags": [],
-    "title": "Categories",
+    "title": "Catégories",
     "uri": "/cours-eanis/categories/index.html"
   },
   {
@@ -92,7 +92,7 @@ var relearn_searchindex = [
     "content": "",
     "description": "",
     "tags": [],
-    "title": "Tags",
+    "title": "Mots-clés",
     "uri": "/cours-eanis/tags/index.html"
   }
 ]

@@ -1,45 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/cours-eanis/bases-video/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/bases-video/definition-image/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/bases-video/definition-image/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/couleurs/espaces-colorimetriques/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/couleurs/espaces-colorimetriques/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/bases-video/aspect-ratio/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/bases-video/aspect-ratio/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/couleurs/echantillonage/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/couleurs/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/bases-video/framerate/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/couleurs/echantillonage/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/couleurs/quantification/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/bases-video/framerate/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/bases-video/anamorphose/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/couleurs/quantification/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/bases-video/affichage/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/bases-video/anamorphose/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/bases-video/codecs/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/bases-video/affichage/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/bases-video/codecs/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/categories/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/cours-eanis/index.html</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/cours-eanis/categories/index.html</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/cours-eanis/tags/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/tags/index.html</loc>
   </url>
 </urlset>

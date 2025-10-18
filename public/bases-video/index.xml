@@ -3,7 +3,7 @@
   <channel>
     <title>Bases de la vidéo :: Cours EANIS</title>
     <link>http://localhost:1313/cours-eanis/bases-video/index.html</link>
-    <description></description>
+    <description>Cours dispensé par Vincent&#xA;Définition image Aspect Ratio Framerate Anamorphose Affichage Codecs</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
     <atom:link href="http://localhost:1313/cours-eanis/bases-video/index.xml" rel="self" type="application/rss+xml" />

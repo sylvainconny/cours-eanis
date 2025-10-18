@@ -2,7 +2,7 @@
 draft = false
 title = 'Affichage'
 summary = "Progressif ou entrelacé ?"
-weight = 50
+weight = 5
 slug = 'affichage'
 +++
 

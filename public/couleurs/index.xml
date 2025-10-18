@@ -3,7 +3,7 @@
   <channel>
     <title>Couleurs :: Cours EANIS</title>
     <link>http://localhost:1313/cours-eanis/couleurs/index.html</link>
-    <description></description>
+    <description>Cours dispensé par Vincent&#xA;Espaces colorimétriques Échantillonage Quantification</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
     <atom:link href="http://localhost:1313/cours-eanis/couleurs/index.xml" rel="self" type="application/rss+xml" />
