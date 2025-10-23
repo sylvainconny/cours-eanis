@@ -2,7 +2,7 @@
 draft = false
 title = 'Effets'
 summary = "Effets et options d'effets"
-weight = 1
+weight = 2
 slug = 'effets'
 editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
