@@ -43,7 +43,7 @@ En mode liste, on peut aussi modifier les métadonnées qu'on affiche pour se li
 
 À noter pour gérer les réglages plus rapidement, on peut glisser / déplacer un rush représentatif des paramètres souhaités sur le bouton *Nouvel élément*.
 
-Il peut être pertinent de créer une séquence **01_DERUSH** pour faire une présélection des rushes qu'on souhaite garder.
+Il peut être pertinent de créer une séquence **01_DERUSH** pour faire une présélection des rushes qu'on souhaite garder. Puis une **02_OURS** pour un premier montage grossier avec les plans dans l'ordre, sans musique ni effet.
 
 ## Montage en 3 points
 1. Sélectionner un rush en double-cliquant
@@ -88,6 +88,12 @@ Entre deux plans, raccourci l'un et rallonge l'autre
 
 ### Modification de la vitesse (R)
 Permet d'accélérer ou de ralentir un plan en sélectionnant / déplaçant les bords de la vidéo. Privilégier le raccourcis {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}R{{< /kbd >}} qui permet de précisément définir la nouvelle vitesse.
+
+![Fenêtre Vitesse/Durée e l'élément](./vitesse-element.png)
+
+Cette fenêtre permet de modifier précisément la vitesse et la durée du clip. Si les deux sont liés, une vitesse à 200% réduira de moitié le clip, une vitesse à 50% doublera la durée. On peut cependant délier la vitesse et la durée, le logiciel ira récupérer des images sur la suite de la source si possible et nécessaire. Une vitesse négative inversera le déroulement de la vidéo.
+
+L'option *Propagation (décalage des éléments de fin)* permet de ne pas créer de trou dans la timeline ou d'écraser les éléments suivants.
 
 ### Cutter (C)
 Coupe un plan ou plusieurs plans, peut être utilisé avec la tête de lecture dans n'importe quel mode avec {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}K{{< /kbd >}} qu'on aura modifié en {{< kbd >}}C{{< /kbd >}} dans Raccours clavier pour remplacer le passage à l'outil cutter. Précision importante, l'outil coupe soit le plan sélectionné, soit les plans des pistes sélectionnés.
@@ -164,3 +170,4 @@ Pratiques de changer la couleur des plans pour rapidement les différencier nota
 - {{< kbd >}}Maj{{< /kbd >}}\+{{< kbd >}}Suppr{{< /kbd >}} supprime un élément dans la timeline et raccorde les éléments
 - {{< kbd >}}%{{< /kbd >}} met le panneau survolé par la souris prend tout l'espace dans la fenêtre Premiere Pro
 - {{< kbd >}}Ctrl{{< /kbd >}}\+{{< kbd >}}%{{< /kbd >}} met la visionneuse Programme en plein écran
+- {{< kbd >}}Ctrl{{< /kbd >}}\+{{< kbd >}}:{{< /kbd >}} créé un chutier
