@@ -17,7 +17,7 @@ editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FileP
 L'**Opacité** définit la transparence du plan, auquel on peut appliquer un masque (rectangle, sphère, personnalisé).
 Les **[Modes de fusion](https://fr.wikipedia.org/wiki/Mode_de_fusion)** sont des règles de calcul pour combiner deux calques.
 
-![Fenêtre d'option d'effet](./fenetre-option-effet.png)
+![Fenêtre d'option d'effet](./fenetre-options-effets.png)
 
 Tous les effets peuvent varier en fonction du temps. Il faut cocher sur l'icône du chronomètre des effets que l'on souhaite animer.
 À chaque moment clé on ajoute une **keyframe** avec des paramètres définis. Le logiciel se chargera de faire évoluer l'effet entre les deux keyframes.
@@ -30,4 +30,14 @@ Noter que pour modifier subtilement ces éléments, on peut appuyer sur {{< kbd 
 
 Bibliothèque des effets que l'on peut rajouter à un plan, en plus des effets de base précisés ci-haut. Contient des transformations vidéo, des transitions, des effets de flou, d'incrustation, et pareillement pour l'audio.
 
-![Fenêtre d'effet](./fenetre-effet.png)
+![Fenêtre d'effet](./fenetre-effets.png)
+
+## Effet stabilisation
+Essaie de compenser les mouvements de la caméra. Si la caméra va vers le haut, l'effet va essayer de baisser l'image. Il fait le mouvement opposé à la caméra. Du coup, la stabilisation nécessite de zoomer dans l'image pour avoir de la marge de compensation. Plus on souhaite compenser, plus on zoome.
+Cet effet a des options :
+Si la caméra recule, l'effet zoome et inversement, un peu comme l'effet Vertigo du film d'Alfred Hitchcock ou le [travelling compensé](https://fr.wikipedia.org/wiki/Travelling_contrari%C3%A9)
+![Effet Vertigo](https://upload.wikimedia.org/wikipedia/commons/9/9e/Alfred_Hitchcock%27s_Vertigo_trailer_-_Vertigo%27s_Effect.png)
+
+Si les caméras bouge sur des axes plus complexes, le logiciel peut essayer de compenser les mouvements en déformant l'image.
+
+{{< video src="[./keyframes.webm](https://upload.wikimedia.org/wikipedia/commons/d/d7/Video_image_stabilization.ogv)" autoplay="true" loop="true" muted="true" >}}
