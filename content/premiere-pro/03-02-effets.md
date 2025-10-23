@@ -40,4 +40,8 @@ Si la caméra recule, l'effet zoome et inversement, un peu comme l'effet Vertigo
 
 Si les caméras bouge sur des axes plus complexes, le logiciel peut essayer de compenser les mouvements en déformant l'image.
 
+[![Stabilisation](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Video_image_stabilization.ogv/800px--Video_image_stabilization.ogv.jpg)](https://en.wikipedia.org/wiki/File:Video_image_stabilization.ogv)
+
 {{< video src="[./keyframes.webm](https://upload.wikimedia.org/wikipedia/commons/d/d7/Video_image_stabilization.ogv)" autoplay="true" loop="true" muted="true" >}}
+
+À noter que si les plans peuvent être ralentis pour limiter les tremblements ou autres mouvements de caméra, mais, s'ils sont ralentis il ne peuvent plus être stabilisés. Il faut mettre le plan en question dans une autre séquence qu'on intégrera à la place du plan et sur la séquence on peut appliquer l'effet de stabilisation.
