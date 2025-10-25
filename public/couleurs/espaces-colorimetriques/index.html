@@ -22,26 +22,26 @@
     <meta itemprop="wordCount" content="582">
     <title>Espaces Colorimétriques :: Cours EANIS</title>
     <link href="/cours-eanis/couleurs/espaces-colorimetriques/index.print.html" rel="alternate" type="text/html" title="Espaces Colorimétriques :: Cours EANIS">
-    <link href="/cours-eanis/css/auto-complete/auto-complete.min.css?1761142293" rel="stylesheet">
-    <script src="/cours-eanis/js/auto-complete/auto-complete.min.js?1761142293" defer></script>
-    <script src="/cours-eanis/js/search-lunr.min.js?1761142293" defer></script>
-    <script src="/cours-eanis/js/search.min.js?1761142293" defer></script>
+    <link href="/cours-eanis/css/auto-complete/auto-complete.min.css?1761405482" rel="stylesheet">
+    <script src="/cours-eanis/js/auto-complete/auto-complete.min.js?1761405482" defer></script>
+    <script src="/cours-eanis/js/search-lunr.min.js?1761405482" defer></script>
+    <script src="/cours-eanis/js/search.min.js?1761405482" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cours-eanis/searchindex.fr.js?1761142293";
+      window.relearn.index_js_url="/cours-eanis/searchindex.fr.js?1761405482";
     </script>
-    <script src="/cours-eanis/js/lunr/lunr.min.js?1761142293" defer></script>
-    <script src="/cours-eanis/js/lunr/lunr.stemmer.support.min.js?1761142293" defer></script>
-    <script src="/cours-eanis/js/lunr/lunr.multi.min.js?1761142293" defer></script>
-    <script src="/cours-eanis/js/lunr/lunr.fr.min.js?1761142293" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.min.js?1761405482" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.stemmer.support.min.js?1761405482" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.multi.min.js?1761405482" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.fr.min.js?1761405482" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1761142293" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1761142293" rel="stylesheet"></noscript>
-    <link href="/cours-eanis/css/perfect-scrollbar/perfect-scrollbar.min.css?1761142293" rel="stylesheet">
-    <link href="/cours-eanis/css/theme.min.css?1761142293" rel="stylesheet">
-    <link href="/cours-eanis/css/format-html.min.css?1761142293" rel="stylesheet" id="R-format-style">
+    <link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1761405482" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1761405482" rel="stylesheet"></noscript>
+    <link href="/cours-eanis/css/perfect-scrollbar/perfect-scrollbar.min.css?1761405482" rel="stylesheet">
+    <link href="/cours-eanis/css/theme.min.css?1761405482" rel="stylesheet">
+    <link href="/cours-eanis/css/format-html.min.css?1761405482" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -151,44 +151,44 @@
 
 <h1 id="espaces-colorimétriques">Espaces Colorimétriques</h1>
 
-<p><a href="#R-image-40abe1662bdd4a763f38e0f9de53b3f9" class="lightbox-link"><img alt="Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SRGB_chromaticity_CIE1931.svg/800px-SRGB_chromaticity_CIE1931.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-40abe1662bdd4a763f38e0f9de53b3f9"><img alt="Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SRGB_chromaticity_CIE1931.svg/800px-SRGB_chromaticity_CIE1931.svg.png"></a></p>
+<p><a href="#R-image-230102e9fba539b7d42b016001199280" class="lightbox-link"><img alt="Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SRGB_chromaticity_CIE1931.svg/800px-SRGB_chromaticity_CIE1931.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-230102e9fba539b7d42b016001199280"><img alt="Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SRGB_chromaticity_CIE1931.svg/800px-SRGB_chromaticity_CIE1931.svg.png"></a></p>
 <p>Un espace colorimétrique c&rsquo;est une zone définie dans le diagramme de chromaticité, lequel représente l&rsquo;ensemble des chrominances (ou couleurs pures sous-entendu sans luminance, sans les nuances de luminosité) visibles à l&rsquo;œil nu.</p>
 <p>L&rsquo;espace L<em>a</em>b* représente en 3D la chrominance par la luminance, donc le réel espace complet des couleurs visibles à l&rsquo;œil nu.
-<a href="#R-image-cabcab693066b3ac3bd73db44788074b" class="lightbox-link"><img alt="L&rsquo;espace L<em>a</em>b" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/The_principle_of_the_CIELAB_colour_space.svg/800px-The_principle_of_the_CIELAB_colour_space.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cabcab693066b3ac3bd73db44788074b"><img alt="L&rsquo;espace L<em>a</em>b" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/The_principle_of_the_CIELAB_colour_space.svg/800px-The_principle_of_the_CIELAB_colour_space.svg.png"></a></p>
+<a href="#R-image-fc42ec0bb87be5a2703f785ebe69eb60" class="lightbox-link"><img alt="L&rsquo;espace L<em>a</em>b" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/The_principle_of_the_CIELAB_colour_space.svg/800px-The_principle_of_the_CIELAB_colour_space.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fc42ec0bb87be5a2703f785ebe69eb60"><img alt="L&rsquo;espace L<em>a</em>b" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/The_principle_of_the_CIELAB_colour_space.svg/800px-The_principle_of_the_CIELAB_colour_space.svg.png"></a></p>
 <p>On parle aussi de Gamut pour la chrominance (soit l&rsquo;ensemble des couleurs que l&rsquo;on peut créer avec du vert pur, du bleu pur et du rouge pur) et de Gamma pour la luminance (soit les nuances de gris).</p>
 <p>Si un espace colorimétrique couvre une partie de gamut, il est généralement associé à un gamma parmi lesquels 2.2, 2.4, 2.6, 2.8.</p>
-<p><a href="#R-image-f52047a4fb203212bc0d6e49afb1eb65" class="lightbox-link"><img alt="Différents gamma" class="lazy lightbox figure-image" loading="lazy" src="https://www.homecinema-fr.com/forum/ressources/image/176460" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f52047a4fb203212bc0d6e49afb1eb65"><img alt="Différents gamma" class="lazy lightbox lightbox-image" loading="lazy" src="https://www.homecinema-fr.com/forum/ressources/image/176460"></a></p>
+<p><a href="#R-image-8657b962ffc0fd45ff65bd1c34b99860" class="lightbox-link"><img alt="Différents gamma" class="lazy lightbox figure-image" loading="lazy" src="https://www.homecinema-fr.com/forum/ressources/image/176460" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8657b962ffc0fd45ff65bd1c34b99860"><img alt="Différents gamma" class="lazy lightbox lightbox-image" loading="lazy" src="https://www.homecinema-fr.com/forum/ressources/image/176460"></a></p>
 <h2 id="espaces-de-diffusion">Espaces de diffusion</h2>
 <p>Dans l&rsquo;ordre d&rsquo;apparition et de grandeur :</p>
 <ul>
 <li>Rec 601, le plus ancien, définit pour des normes SD
-<a href="#R-image-386b91e74b9af569a1024f649365cd68" class="lightbox-link"><img alt="Rec 601 dans le Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/CIExy1931_Rec_601.svg/800px-CIExy1931_Rec_601.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-386b91e74b9af569a1024f649365cd68"><img alt="Rec 601 dans le Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/CIExy1931_Rec_601.svg/800px-CIExy1931_Rec_601.svg.png"></a></li>
+<a href="#R-image-e14acb160d44b5ec355de686918c4707" class="lightbox-link"><img alt="Rec 601 dans le Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/CIExy1931_Rec_601.svg/800px-CIExy1931_Rec_601.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e14acb160d44b5ec355de686918c4707"><img alt="Rec 601 dans le Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/CIExy1931_Rec_601.svg/800px-CIExy1931_Rec_601.svg.png"></a></li>
 <li>Rec 709, définit initialement pour des normes HD et Full HD, même s&rsquo;il est encore utilisé pour l&rsquo;UHD
-<a href="#R-image-7216038111faf736c8bddc6ee6e1c803" class="lightbox-link"><img alt="Rec 709 dans le Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CIExy1931_Rec_709.svg/800px-CIExy1931_Rec_709.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7216038111faf736c8bddc6ee6e1c803"><img alt="Rec 709 dans le Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CIExy1931_Rec_709.svg/800px-CIExy1931_Rec_709.svg.png"></a></li>
+<a href="#R-image-342a8916d0eece2c913263476c56b55d" class="lightbox-link"><img alt="Rec 709 dans le Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CIExy1931_Rec_709.svg/800px-CIExy1931_Rec_709.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-342a8916d0eece2c913263476c56b55d"><img alt="Rec 709 dans le Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CIExy1931_Rec_709.svg/800px-CIExy1931_Rec_709.svg.png"></a></li>
 <li>Rec 2020, pour l&rsquo;UHD
-<a href="#R-image-fe9c4c295cbb201423f1d7114182f7d4" class="lightbox-link"><img alt="Rec 2020 dans le Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/CIExy1931_Rec_2020.svg/800px-CIExy1931_Rec_2020.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fe9c4c295cbb201423f1d7114182f7d4"><img alt="Rec 2020 dans le Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/CIExy1931_Rec_2020.svg/800px-CIExy1931_Rec_2020.svg.png"></a></li>
+<a href="#R-image-37822a6aebbbd7205d84b252b70dbab7" class="lightbox-link"><img alt="Rec 2020 dans le Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/CIExy1931_Rec_2020.svg/800px-CIExy1931_Rec_2020.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-37822a6aebbbd7205d84b252b70dbab7"><img alt="Rec 2020 dans le Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/CIExy1931_Rec_2020.svg/800px-CIExy1931_Rec_2020.svg.png"></a></li>
 <li>Rec 2100, pensé pour le 8K</li>
 </ul>
 <p>Ces espaces colorimétriques représentent des gammes de couleurs disponibles différentes pour la capture, l&rsquo;encodage et la diffusion, même si tous les écrans ne restituent pas forcément un espace à 100%.</p>
 <p>Au cinéma, c&rsquo;est le DCI P3 qui est utilisé. Il rentre dans la norme des fichiers DCP pour la projection cinéma.
-<a href="#R-image-127679aa021f92dc2745b2d00f989ba6" class="lightbox-link"><img alt="DCI P3 dans le Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DCI-P3_D65.svg/800px-DCI-P3_D65.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-127679aa021f92dc2745b2d00f989ba6"><img alt="DCI P3 dans le Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DCI-P3_D65.svg/800px-DCI-P3_D65.svg.png"></a></p>
+<a href="#R-image-2a8dcebfee38ec1c100ffc35448303ae" class="lightbox-link"><img alt="DCI P3 dans le Diagramme de chromaticité" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DCI-P3_D65.svg/800px-DCI-P3_D65.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2a8dcebfee38ec1c100ffc35448303ae"><img alt="DCI P3 dans le Diagramme de chromaticité" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DCI-P3_D65.svg/800px-DCI-P3_D65.svg.png"></a></p>
 <p>Concernant le gamma, le Rec 709 étant généralement associé au 2.4 tandis que le cinéma plutôt au 2.6, cela peut dépendre du lieu de diffusion.</p>
 <p>Dans le monde de la photo ou du web il existe également AdobeRGB et sRGB.
-<a href="#R-image-aacca6555343d84402adf400b875ba64" class="lightbox-link"><img alt="Gamut du sRGB" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SRGB_chromaticity_CIE1931.svg/800px-SRGB_chromaticity_CIE1931.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-aacca6555343d84402adf400b875ba64"><img alt="Gamut du sRGB" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SRGB_chromaticity_CIE1931.svg/800px-SRGB_chromaticity_CIE1931.svg.png"></a>
-<a href="#R-image-66091d36d08c17cd6882c7d4362a0329" class="lightbox-link"><img alt="Gamut du AdobeRGB" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CIE1931xy_AdobeRGB.svg/800px-CIE1931xy_AdobeRGB.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-66091d36d08c17cd6882c7d4362a0329"><img alt="Gamut du AdobeRGB" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CIE1931xy_AdobeRGB.svg/800px-CIE1931xy_AdobeRGB.svg.png"></a></p>
+<a href="#R-image-e75488da05c343b6319e19c233079dc5" class="lightbox-link"><img alt="Gamut du sRGB" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SRGB_chromaticity_CIE1931.svg/800px-SRGB_chromaticity_CIE1931.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e75488da05c343b6319e19c233079dc5"><img alt="Gamut du sRGB" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SRGB_chromaticity_CIE1931.svg/800px-SRGB_chromaticity_CIE1931.svg.png"></a>
+<a href="#R-image-ff2858dc4d9678dfea8e3d29e78410e2" class="lightbox-link"><img alt="Gamut du AdobeRGB" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CIE1931xy_AdobeRGB.svg/800px-CIE1931xy_AdobeRGB.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ff2858dc4d9678dfea8e3d29e78410e2"><img alt="Gamut du AdobeRGB" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CIE1931xy_AdobeRGB.svg/800px-CIE1931xy_AdobeRGB.svg.png"></a></p>
 <h2 id="espaces-de-traitement">Espaces de traitement</h2>
 <p>Dépend du constructeur de caméra, on parle souvent de Log mais c&rsquo;est un abus de langage car le log n&rsquo;est en fait qu&rsquo;un gamma, associé à un gamut de traitement.</p>
-<p><a href="#R-image-daeb4f869a2e2b5f53f5515a1b77e6b7" class="lightbox-link"><img alt="Adobe Wide Gamut RGB" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/CIExy1931_AdobeWGRGB.png/800px-CIExy1931_AdobeWGRGB.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-daeb4f869a2e2b5f53f5515a1b77e6b7"><img alt="Adobe Wide Gamut RGB" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/CIExy1931_AdobeWGRGB.png/800px-CIExy1931_AdobeWGRGB.png"></a></p>
+<p><a href="#R-image-28367c0fe17d9660c8fc77d006dde138" class="lightbox-link"><img alt="Adobe Wide Gamut RGB" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/CIExy1931_AdobeWGRGB.png/800px-CIExy1931_AdobeWGRGB.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-28367c0fe17d9660c8fc77d006dde138"><img alt="Adobe Wide Gamut RGB" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/CIExy1931_AdobeWGRGB.png/800px-CIExy1931_AdobeWGRGB.png"></a></p>
 <p>Le Log donne aux images cet aspect laiteux, mais c&rsquo;est une conséquence de la largeur de son gamut et son gamma.</p>
 <p>Parmi les plus courants :</p>
 <ul>
@@ -202,8 +202,8 @@
 <li>Apple : Apple Log 2</li>
 </ul>
 <p>Ici ce qui change d&rsquo;un log à l&rsquo;autre, c&rsquo;est bien le gamma, car chaque constructeur est également associé à un gamut de traitement propre, comme le ARRI Wide Gamut :
-<a href="#R-image-261fa1d03ae3690e9eb196b234edddd7" class="lightbox-link"><img alt="ARRI Wide Gamut" class="lazy lightbox figure-image" loading="lazy" src="https://blog.frame.io/wp-content/uploads/2024/04/reveal-arri-wide-gamut.jpg" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-261fa1d03ae3690e9eb196b234edddd7"><img alt="ARRI Wide Gamut" class="lazy lightbox lightbox-image" loading="lazy" src="https://blog.frame.io/wp-content/uploads/2024/04/reveal-arri-wide-gamut.jpg"></a></p>
+<a href="#R-image-8d17268ee8b6fdb1847143db32280503" class="lightbox-link"><img alt="ARRI Wide Gamut" class="lazy lightbox figure-image" loading="lazy" src="https://blog.frame.io/wp-content/uploads/2024/04/reveal-arri-wide-gamut.jpg" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8d17268ee8b6fdb1847143db32280503"><img alt="ARRI Wide Gamut" class="lazy lightbox lightbox-image" loading="lazy" src="https://blog.frame.io/wp-content/uploads/2024/04/reveal-arri-wide-gamut.jpg"></a></p>
 <h2 id="lut">LUT</h2>
 <p>Les Lookup Table ou tables de correspondances servent à passer d&rsquo;un espace colorimétrique à un autre, comme de S-log 2 à Rec 709 par exemple.
 Il y a deux types de LUT :</p>
@@ -217,8 +217,8 @@ Ce qu&rsquo;on connait mieux, ce sont les LUT artistiques qui servent à avoir f
 <h2 id="aces--davinci-wide-gamut">ACES / DaVinci Wide Gamut</h2>
 <p>Ce sont des espaces colorimétriques &ldquo;potentiels&rdquo; allant au-delà de ce que l&rsquo;oeil humain peut voir. Ils servent d&rsquo;espace de travail entre l&rsquo;espace d&rsquo;origine et l&rsquo;espace de sortie, et ne pose ainsi aucun problème de compatibilité entre les espaces colorimétriques des différentes sources.</p>
 <p>Netflix utilise également l&rsquo;ACES pour automatiser l&rsquo;espace de diffusion en fonction des capacités de l&rsquo;écran de visionnage.</p>
-<p><a href="#R-image-f38fe3aacced214ffff6d48f87b77432" class="lightbox-link"><img alt="ACES" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/CIE_1931_chromaticity_ACES_sRGB_gamut_comparison_CreativeCommons_v06.svg/800px-CIE_1931_chromaticity_ACES_sRGB_gamut_comparison_CreativeCommons_v06.svg.png" style="height: auto;width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f38fe3aacced214ffff6d48f87b77432"><img alt="ACES" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/CIE_1931_chromaticity_ACES_sRGB_gamut_comparison_CreativeCommons_v06.svg/800px-CIE_1931_chromaticity_ACES_sRGB_gamut_comparison_CreativeCommons_v06.svg.png"></a></p>
+<p><a href="#R-image-08449e561b54c84cf7685e2eeec9a8ca" class="lightbox-link"><img alt="ACES" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/CIE_1931_chromaticity_ACES_sRGB_gamut_comparison_CreativeCommons_v06.svg/800px-CIE_1931_chromaticity_ACES_sRGB_gamut_comparison_CreativeCommons_v06.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-08449e561b54c84cf7685e2eeec9a8ca"><img alt="ACES" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/CIE_1931_chromaticity_ACES_sRGB_gamut_comparison_CreativeCommons_v06.svg/800px-CIE_1931_chromaticity_ACES_sRGB_gamut_comparison_CreativeCommons_v06.svg.png"></a></p>
 
   <footer class="footline">
   </footer>
@@ -278,7 +278,9 @@ Ce qu&rsquo;on connait mieux, ce sont les LUT artistiques qui servent à avoir f
             <li class="" data-nav-url="/cours-eanis/couleurs/echantillonage/index.html"><a class="padding" href="/cours-eanis/couleurs/echantillonage/index.html">Échantillonage</a></li>
             <li class="" data-nav-url="/cours-eanis/couleurs/quantification/index.html"><a class="padding" href="/cours-eanis/couleurs/quantification/index.html">Quantification</a></li></ul></li>
             <li class="headless " data-nav-url=""><input type="checkbox" id="R-section-072a894556e0fcccdf5473a7117f8c6b" aria-controls="R-subsections-072a894556e0fcccdf5473a7117f8c6b"><label for="R-section-072a894556e0fcccdf5473a7117f8c6b"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Premiere Pro</span></label><span class="padding">&nbsp;<img style="height:1.2rem;vertical-align:middle;" src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg" alt="Pr" />&nbsp;Premiere Pro</span><ul id="R-subsections-072a894556e0fcccdf5473a7117f8c6b" class="collapsible-menu">
-            <li class="" data-nav-url="/cours-eanis/premiere-pro/initiation/index.html"><a class="padding" href="/cours-eanis/premiere-pro/initiation/index.html">Initiation</a></li></ul></li>
+            <li class="" data-nav-url="/cours-eanis/premiere-pro/initiation/index.html"><a class="padding" href="/cours-eanis/premiere-pro/initiation/index.html">Initiation</a></li>
+            <li class="" data-nav-url="/cours-eanis/premiere-pro/effets/index.html"><a class="padding" href="/cours-eanis/premiere-pro/effets/index.html">Effets</a></li></ul></li>
+            <li class="" data-nav-url="/cours-eanis/publicite/index.html"><a class="padding" href="/cours-eanis/publicite/index.html">&nbsp;<i class="fa-solid fa-rectangle-ad"></i>&nbsp;Publicité</a></li>
           </ul>
         </div>
         <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
@@ -296,8 +298,8 @@ Ce qu&rsquo;on connait mieux, ce sont les LUT artistiques qui servent à avoir f
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/cours-eanis/js/clipboard/clipboard.min.js?1761142293" defer></script>
-    <script src="/cours-eanis/js/perfect-scrollbar/perfect-scrollbar.min.js?1761142293" defer></script>
-    <script src="/cours-eanis/js/theme.min.js?1761142293" defer></script>
+    <script src="/cours-eanis/js/clipboard/clipboard.min.js?1761405482" defer></script>
+    <script src="/cours-eanis/js/perfect-scrollbar/perfect-scrollbar.min.js?1761405482" defer></script>
+    <script src="/cours-eanis/js/theme.min.js?1761405482" defer></script>
   </body>
 </html>

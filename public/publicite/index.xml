@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publicité :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/publicite/index.html</link>
+    <description>2 types de pub :&#xA;vendre le produit idée générale (Luxe, parfums…) Conseils généraux dans le cadre publicitaire :&#xA;il faut éviter de répéter des plans qui disent la même chose éviter la monotonie en enchaînant des plans de même durée trop synchronisés sur la musique considérer avec attention le premier plan qui doit accrocher et le dernier plan qui est la dernière image qu’on laisse de la marque à la télévision il ne faut pas de fondu à part pour les éléments graphiques éventuellement</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/publicite/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

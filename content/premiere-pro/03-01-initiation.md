@@ -136,8 +136,8 @@ Pour éviter qu'elles changent de place en fonction des modifications de la séq
 ## La timeline
 - **Déplacement horizontal** :
 	- la molette
-	- les touches {{< kbd >}}<-{{< /kbd >}} / {{< kbd >}}->{{< /kbd >}} du clavier pour un déplacement précis
-	- {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}<-{{< /kbd >}} / {{< kbd >}}->{{< /kbd >}} permettent un déplacement plus rapide
+	- les touches {{< kbd >}}⬅{{< /kbd >}} / {{< kbd >}}➡{{< /kbd >}} du clavier pour un déplacement précis
+	- {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}⬅{{< /kbd >}} / {{< kbd >}}➡{{< /kbd >}} permettent un déplacement plus rapide
 	- flèche du haut / flèche du bas pour un déplacement de cut en cut
 	- touche {{< kbd >}}Début{{< /kbd >}} et touche {{< kbd >}}Fin{{< /kbd >}} pour aller au début ou à la fin de la timeline
 - **Déplacement vertical** : {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}molette{{< /kbd >}}
@@ -171,3 +171,5 @@ Pratiques de changer la couleur des plans pour rapidement les différencier nota
 - {{< kbd >}}%{{< /kbd >}} met le panneau survolé par la souris prend tout l'espace dans la fenêtre Premiere Pro
 - {{< kbd >}}Ctrl{{< /kbd >}}\+{{< kbd >}}%{{< /kbd >}} met la visionneuse Programme en plein écran
 - {{< kbd >}}Ctrl{{< /kbd >}}\+{{< kbd >}}:{{< /kbd >}} créé un chutier
+- {{< kbd >}}Alt{{< /kbd >}} \+ {{< kbd >}}⬆ / ⬇{{< /kbd >}} déplace un plan d'une ligne à l'autre
+- {{< kbd >}}Alt{{< /kbd >}} \+ {{< kbd >}}⬅ / ➡{{< /kbd >}} déplace un plan sur une ligne
