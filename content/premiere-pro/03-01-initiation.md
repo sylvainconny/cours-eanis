@@ -7,6 +7,8 @@ slug = 'initiation'
 editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
+**NB:** les commandes écrites ici sont pour Windows sont équivalentes pour Mac, il faut remplacer {{< kbd >}}Ctrl{{< /kbd >}} par {{< kbd >}}Cmd{{< /kbd >}} et {{< kbd >}}Alt{{< /kbd >}} par {{< kbd >}}Option{{< /kbd >}}.
+
 ## Démarrage
 
 1. Dans le panneau projet, créer trois chutiers :
@@ -43,13 +45,8 @@ En mode liste, on peut aussi modifier les métadonnées qu'on affiche pour se li
 
 À noter pour gérer les réglages plus rapidement, on peut glisser / déplacer un rush représentatif des paramètres souhaités sur le bouton *Nouvel élément*.
 
-Il peut être pertinent de créer une séquence **01_DERUSH** pour faire une présélection des rushes qu'on souhaite garder. Puis une **02_OURS** pour un premier montage grossier avec les plans dans l'ordre, sans musique ni effet.
 
-## Montage en 3 points
-1. Sélectionner un rush en double-cliquant
-2. Taper sur I (pour In) pour définir le début du rush à insérer dans la timeline
-3. Taper sur O (pour Out) pour définir la fin du rush à insérer dans la timeline
-4. Glisser / déplacer le rush prédécoupé dans la séquence ou taper sur la touche {{< kbd >}},{{< /kbd >}} pour l'ajouter en déplaçant / la touche {{< kbd >}};{{< /kbd >}} pour ajouter et écraser
+## Source
 
 Dans la fenêtre source, sous la visionneuse il y a deux icônes *Pellicule* et *Waveform* qui permettent de ne sélectionner que la vidéo ou que l'audio de la sélection.
 
@@ -59,11 +56,9 @@ On peut n'ajouter que l'audio ou la vidéo en désélectionnant la source (A1 ou
 
 ![Entrée source](./source-entree.png)
 
-Tip : {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}V{{< /kbd >}} colle un plan dans la timeline par écrasement, {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}V{{< /kbd >}} colle un plan en décalant les plans
-
 ## Outils
 
-### Sélection par défaut (V)
+### Sélection par défaut {{< kbd >}}V{{< /kbd >}}
 Dans ce mode on peut sélectionner les vidéos et surtout raccourcir les plans :
 - par défaut, l'icône est rouge :
 	- un raccourcissement laissera un blanc 
@@ -72,21 +67,21 @@ Dans ce mode on peut sélectionner les vidéos et surtout raccourcir les plans :
 	- à la fin ou au début d'un plan, l'icône devient jaune et l'outil devient Allongement
 	- la souris placée entre deux plans, l'outil devient un déplacement de coupe
 
-### Sélection en amont (A)
+### Sélection en amont {{< kbd >}}A{{< /kbd >}}
 Permet de sélectionner toutes les pistes qu'il y a après la souris
 ![Sélection en amont](./outils-selection-amont.png)
 
 - Maintenir {{< kbd >}}Maj{{< /kbd >}} permet de ne sélectionner qu'une seule piste
 - {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}A{{< /kbd >}} retourner la direction de la sélection, sélectionne tout ce qu'il y a avant la souris (rappuyer sur {{< kbd >}}A{{< /kbd >}} pour revenir à la sélection vers la droite)
 
-### Allongement (B)
+### Allongement {{< kbd >}}B{{< /kbd >}}
 - Permet de réduire une vidéo sans laisser de vide, raccorde le reste de la timeline
 - Peut également rallonger le plan sans destruction des vidéos connexes
 
-### Déplacement de la coupe (N)
+### Déplacement de la coupe {{< kbd >}}N{{< /kbd >}}
 Entre deux plans, raccourci l'un et rallonge l'autre
 
-### Modification de la vitesse (R)
+### Modification de la vitesse {{< kbd >}}R{{< /kbd >}}
 Permet d'accélérer ou de ralentir un plan en sélectionnant / déplaçant les bords de la vidéo. Privilégier le raccourcis {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}R{{< /kbd >}} qui permet de précisément définir la nouvelle vitesse.
 
 ![Fenêtre Vitesse/Durée e l'élément](./vitesse-element.png)
@@ -95,39 +90,39 @@ Cette fenêtre permet de modifier précisément la vitesse et la durée du clip.
 
 L'option *Propagation (décalage des éléments de fin)* permet de ne pas créer de trou dans la timeline ou d'écraser les éléments suivants.
 
-### Cutter (C)
-Coupe un plan ou plusieurs plans, peut être utilisé avec la tête de lecture dans n'importe quel mode avec {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}K{{< /kbd >}} qu'on aura modifié en {{< kbd >}}C{{< /kbd >}} dans Raccours clavier pour remplacer le passage à l'outil cutter. Précision importante, l'outil coupe soit le plan sélectionné, soit les plans des pistes sélectionnés.
+### Cutter {{< kbd >}}C{{< /kbd >}}
+Coupe un plan ou plusieurs plans, peut être utilisé avec la tête de lecture dans n'importe quel mode avec {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}K/C{{< /kbd >}} qu'on aura modifié en {{< kbd >}}C{{< /kbd >}} dans Raccourcis clavier (*Ajouter une coupe*) pour remplacer le passage à l'outil cutter. Précision importante, l'outil coupe soit le plan sélectionné, soit les plans des pistes sélectionnés.
 
-### Déplacer la sélection (Y)
+### Déplacer la sélection {{< kbd >}}Y{{< /kbd >}}
 Permet de déplacer la position du *in* et du *out* de la vidéo sans changer la durée ou la position du plan dans la timeline.
 
-### Déplacer le plan (U)
+### Déplacer le plan {{< kbd >}}U{{< /kbd >}}
 Fais glisser le plan dans la timeline sans modifier la position du *in* et du *out* de la vidéo en écrasant éventuellement les plans connexes. Ne modifie pas la timeline.
 
-### Outil plume (P)
+### Outil plume {{< kbd >}}P{{< /kbd >}}
 Utile au masking ou l'utilisation de keyframes, mais ce genre d'actions est plus confortable sur Adobe After Effects.
 
 ### Calques
 Comme l'outil plume mais avec des formes prédéfinies : rectangle, ellipse, polygone.
 
-### Main (H)
+### Main {{< kbd >}}H{{< /kbd >}}
 Déplacement manuel de la  timeline ou déplacement.
 Permet également de déplacer la source ou le programme. En mode Sélection par défaut, on peut utiliser le bouton molette maintenu également.
 
-### Zoom (Z)
+### Zoom {{< kbd >}}Z{{< /kbd >}}
 Zoom dans la timeline. {{< kbd >}}Alt{{< /kbd >}} pour dézoomer.
 Meilleurs raccourcis dans d'autres modes :
 - {{< kbd >}}\+{{< /kbd >}} pour dézoomer la timeline
 - {{< kbd >}}\-{{< /kbd >}} pour dézoomer la timeline
 - {{< kbd >}}Alt{{< /kbd >}}+ molette pour zoomer / dézoomer la timeline
 
-### Texte (T)
+### Texte {{< kbd >}}T{{< /kbd >}}
 Permet d'ajouter du texte dans le panneau programme.
 
-### Magnétisme (S)
+### Magnétisme {{< kbd >}}S{{< /kbd >}}
 Magnétise / démagnétise les plans les uns aux autres.
 
-### Marques (M)
+### Marques {{< kbd >}}M{{< /kbd >}}
 Ajoute des marques sur la timeline ou sur les plans sélectionnés.
 Pour éviter qu'elles changent de place en fonction des modifications de la séquence, aller dans le menu > *Marques* > décocher *Les marques suivent la séquence*.
 
@@ -150,7 +145,9 @@ Pour éviter qu'elles changent de place en fonction des modifications de la séq
 	- *Mute* désactive le son d'une piste audio
 	- *Solo* n'active que cette piste audio
 	- *Cadenas* verrouille la piste, donc les éléments audio ou vidéo qui y sont ne bougeront plus
-![Options pistes](./options-pistes.png)
+		![Options pistes](./options-pistes.png)
+	- *Activer / Verrouillage de synchronisation* active ou désactive la synchronisation des pistes. Si une piste est déplacée, les pistes désynchronisées ne seront pas impactées
+		![Activer / Verrouillage de synchronisation](./synchronisation.png)
 
 ## Différence de tailles
 Si on dans le menu contextuel d'un plan moins défini que la séquence, on peut ajuster ou définir le plan en fonction de la taille de l'image. Définir va modifier l'échelle dans les **options d'effet** ajuster va juste zoomer dans l'image.
@@ -159,6 +156,12 @@ Si on dans le menu contextuel d'un plan moins défini que la séquence, on peut 
 Pratiques de changer la couleur des plans pour rapidement les différencier notamment dans le panneau *Projet*. On a utilisé le clavier numérique pour **binder** des libellés rapidement.
 
 {{< video src="./libelles.webm" autoplay="true" loop="true" muted="true" >}}
+
+## Match Frame
+En appuyant sur {{< kbd >}}F{{< /kbd >}} dans la *séquence*, ça permet d'activer le **Match Frame** et de retrouver le plan dans la *source* qui sera présélectionné avec un *in* et un *out* avec l'exact même moment que le plan de la séquence. Fonctionne avec l'audio et la vidéo.
+
+## Détection d'un montage de scène
+Dans le menu, aller dans **Elément > Détection d'un montage de scène**, ouvre une fenêtre, choisir au moins la première case. Le logiciel va analyser l'élément vidéo et découper chaque plan. Attention, il peut y avoir des erreurs même si cette fonctionnalité devient de plus en plus performante avec les versions.
 
 ## Raccourcis utiles
 - {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}\-{{< /kbd >}} réduire les lignes de la timeline
@@ -169,7 +172,13 @@ Pratiques de changer la couleur des plans pour rapidement les différencier nota
 - {{< kbd >}}Ctrl{{< /kbd >}} + glisser/déplacer un plan dans la timeline permet de l'intercaler facilement à un autre droit
 - {{< kbd >}}Maj{{< /kbd >}}\+{{< kbd >}}Suppr{{< /kbd >}} supprime un élément dans la timeline et raccorde les éléments
 - {{< kbd >}}%{{< /kbd >}} met le panneau survolé par la souris prend tout l'espace dans la fenêtre Premiere Pro
-- {{< kbd >}}Ctrl{{< /kbd >}}\+{{< kbd >}}%{{< /kbd >}} met la visionneuse Programme en plein écran
-- {{< kbd >}}Ctrl{{< /kbd >}}\+{{< kbd >}}:{{< /kbd >}} créé un chutier
+- {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}%{{< /kbd >}} met la visionneuse Programme en plein écran
+- {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}:{{< /kbd >}} créé un chutier
 - {{< kbd >}}Alt{{< /kbd >}} \+ {{< kbd >}}⬆ / ⬇{{< /kbd >}} déplace un plan d'une ligne à l'autre
 - {{< kbd >}}Alt{{< /kbd >}} \+ {{< kbd >}}⬅ / ➡{{< /kbd >}} déplace un plan sur une ligne
+- {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}X{{< /kbd >}} supprime les points *in* et *out*
+- si une coupe involontaire a été faite {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}Click{{< /kbd >}} en mode sélection par défaut (V) sur la coupe et {{< kbd >}}Suppr.{{< /kbd >}} permet d'annuler la coupe
+- {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}V{{< /kbd >}} colle un plan dans la timeline par écrasement, {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}V{{< /kbd >}} colle un plan en décalant les plans
+- {{< kbd >}}D{{< /kbd >}} pour sélectionner l'élément sous la tête de lecture
+- {{< kbd >}}X{{< /kbd >}} pour placer le *in* et *out* autour de l'élément sous la tête de lecture
+- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}S{{< /kbd >}} pour mettre la lecture en sourdine (audio scrub)

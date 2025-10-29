@@ -45,3 +45,19 @@ Si les caméras bouge sur des axes plus complexes, le logiciel peut essayer de c
 {{< video src="[./keyframes.webm](https://upload.wikimedia.org/wikipedia/commons/d/d7/Video_image_stabilization.ogv)" autoplay="true" loop="true" muted="true" >}}
 
 À noter que si les plans peuvent être ralentis pour limiter les tremblements ou autres mouvements de caméra, mais, s'ils sont ralentis il ne peuvent plus être stabilisés. Il faut mettre le plan en question dans une autre séquence qu'on intégrera à la place du plan et sur la séquence on peut appliquer l'effet de stabilisation.
+
+## Fondu croisé (audio)
+Dans **Effets > Transitions audio > Fondu croisé**, on trouve trois sortes de fondu :
+- Fondu exponentiel
+- Puissance constante (par défaut, caractérisé par un carré bleu dans la bibliothèque d'effets)
+- Gain constant (à utiliser rarement)
+Il faut les essayer pour déterminer l'effet le plus approprié en fonction de la situation. On les ajoute au début de l'audio.
+{{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}D{{< /kbd >}} créé autant de transitions que d'audios sélectionnés, en utilisant le fondu par défaut, *puissance constante*.
+
+Dans **Edition > Préférences > Séquence (ou Montage) > Durée par défaut de la transition audio**, choisir 5 images (dans le menu déroulant).
+
+![Transitions audio](./duree-transition-audio.png)
+
+On peut également réaliser les transitions en glissant à la souris le petit carré au niveau de l'élément audio. Vers la droite ou vers la gauche pour gérer la durée de la transition. Vers le haut ou vers le bas pour gérer la courbe de Bézier.
+
+![Transitions audio](./fondu-audio.png)
