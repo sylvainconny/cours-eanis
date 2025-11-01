@@ -96,6 +96,8 @@ Coupe un plan ou plusieurs plans, peut être utilisé avec la tête de lecture d
 ### Déplacer la sélection {{< kbd >}}Y{{< /kbd >}}
 Permet de déplacer la position du *in* et du *out* de la vidéo sans changer la durée ou la position du plan dans la timeline.
 
+{{< video src="./deplacer-selection-y.webm" autoplay="true" loop="true" muted="true" >}}
+
 ### Déplacer le plan {{< kbd >}}U{{< /kbd >}}
 Fais glisser le plan dans la timeline sans modifier la position du *in* et du *out* de la vidéo en écrasant éventuellement les plans connexes. Ne modifie pas la timeline.
 
@@ -143,7 +145,7 @@ Pour éviter qu'elles changent de place en fonction des modifications de la séq
 - **Options de pistes** :
 	- *Activer visibilité de la piste* permet de masquer une piste vidéo dans la visionneuse Programme
 	- *Mute* désactive le son d'une piste audio
-	- *Solo* n'active que cette piste audio
+	- *Solo* n'active que cette piste audio et mute les autres
 	- *Cadenas* verrouille la piste, donc les éléments audio ou vidéo qui y sont ne bougeront plus
 		![Options pistes](./options-pistes.png)
 	- *Activer / Verrouillage de synchronisation* active ou désactive la synchronisation des pistes. Si une piste est déplacée, les pistes désynchronisées ne seront pas impactées
@@ -162,6 +164,35 @@ En appuyant sur {{< kbd >}}F{{< /kbd >}} dans la *séquence*, ça permet d'activ
 
 ## Détection d'un montage de scène
 Dans le menu, aller dans **Elément > Détection d'un montage de scène**, ouvre une fenêtre, choisir au moins la première case. Le logiciel va analyser l'élément vidéo et découper chaque plan. Attention, il peut y avoir des erreurs même si cette fonctionnalité devient de plus en plus performante avec les versions.
+
+## Auto-Save
+Dans **Edition > Préférences > Enregistrement automatique**, on peut choisir tous les X minutes Premiere Pro fais une sauvegarde du projet et le nombre maximum du projet. Par défaut, on enregistre tous les 5 minutes jusqu'à 20 projets, donc on peut revenir jusqu'à 1h40 en arrière.
+
+## Top & Tail
+Supprime toute une partie du plan depuis l'emplacement de la tête de lecture,
+- jusqu'au début avec **Top** {{< kbd >}}Q{{< /kbd >}}
+- jusqu'à la fin avec **Tail** {{< kbd >}}W{{< /kbd >}}
+
+{{< video src="./top-tail.webm" autoplay="true" loop="true" muted="true" >}}
+
+## Gestion du son
+{{< kbd >}}G{{< /kbd >}} pour modifier le gain audio d'un ou plusieurs audios sélectionnés.
+![Gain audio](./gain-audio.png)
+
+Sur l'audio, on peut directement ajouter des *images clé* avec {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}Clic{{< /kbd >}}, et faire varier le gain de ces différents points.
+
+![Images clé](./audio-keys.png)
+
+On peut gérer également la tonalité de l'audio avec l'effet **Transpositeur**.
+
+![Transpositeur](./transpositeur.png)
+
+Réduire les demi-tons rendra le son plus grave, le mettre au-dessus de 0 au contraire donnera un son plus aigu. Les centièmes sont juste une manière plus précise de gérer les demi-tons.
+
+## Calque d'effet
+**Nouvel élément > Calque d'effet** qui s'ajoute sur la timeline. Tous les éléments sur les pistes inférieures au calque subiront les *effets*, comme un noir et blanc ou colorimétrie par exemple.
+
+{{< video src="./calque-d-effet.webm" autoplay="true" loop="true" muted="true" >}}
 
 ## Raccourcis utiles
 - {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}\-{{< /kbd >}} réduire les lignes de la timeline
@@ -182,3 +213,9 @@ Dans le menu, aller dans **Elément > Détection d'un montage de scène**, ouvre
 - {{< kbd >}}D{{< /kbd >}} pour sélectionner l'élément sous la tête de lecture
 - {{< kbd >}}X{{< /kbd >}} pour placer le *in* et *out* autour de l'élément sous la tête de lecture
 - {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}S{{< /kbd >}} pour mettre la lecture en sourdine (audio scrub)
+
+Pour aller dans les différentes fenêtres
+- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}&{{< /kbd >}} pour la fenêtre **projet**
+- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}é{{< /kbd >}} pour la fenêtre **effet**
+- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}"{{< /kbd >}} pour la fenêtre **séquence** (permet également de passer d'une séquence à l'autre)
+- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}'{{< /kbd >}} pour la fenêtre **programme**
