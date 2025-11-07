@@ -2,7 +2,7 @@
 draft = false
 title = 'Publicité'
 slug = 'publicite'
-weight = 4
+weight = 7
 type = 'chapter'
 [params]
     alwaysopen = false

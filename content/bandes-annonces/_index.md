@@ -2,7 +2,7 @@
 draft = false
 title = 'Bandes annonces'
 slug = 'bandes-annonces'
-weight = 5
+weight = 6
 type = 'chapter'
 [params]
     alwaysopen = false

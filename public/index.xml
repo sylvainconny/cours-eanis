@@ -8,11 +8,11 @@
     <language>fr-FR</language>
     <atom:link href="https://sylvainconny.github.io/cours-eanis/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Publicité</title>
-      <link>https://sylvainconny.github.io/cours-eanis/publicite/index.html</link>
+      <title>Sons</title>
+      <link>https://sylvainconny.github.io/cours-eanis/sons/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sylvainconny.github.io/cours-eanis/publicite/index.html</guid>
-      <description>2 types de pub :&#xA;vendre le produit idée générale (Luxe, parfums…) Conseils généraux dans le cadre publicitaire :&#xA;il faut éviter de répéter des plans qui disent la même chose éviter la monotonie en enchaînant des plans de même durée trop synchronisés sur la musique considérer avec attention le premier plan qui doit accrocher et le dernier plan qui est la dernière image qu’on laisse de la marque à la télévision il ne faut pas de fondu à part pour les éléments graphiques éventuellement</description>
+      <guid>https://sylvainconny.github.io/cours-eanis/sons/index.html</guid>
+      <description>À l’export on aimerait :&#xA;les voix à -6db les musiques à -18db les SFX selon l’importance qu’ils ont, une explosion devra être plus perceptible qu’un bruit de pas ou de porte, à moins que ce soit important dans la scène</description>
     </item>
     <item>
       <title>Bandes annonces</title>
@@ -20,6 +20,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sylvainconny.github.io/cours-eanis/bandes-annonces/index.html</guid>
       <description>Insérer bande annonce The Batman Insérer bande annonce Le comte de Monte-Cristo Insérer bande annonce Wednesday Saison 1&#xA;ne pas spoiler une bande annonce a plusieurs parties avec des séquences d’action et des respirations entre chaque partie avec du noir ou un plan qui change le rythme on sélectionne et on éparpille les voix selon les parties ainsi que la ou les musiques les voix racontent la problématique de l’intrigue on profite souvent des respirations pour mettre les titres / textes ou les logos de productions les textes ne sont pas sur les moments les plus importants de la musique, qui sont réservés à l’image dans le cas d’un fichier multipiste, lors du montage, ne sélectionner dans un premier temps que la piste des voix et la faire remonter en face de la piste projet A1 les fondus son sur les dialogues doivent pas être plus que 5 images idéalement, 8-9 maximum</description>
+    </item>
+    <item>
+      <title>Publicité</title>
+      <link>https://sylvainconny.github.io/cours-eanis/publicite/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sylvainconny.github.io/cours-eanis/publicite/index.html</guid>
+      <description>2 types de pub :&#xA;vendre le produit idée générale (Luxe, parfums…) Conseils généraux dans le cadre publicitaire :&#xA;il faut éviter de répéter des plans qui disent la même chose éviter la monotonie en enchaînant des plans de même durée trop synchronisés sur la musique considérer avec attention le premier plan qui doit accrocher et le dernier plan qui est la dernière image qu’on laisse de la marque à la télévision il ne faut pas de fondu à part pour les éléments graphiques éventuellement</description>
+    </item>
+    <item>
+      <title>Liens utiles</title>
+      <link>https://sylvainconny.github.io/cours-eanis/liens-utiles/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sylvainconny.github.io/cours-eanis/liens-utiles/index.html</guid>
+      <description>Ressources Pixabay Images, musiques et effets sonores libres de droit audionetwork Musique pour la TV, le cinéma, les marques, la publicité Idées Frameset Find the perfect frames with our powerful search Eyecandy Visual technique Library Outils Shutter Encoder Encodage / Conversion vidéo FFmpeg complete, cross-platform solution to record, convert and stream audio and video YT-DLP A feature-rich command-line audio/video downloader</description>
     </item>
   </channel>
 </rss>

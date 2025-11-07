@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sons :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/sons/index.html</link>
+    <description>À l’export on aimerait :&#xA;les voix à -6db les musiques à -18db les SFX selon l’importance qu’ils ont, une explosion devra être plus perceptible qu’un bruit de pas ou de porte, à moins que ce soit important dans la scène</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/sons/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
