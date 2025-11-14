@@ -23,8 +23,8 @@ type = 'chapter'
 - dans le cas d'un fichier multipiste, lors du montage, ne sélectionner dans un premier temps que la piste des voix et la faire remonter en face de la piste projet A1
 - les fondus son sur les dialogues doivent pas être plus que 5 images idéalement, 8-9 maximum
 
-{{< youtube id="mqqft2x_Aa4" >}}
+{{<youtube id="mqqft2x_Aa4">}}
 &nbsp;
-{{< youtube id="Di310WS8zLk" >}}
+{{<youtube id="Di310WS8zLk">}}
 &nbsp;
-{{< youtube id="u0YnbsyvGS0" >}}
+{{<youtube id="u0YnbsyvGS0">}}

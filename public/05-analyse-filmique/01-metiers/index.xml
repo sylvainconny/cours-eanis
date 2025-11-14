@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corps de Métiers :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/01-metiers/index.html</link>
+    <description>acteur/actrice chef(fe) opérateur réalisateur / réalisatrice électro directeur / directrice photo perchiste animateur / animatrice 2D / 3D coordinateur / coordinatrice d’intimité producteur / productrice scénariste scripte régie monteur / monteuse audiovisuel(le) … Liste des métiers selon la convention collective de l’audiovisuel&#xA;Réalisateur / Réalisatrice Coordonne toutes les étapes de la conception d’un film, souvent à l’origine des projets. Doit mener techniciens et comédiens sur le plateau pour obtenir sa vision. À la télévision, le métier est plus technique et placé dans la régie technique.</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/01-metiers/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

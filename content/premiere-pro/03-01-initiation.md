@@ -7,7 +7,7 @@ slug = 'initiation'
 editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
-**NB:** les commandes écrites ici sont pour Windows sont équivalentes pour Mac, il faut remplacer {{< kbd >}}Ctrl{{< /kbd >}} par {{< kbd >}}Cmd{{< /kbd >}} et {{< kbd >}}Alt{{< /kbd >}} par {{< kbd >}}Option{{< /kbd >}}.
+**NB:** les commandes écrites ici sont pour Windows sont équivalentes pour Mac, il faut remplacer {{<kbd>}}Ctrl{{</kbd>}} par {{<kbd>}}Cmd{{</kbd>}} et {{<kbd>}}Alt{{</kbd>}} par {{<kbd>}}Option{{</kbd>}}.
 
 ## Démarrage
 
@@ -58,31 +58,31 @@ On peut n'ajouter que l'audio ou la vidéo en désélectionnant la source (A1 ou
 
 ## Outils
 
-### Sélection par défaut {{< kbd >}}V{{< /kbd >}}
+### Sélection par défaut {{<kbd>}}V{{</kbd>}}
 Dans ce mode on peut sélectionner les vidéos et surtout raccourcir les plans :
 - par défaut, l'icône est rouge :
 	- un raccourcissement laissera un blanc 
 	- un rallongement détruira les plans connexes
-- en maintenant {{< kbd >}}Ctrl{{< /kbd >}}
+- en maintenant {{<kbd>}}Ctrl{{</kbd>}}
 	- à la fin ou au début d'un plan, l'icône devient jaune et l'outil devient Allongement
 	- la souris placée entre deux plans, l'outil devient un déplacement de coupe
 
-### Sélection en amont {{< kbd >}}A{{< /kbd >}}
+### Sélection en amont {{<kbd>}}A{{</kbd>}}
 Permet de sélectionner toutes les pistes qu'il y a après la souris
 ![Sélection en amont](./outils-selection-amont.png)
 
-- Maintenir {{< kbd >}}Maj{{< /kbd >}} permet de ne sélectionner qu'une seule piste
-- {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}A{{< /kbd >}} retourner la direction de la sélection, sélectionne tout ce qu'il y a avant la souris (rappuyer sur {{< kbd >}}A{{< /kbd >}} pour revenir à la sélection vers la droite)
+- Maintenir {{<kbd>}}Maj{{</kbd>}} permet de ne sélectionner qu'une seule piste
+- {{<kbd>}}Maj{{</kbd>}} + {{<kbd>}}A{{</kbd>}} retourner la direction de la sélection, sélectionne tout ce qu'il y a avant la souris (rappuyer sur {{<kbd>}}A{{</kbd>}} pour revenir à la sélection vers la droite)
 
-### Allongement {{< kbd >}}B{{< /kbd >}}
+### Allongement {{<kbd>}}B{{</kbd>}}
 - Permet de réduire une vidéo sans laisser de vide, raccorde le reste de la timeline
 - Peut également rallonger le plan sans destruction des vidéos connexes
 
-### Déplacement de la coupe {{< kbd >}}N{{< /kbd >}}
+### Déplacement de la coupe {{<kbd>}}N{{</kbd>}}
 Entre deux plans, raccourci l'un et rallonge l'autre
 
-### Modification de la vitesse {{< kbd >}}R{{< /kbd >}}
-Permet d'accélérer ou de ralentir un plan en sélectionnant / déplaçant les bords de la vidéo. Privilégier le raccourcis {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}R{{< /kbd >}} qui permet de précisément définir la nouvelle vitesse.
+### Modification de la vitesse {{<kbd>}}R{{</kbd>}}
+Permet d'accélérer ou de ralentir un plan en sélectionnant / déplaçant les bords de la vidéo. Privilégier le raccourcis {{<kbd>}}Ctrl{{</kbd>}} + {{<kbd>}}R{{</kbd>}} qui permet de précisément définir la nouvelle vitesse.
 
 ![Fenêtre Vitesse/Durée e l'élément](./vitesse-element.png)
 
@@ -90,41 +90,41 @@ Cette fenêtre permet de modifier précisément la vitesse et la durée du clip.
 
 L'option *Propagation (décalage des éléments de fin)* permet de ne pas créer de trou dans la timeline ou d'écraser les éléments suivants.
 
-### Cutter {{< kbd >}}C{{< /kbd >}}
-Coupe un plan ou plusieurs plans, peut être utilisé avec la tête de lecture dans n'importe quel mode avec {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}K/C{{< /kbd >}} qu'on aura modifié en {{< kbd >}}C{{< /kbd >}} dans Raccourcis clavier (*Ajouter une coupe*) pour remplacer le passage à l'outil cutter. Précision importante, l'outil coupe soit le plan sélectionné, soit les plans des pistes sélectionnés.
+### Cutter {{<kbd>}}C{{</kbd>}}
+Coupe un plan ou plusieurs plans, peut être utilisé avec la tête de lecture dans n'importe quel mode avec {{<kbd>}}Ctrl{{</kbd>}} + {{<kbd>}}K/C{{</kbd>}} qu'on aura modifié en {{<kbd>}}C{{</kbd>}} dans Raccourcis clavier (*Ajouter une coupe*) pour remplacer le passage à l'outil cutter. Précision importante, l'outil coupe soit le plan sélectionné, soit les plans des pistes sélectionnés.
 
-### Déplacer la sélection {{< kbd >}}Y{{< /kbd >}}
+### Déplacer la sélection {{<kbd>}}Y{{</kbd>}}
 Permet de déplacer la position du *in* et du *out* de la vidéo sans changer la durée ou la position du plan dans la timeline.
 
-{{< video src="./deplacer-selection-y.webm" autoplay="true" loop="true" muted="true" >}}
+{{<video src="./deplacer-selection-y.webm" autoplay="true" loop="true" muted="true">}}
 
-### Déplacer le plan {{< kbd >}}U{{< /kbd >}}
+### Déplacer le plan {{<kbd>}}U{{</kbd>}}
 Fais glisser le plan dans la timeline sans modifier la position du *in* et du *out* de la vidéo en écrasant éventuellement les plans connexes. Ne modifie pas la timeline.
 
-### Outil plume {{< kbd >}}P{{< /kbd >}}
+### Outil plume {{<kbd>}}P{{</kbd>}}
 Utile au masking ou l'utilisation de keyframes, mais ce genre d'actions est plus confortable sur Adobe After Effects.
 
 ### Calques
 Comme l'outil plume mais avec des formes prédéfinies : rectangle, ellipse, polygone.
 
-### Main {{< kbd >}}H{{< /kbd >}}
+### Main {{<kbd>}}H{{</kbd>}}
 Déplacement manuel de la  timeline ou déplacement.
 Permet également de déplacer la source ou le programme. En mode Sélection par défaut, on peut utiliser le bouton molette maintenu également.
 
-### Zoom {{< kbd >}}Z{{< /kbd >}}
-Zoom dans la timeline. {{< kbd >}}Alt{{< /kbd >}} pour dézoomer.
+### Zoom {{<kbd>}}Z{{</kbd>}}
+Zoom dans la timeline. {{<kbd>}}Alt{{</kbd>}} pour dézoomer.
 Meilleurs raccourcis dans d'autres modes :
-- {{< kbd >}}\+{{< /kbd >}} pour dézoomer la timeline
-- {{< kbd >}}\-{{< /kbd >}} pour dézoomer la timeline
-- {{< kbd >}}Alt{{< /kbd >}}+ molette pour zoomer / dézoomer la timeline
+- {{<kbd>}}\+{{</kbd>}} pour dézoomer la timeline
+- {{<kbd>}}\-{{</kbd>}} pour dézoomer la timeline
+- {{<kbd>}}Alt{{</kbd>}}+ molette pour zoomer / dézoomer la timeline
 
-### Texte {{< kbd >}}T{{< /kbd >}}
+### Texte {{<kbd>}}T{{</kbd>}}
 Permet d'ajouter du texte dans le panneau programme.
 
-### Magnétisme {{< kbd >}}S{{< /kbd >}}
+### Magnétisme {{<kbd>}}S{{</kbd>}}
 Magnétise / démagnétise les plans les uns aux autres.
 
-### Marques {{< kbd >}}M{{< /kbd >}}
+### Marques {{<kbd>}}M{{</kbd>}}
 Ajoute des marques sur la timeline ou sur les plans sélectionnés.
 Pour éviter qu'elles changent de place en fonction des modifications de la séquence, aller dans le menu > *Marques* > décocher *Les marques suivent la séquence*.
 
@@ -133,15 +133,15 @@ Pour éviter qu'elles changent de place en fonction des modifications de la séq
 ## La timeline
 - **Déplacement horizontal** :
 	- la molette
-	- les touches {{< kbd >}}⬅{{< /kbd >}} / {{< kbd >}}➡{{< /kbd >}} du clavier pour un déplacement précis
-	- {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}⬅{{< /kbd >}} / {{< kbd >}}➡{{< /kbd >}} permettent un déplacement plus rapide
+	- les touches {{<kbd>}}⬅{{</kbd>}} / {{<kbd>}}➡{{</kbd>}} du clavier pour un déplacement précis
+	- {{<kbd>}}Maj{{</kbd>}} + {{<kbd>}}⬅{{</kbd>}} / {{<kbd>}}➡{{</kbd>}} permettent un déplacement plus rapide
 	- flèche du haut / flèche du bas pour un déplacement de cut en cut
-	- touche {{< kbd >}}Début{{< /kbd >}} et touche {{< kbd >}}Fin{{< /kbd >}} pour aller au début ou à la fin de la timeline
-- **Déplacement vertical** : {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}molette{{< /kbd >}}
+	- touche {{<kbd>}}Début{{</kbd>}} et touche {{<kbd>}}Fin{{</kbd>}} pour aller au début ou à la fin de la timeline
+- **Déplacement vertical** : {{<kbd>}}Ctrl{{</kbd>}} + {{<kbd>}}molette{{</kbd>}}
 - **Changer la hauteur des pistes** : dans la zone de description des pistes,
-	- {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}molette{{< /kbd >}} change la taille de toutes les pistes audio ou vidéo
-	- {{< kbd >}}Alt{{< /kbd >}} + {{< kbd >}}molette{{< /kbd >}} change la taille de la piste sur laquelle est positionnée la souris
-	- {{< kbd >}}Double-clic{{< /kbd >}} sur une piste change sa taille selon deux hauteurs prédéfinies
+	- {{<kbd>}}Maj{{</kbd>}} + {{<kbd>}}molette{{</kbd>}} change la taille de toutes les pistes audio ou vidéo
+	- {{<kbd>}}Alt{{</kbd>}} + {{<kbd>}}molette{{</kbd>}} change la taille de la piste sur laquelle est positionnée la souris
+	- {{<kbd>}}Double-clic{{</kbd>}} sur une piste change sa taille selon deux hauteurs prédéfinies
 - **Options de pistes** :
 	- *Activer visibilité de la piste* permet de masquer une piste vidéo dans la visionneuse Programme
 	- *Mute* désactive le son d'une piste audio
@@ -157,10 +157,10 @@ Si on dans le menu contextuel d'un plan moins défini que la séquence, on peut 
 ## Libellés
 Pratiques de changer la couleur des plans pour rapidement les différencier notamment dans le panneau *Projet*. On a utilisé le clavier numérique pour **binder** des libellés rapidement.
 
-{{< video src="./libelles.webm" autoplay="true" loop="true" muted="true" >}}
+{{<video src="./libelles.webm" autoplay="true" loop="true" muted="true">}}
 
 ## Match Frame
-En appuyant sur {{< kbd >}}F{{< /kbd >}} dans la *séquence*, ça permet d'activer le **Match Frame** et de retrouver le plan dans la *source* qui sera présélectionné avec un *in* et un *out* avec l'exact même moment que le plan de la séquence. Fonctionne avec l'audio et la vidéo.
+En appuyant sur {{<kbd>}}F{{</kbd>}} dans la *séquence*, ça permet d'activer le **Match Frame** et de retrouver le plan dans la *source* qui sera présélectionné avec un *in* et un *out* avec l'exact même moment que le plan de la séquence. Fonctionne avec l'audio et la vidéo.
 
 ## Détection d'un montage de scène
 Dans le menu, aller dans **Elément > Détection d'un montage de scène**, ouvre une fenêtre, choisir au moins la première case. Le logiciel va analyser l'élément vidéo et découper chaque plan. Attention, il peut y avoir des erreurs même si cette fonctionnalité devient de plus en plus performante avec les versions.
@@ -170,16 +170,16 @@ Dans **Edition > Préférences > Enregistrement automatique**, on peut choisir t
 
 ## Top & Tail
 Supprime toute une partie du plan depuis l'emplacement de la tête de lecture,
-- jusqu'au début avec **Top** {{< kbd >}}Q{{< /kbd >}}
-- jusqu'à la fin avec **Tail** {{< kbd >}}W{{< /kbd >}}
+- jusqu'au début avec **Top** {{<kbd>}}Q{{</kbd>}}
+- jusqu'à la fin avec **Tail** {{<kbd>}}W{{</kbd>}}
 
-{{< video src="./top-tail.webm" autoplay="true" loop="true" muted="true" >}}
+{{<video src="./top-tail.webm" autoplay="true" loop="true" muted="true">}}
 
 ## Gestion du son
-{{< kbd >}}G{{< /kbd >}} pour modifier le gain audio d'un ou plusieurs audios sélectionnés.
+{{<kbd>}}G{{</kbd>}} pour modifier le gain audio d'un ou plusieurs audios sélectionnés.
 ![Gain audio](./gain-audio.png)
 
-Sur l'audio, on peut directement ajouter des *images clé* avec {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}Clic{{< /kbd >}}, et faire varier le gain de ces différents points.
+Sur l'audio, on peut directement ajouter des *images clé* avec {{<kbd>}}Ctrl{{</kbd>}} \+ {{<kbd>}}Clic{{</kbd>}}, et faire varier le gain de ces différents points.
 
 ![Images clé](./audio-keys.png)
 
@@ -192,30 +192,30 @@ Réduire les demi-tons rendra le son plus grave, le mettre au-dessus de 0 au con
 ## Calque d'effet
 **Nouvel élément > Calque d'effet** qui s'ajoute sur la timeline. Tous les éléments sur les pistes inférieures au calque subiront les *effets*, comme un noir et blanc ou colorimétrie par exemple.
 
-{{< video src="./calque-d-effet.webm" autoplay="true" loop="true" muted="true" >}}
+{{<video src="./calque-d-effet.webm" autoplay="true" loop="true" muted="true">}}
 
 ## Raccourcis utiles
-- {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}\-{{< /kbd >}} réduire les lignes de la timeline
-- {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}\+{{< /kbd >}} agrandir les lignes de la timeline
-- {{< kbd >}}j{{< /kbd >}}, {{< kbd >}}k{{< /kbd >}} et {{< kbd >}}l{{< /kbd >}} pour circuler dans la timeline
-- Double clic dans le panneau projet ou {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}i{{< /kbd >}} pour "importer" (lier) de nouveaux éléments
-- {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}X{{< /kbd >}} pour annuler le *in* et *out* dans le panneau source
-- {{< kbd >}}Ctrl{{< /kbd >}} + glisser/déplacer un plan dans la timeline permet de l'intercaler facilement à un autre droit
-- {{< kbd >}}Maj{{< /kbd >}}\+{{< kbd >}}Suppr{{< /kbd >}} supprime un élément dans la timeline et raccorde les éléments
-- {{< kbd >}}%{{< /kbd >}} met le panneau survolé par la souris prend tout l'espace dans la fenêtre Premiere Pro
-- {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}%{{< /kbd >}} met la visionneuse Programme en plein écran
-- {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}:{{< /kbd >}} créé un chutier
-- {{< kbd >}}Alt{{< /kbd >}} \+ {{< kbd >}}⬆ / ⬇{{< /kbd >}} déplace un plan d'une ligne à l'autre
-- {{< kbd >}}Alt{{< /kbd >}} \+ {{< kbd >}}⬅ / ➡{{< /kbd >}} déplace un plan sur une ligne
-- {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}X{{< /kbd >}} supprime les points *in* et *out*
-- si une coupe involontaire a été faite {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}Click{{< /kbd >}} en mode sélection par défaut (V) sur la coupe et {{< kbd >}}Suppr.{{< /kbd >}} permet d'annuler la coupe
-- {{< kbd >}}Ctrl{{< /kbd >}} \+ {{< kbd >}}V{{< /kbd >}} colle un plan dans la timeline par écrasement, {{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}V{{< /kbd >}} colle un plan en décalant les plans
-- {{< kbd >}}D{{< /kbd >}} pour sélectionner l'élément sous la tête de lecture
-- {{< kbd >}}X{{< /kbd >}} pour placer le *in* et *out* autour de l'élément sous la tête de lecture
-- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}S{{< /kbd >}} pour mettre la lecture en sourdine (audio scrub)
+- {{<kbd>}}Ctrl{{</kbd>}} + {{<kbd>}}\-{{</kbd>}} réduire les lignes de la timeline
+- {{<kbd>}}Ctrl{{</kbd>}} + {{<kbd>}}\+{{</kbd>}} agrandir les lignes de la timeline
+- {{<kbd>}}j{{</kbd>}}, {{<kbd>}}k{{</kbd>}} et {{<kbd>}}l{{</kbd>}} pour circuler dans la timeline
+- Double clic dans le panneau projet ou {{<kbd>}}Ctrl{{</kbd>}} + {{<kbd>}}i{{</kbd>}} pour "importer" (lier) de nouveaux éléments
+- {{<kbd>}}Ctrl{{</kbd>}} + {{<kbd>}}Maj{{</kbd>}} + {{<kbd>}}X{{</kbd>}} pour annuler le *in* et *out* dans le panneau source
+- {{<kbd>}}Ctrl{{</kbd>}} + glisser/déplacer un plan dans la timeline permet de l'intercaler facilement à un autre droit
+- {{<kbd>}}Maj{{</kbd>}}\+{{<kbd>}}Suppr{{</kbd>}} supprime un élément dans la timeline et raccorde les éléments
+- {{<kbd>}}%{{</kbd>}} met le panneau survolé par la souris prend tout l'espace dans la fenêtre Premiere Pro
+- {{<kbd>}}Ctrl{{</kbd>}} \+ {{<kbd>}}%{{</kbd>}} met la visionneuse Programme en plein écran
+- {{<kbd>}}Ctrl{{</kbd>}} \+ {{<kbd>}}:{{</kbd>}} créé un chutier
+- {{<kbd>}}Alt{{</kbd>}} \+ {{<kbd>}}⬆ / ⬇{{</kbd>}} déplace un plan d'une ligne à l'autre
+- {{<kbd>}}Alt{{</kbd>}} \+ {{<kbd>}}⬅ / ➡{{</kbd>}} déplace un plan sur une ligne
+- {{<kbd>}}Ctrl{{</kbd>}} \+ {{<kbd>}}Maj{{</kbd>}} \+ {{<kbd>}}X{{</kbd>}} supprime les points *in* et *out*
+- si une coupe involontaire a été faite {{<kbd>}}Ctrl{{</kbd>}} \+ {{<kbd>}}Click{{</kbd>}} en mode sélection par défaut (V) sur la coupe et {{<kbd>}}Suppr.{{</kbd>}} permet d'annuler la coupe
+- {{<kbd>}}Ctrl{{</kbd>}} \+ {{<kbd>}}V{{</kbd>}} colle un plan dans la timeline par écrasement, {{<kbd>}}Ctrl{{</kbd>}} + {{<kbd>}}Maj{{</kbd>}} + {{<kbd>}}V{{</kbd>}} colle un plan en décalant les plans
+- {{<kbd>}}D{{</kbd>}} pour sélectionner l'élément sous la tête de lecture
+- {{<kbd>}}X{{</kbd>}} pour placer le *in* et *out* autour de l'élément sous la tête de lecture
+- {{<kbd>}}Maj{{</kbd>}} \+ {{<kbd>}}S{{</kbd>}} pour mettre la lecture en sourdine (audio scrub)
 
 Pour aller dans les différentes fenêtres
-- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}&{{< /kbd >}} pour la fenêtre **projet**
-- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}é{{< /kbd >}} pour la fenêtre **effet**
-- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}"{{< /kbd >}} pour la fenêtre **séquence** (permet également de passer d'une séquence à l'autre)
-- {{< kbd >}}Maj{{< /kbd >}} \+ {{< kbd >}}'{{< /kbd >}} pour la fenêtre **programme**
+- {{<kbd>}}Maj{{</kbd>}} \+ {{<kbd>}}&{{</kbd>}} pour la fenêtre **projet**
+- {{<kbd>}}Maj{{</kbd>}} \+ {{<kbd>}}é{{</kbd>}} pour la fenêtre **effet**
+- {{<kbd>}}Maj{{</kbd>}} \+ {{<kbd>}}"{{</kbd>}} pour la fenêtre **séquence** (permet également de passer d'une séquence à l'autre)
+- {{<kbd>}}Maj{{</kbd>}} \+ {{<kbd>}}'{{</kbd>}} pour la fenêtre **programme**

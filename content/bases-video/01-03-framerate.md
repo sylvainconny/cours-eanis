@@ -32,7 +32,7 @@ L'interpolation (retime) d'image, c'est le fait de recréer des images manquante
 
 Ça peut dépanner mais il vaut mieux prévoir dans son projet le framerate final et donc un framerate de captation plus élevé pour faire des ralentis.
 
-{{< video src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Interframe_motion_interpolation.webm" autoplay="true" loop="true" muted="true" >}}
+{{<video src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Interframe_motion_interpolation.webm" autoplay="true" loop="true" muted="true">}}
 
 À noter également qu'un tournage à haut framerate, si l'on souhaite garder un flou de mouvement naturel on doit augmenter la fréquence d'obturation (ex : 50fps => 1/100), ce qui implique moins de lumière en entrée pour chaque image, donc une vidéo plus sombre, qu'il faut compenser.
 

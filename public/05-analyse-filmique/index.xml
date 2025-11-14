@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analyse filmique :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/index.html</link>
+    <description>Avertissement En construction&#xA;Cours dispensé par Julien&#xA;Pour janvier, préparer une présentation :&#xA;un film une séquence (1mn30 &lt; durée &lt; 4mn) quel réalisateur qu’a-t-il fait cette année là quelles sont ses intentions pourquoi ce cadre ? … Présentation orale avec explication vidéo&#xA;Source : UPOPI - Université Populaire des Images&#xA;Diégèse La diégèse a deux acceptions. Premièrement, dans les mécanismes de narration, la diégèse est le fait de raconter les choses, et s’oppose au principe de mimèsis qui consiste à montrer les choses. Ensuite, c’est également l’univers d’une œuvre, le monde qu’elle évoque et dont elle représente une partie.</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Corps de Métiers</title>
+      <link>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/01-metiers/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/01-metiers/index.html</guid>
+      <description>acteur/actrice chef(fe) opérateur réalisateur / réalisatrice électro directeur / directrice photo perchiste animateur / animatrice 2D / 3D coordinateur / coordinatrice d’intimité producteur / productrice scénariste scripte régie monteur / monteuse audiovisuel(le) … Liste des métiers selon la convention collective de l’audiovisuel&#xA;Réalisateur / Réalisatrice Coordonne toutes les étapes de la conception d’un film, souvent à l’origine des projets. Doit mener techniciens et comédiens sur le plateau pour obtenir sa vision. À la télévision, le métier est plus technique et placé dans la régie technique.</description>
+    </item>
+    <item>
+      <title>Cadre</title>
+      <link>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/02-cadre/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/02-cadre/index.html</guid>
+      <description>Formats Hors champs / hors cadre Le hors-champ est l’ensemble des éléments qui n’apparaissent pas dans le cadre d’une image. Cette expression désigne notamment la partie de la scène qui n’apparaît pas dans un plan d’un film parce qu’elle n’est pas interceptée par le champ de l’optique de la caméra. Le hors-champ n’est ainsi pas enregistré sur la pellicule mais peut être suggéré par divers éléments de l’image ou du son.</description>
+    </item>
+    <item>
+      <title>Profondeur</title>
+      <link>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/03-profondeur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/03-profondeur/index.html</guid>
+      <description>Perspective La perspective est l’ensemble des techniques picturales destinées à représenter les trois dimensions d’un objet ou d’une scène par une image sur une surface, le plus souvent plane.&#xA;La perspectiva artificialis qui se base sur des points de fuites est celle se basant sur les points de fuites étant la plus proche de la perception de l’oeil humain.&#xA;Focales Profondeur de champ</description>
+    </item>
+  </channel>
+</rss>

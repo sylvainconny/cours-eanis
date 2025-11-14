@@ -22,9 +22,9 @@ Les **[Modes de fusion](https://fr.wikipedia.org/wiki/Mode_de_fusion)** sont des
 Tous les effets peuvent varier en fonction du temps. Il faut cocher sur l'icône du chronomètre des effets que l'on souhaite animer.
 À chaque moment clé on ajoute une **keyframe** avec des paramètres définis. Le logiciel se chargera de faire évoluer l'effet entre les deux keyframes.
 Les keyframes se créent automatiquement quand on modifie un paramètre d'effet dans la timeline. Penser à utiliser la select box pour sélectionner et supprimer les keyframes indésirables. On peut placer autant de keyframes que l'on souhaite.
-{{< video src="./keyframes.webm" autoplay="true" loop="true" muted="true" >}}
+{{<video src="./keyframes.webm" autoplay="true" loop="true" muted="true">}}
 
-Noter que pour modifier subtilement ces éléments, on peut appuyer sur {{< kbd >}}Ctrl{{< /kbd >}} pour rendre le changement plus précis.
+Noter que pour modifier subtilement ces éléments, on peut appuyer sur {{<kbd>}}Ctrl{{</kbd>}} pour rendre le changement plus précis.
 
 ## Effets
 
@@ -42,7 +42,7 @@ Si les caméras bouge sur des axes plus complexes, le logiciel peut essayer de c
 
 [![Stabilisation](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Video_image_stabilization.ogv/800px--Video_image_stabilization.ogv.jpg)](https://en.wikipedia.org/wiki/File:Video_image_stabilization.ogv)
 
-{{< video src="[./keyframes.webm](https://upload.wikimedia.org/wikipedia/commons/d/d7/Video_image_stabilization.ogv)" autoplay="true" loop="true" muted="true" >}}
+{{<video src="[./keyframes.webm](https://upload.wikimedia.org/wikipedia/commons/d/d7/Video_image_stabilization.ogv)" autoplay="true" loop="true" muted="true">}}
 
 À noter que si les plans peuvent être ralentis pour limiter les tremblements ou autres mouvements de caméra, mais, s'ils sont ralentis il ne peuvent plus être stabilisés. Il faut mettre le plan en question dans une autre séquence qu'on intégrera à la place du plan et sur la séquence on peut appliquer l'effet de stabilisation.
 
@@ -52,7 +52,7 @@ Dans **Effets > Transitions audio > Fondu croisé**, on trouve trois sortes de f
 - Puissance constante (par défaut, caractérisé par un carré bleu dans la bibliothèque d'effets)
 - Gain constant (à utiliser rarement)
 Il faut les essayer pour déterminer l'effet le plus approprié en fonction de la situation. On les ajoute au début de l'audio.
-{{< kbd >}}Ctrl{{< /kbd >}} + {{< kbd >}}Maj{{< /kbd >}} + {{< kbd >}}D{{< /kbd >}} créé autant de transitions que d'audios sélectionnés, en utilisant le fondu par défaut, *puissance constante*.
+{{<kbd>}}Ctrl{{</kbd>}} + {{<kbd>}}Maj{{</kbd>}} + {{<kbd>}}D{{</kbd>}} créé autant de transitions que d'audios sélectionnés, en utilisant le fondu par défaut, *puissance constante*.
 
 Dans **Edition > Préférences > Séquence (ou Montage) > Durée par défaut de la transition audio**, choisir 5 images (dans le menu déroulant).
 

@@ -1,31 +1,12 @@
 +++
 draft = false
-title = 'Analyse filmique'
-slug = 'analyse-filmique'
-weight = 5
-type = 'chapter'
-[params]
-    alwaysopen = false
-    collapsibleMenu = true
-    menuPre = '&nbsp;<i class="fa-solid fa-video"></i>&nbsp;'
+title = 'Corps de Métiers'
+slug = 'metiers'
+weight = 1
+summary = ""
+editURL = 'https://github.com/sylvainconny/cours-eanis/edit/main/content/${FilePath}'
 +++
 
-Cours dispensé par Julien
-
-Pour janvier, préparer une présentation :
-- un film
-- une séquence (1mn30 < durée < 4mn)
-- quel réalisateur
-- qu'a-t-il fait cette année là
-- quelles sont ses intentions
-- pourquoi ce cadre ?
-- …
-
-Présentation orale avec explication vidéo
-
-[UPOPI - Université Populaire des Images](https://upopi.ciclic.fr)
-
-## Corps de métiers de l'audiovisuel
 - acteur/actrice
 - chef(fe) opérateur
 - réalisateur / réalisatrice
@@ -58,4 +39,3 @@ Se rapproche d'un archiviste avant de monter quoique ce soit.
 - Travaille dans un workflow
 Technicien travaillant avec des rushes ou des épreuves, respectant les contraintes artistiques définies en avance.
 Sur des gros projets, un assistant monteur peut accompagner le monteur pour effectuer toutes les tâches. Peut être fort de proposition pendant le montage.
-

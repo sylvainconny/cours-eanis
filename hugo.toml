@@ -17,3 +17,6 @@ defaultContentLanguage = 'fr'
 
 [outputs]
   page = ['html', 'print']
+
+[markup.goldmark.renderer]
+  unsafe = true

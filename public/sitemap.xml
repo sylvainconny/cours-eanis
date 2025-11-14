@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/01-metiers/index.html</loc>
+  </url>
+  <url>
     <loc>https://sylvainconny.github.io/cours-eanis/bases-video/definition-image/index.html</loc>
   </url>
   <url>
@@ -16,6 +19,9 @@
     <loc>https://sylvainconny.github.io/cours-eanis/bases-video/aspect-ratio/index.html</loc>
   </url>
   <url>
+    <loc>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/02-cadre/index.html</loc>
+  </url>
+  <url>
     <loc>https://sylvainconny.github.io/cours-eanis/couleurs/echantillonage/index.html</loc>
   </url>
   <url>
@@ -28,6 +34,9 @@
     <loc>https://sylvainconny.github.io/cours-eanis/bases-video/framerate/index.html</loc>
   </url>
   <url>
+    <loc>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/03-profondeur/index.html</loc>
+  </url>
+  <url>
     <loc>https://sylvainconny.github.io/cours-eanis/couleurs/quantification/index.html</loc>
   </url>
   <url>
@@ -37,7 +46,7 @@
     <loc>https://sylvainconny.github.io/cours-eanis/bases-video/affichage/index.html</loc>
   </url>
   <url>
-    <loc>https://sylvainconny.github.io/cours-eanis/analyse-filmique/index.html</loc>
+    <loc>https://sylvainconny.github.io/cours-eanis/05-analyse-filmique/index.html</loc>
   </url>
   <url>
     <loc>https://sylvainconny.github.io/cours-eanis/sons/index.html</loc>
