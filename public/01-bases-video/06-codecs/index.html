@@ -5,18 +5,22 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.152.2">
     <meta name="generator" content="Relearn 8.1.1+9d74be278d6e8456f2f18305c9b27e38bc2de91c">
-    <meta name="description" content="">
+    <meta name="description" content="Littéralement ‘codeur / décodeur’, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Catégories :: Cours EANIS">
-    <meta property="og:url" content="https://sylvainconny.github.io/cours-eanis/categories/index.html">
+    <meta name="twitter:title" content="Codecs :: Cours EANIS">
+    <meta name="twitter:description" content="Littéralement ‘codeur / décodeur’, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles">
+    <meta property="og:url" content="https://sylvainconny.github.io/cours-eanis/01-bases-video/06-codecs/index.html">
     <meta property="og:site_name" content="Cours EANIS">
-    <meta property="og:title" content="Catégories :: Cours EANIS">
+    <meta property="og:title" content="Codecs :: Cours EANIS">
+    <meta property="og:description" content="Littéralement ‘codeur / décodeur’, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:type" content="website">
-    <meta itemprop="name" content="Catégories :: Cours EANIS">
-    <title>Catégories :: Cours EANIS</title>
-    <link href="/cours-eanis/categories/index.xml" rel="alternate" type="application/rss+xml" title="Catégories :: Cours EANIS">
+    <meta itemprop="name" content="Codecs :: Cours EANIS">
+    <meta itemprop="description" content="Littéralement ‘codeur / décodeur’, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles">
+    <meta itemprop="wordCount" content="1207">
+    <title>Codecs :: Cours EANIS</title>
+    <link href="/cours-eanis/01-bases-video/06-codecs/index.xml" rel="alternate" type="application/rss+xml" title="Codecs :: Cours EANIS">
     <link href="/cours-eanis/css/auto-complete/auto-complete.min.css?1763198050" rel="stylesheet">
     <script src="/cours-eanis/js/auto-complete/auto-complete.min.js?1763198050" defer></script>
     <script src="/cours-eanis/js/search-lunr.min.js?1763198050" defer></script>
@@ -41,9 +45,9 @@
       window.relearn = window.relearn || {};
       // configuration
       window.relearn.min = `.min`;
-      window.relearn.path='\/categories\/index.html';
-      window.relearn.relBasePath='..';
-      window.relearn.relBaseUri='..\/..';
+      window.relearn.path='\/01-bases-video\/06-codecs\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
       window.relearn.absBaseUri='https:\/\/sylvainconny.github.io\/cours-eanis';
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
@@ -91,7 +95,7 @@
       window.relearn.markVariant();
     </script>
   </head>
-  <body class="mobile-support html" data-url="/cours-eanis/categories/index.html">
+  <body class="mobile-support html" data-url="/cours-eanis/01-bases-video/06-codecs/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -102,17 +106,30 @@
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table des matières (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#codecs-de-diffusion">Codecs de diffusion</a></li>
+    <li><a href="#codecs-de-montage">Codecs de montage</a></li>
+    <li><a href="#codecs-denregistrement">Codecs &ldquo;d&rsquo;enregistrement&rdquo;</a></li>
+    <li><a href="#bitrate--débit-vidéo">Bitrate / Débit vidéo</a></li>
+    <li><a href="#cbr--vbr">CBR / VBR</a></li>
+    <li><a href="#les-conteneurs">Les conteneurs</a></li>
+    <li><a href="#fichiers-raw">Fichiers RAW</a></li>
+  </ul>
+</nav>
                 </div>
               </div>
             </div>
           </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cours-eanis/index.html"><span itemprop="name">Accueil</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Catégories</span><meta itemprop="position" content="2"></li>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cours-eanis/index.html"><span itemprop="name">Accueil</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Bases de la vidéo</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Codecs</span><meta itemprop="position" content="3"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cours-eanis/index.html" title="Accueil (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/sylvainconny/cours-eanis/edit/main/content/01-bases-video/06-codecs/_index.md" rel="external" title="Éditer (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cours-eanis/01-bases-video/05-affichage/index.html" title="Affichage (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cours-eanis/02-couleurs/01-espaces-colorimetriques/index.html" title="Espaces Colorimétriques (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Aller plus loin"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -126,13 +143,107 @@
         </div>
       </nav>
       <div id="R-main-overlay"></div>
-      <main id="R-body-inner" class="highlightable categories" tabindex="-1">
+      <main id="R-body-inner" class="highlightable 01-bases-video" tabindex="-1">
         <div class="flex-block-wrapper">
-<article>
+<article class="default">
   <header class="headline">
   </header>
-<h1 id="catégories">Catégories</h1>
 
+<h1 id="codecs">Codecs</h1>
+
+<p>Littéralement &ldquo;codeur / décodeur&rdquo;, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles.</p>
+<p>Il existe plusieurs types de codecs :</p>
+<ul>
+<li>les codecs de diffusion permettant d&rsquo;obtenir le fichier vidéo le plus léger possible tout en conservant la meilleure qualité visuelle possible</li>
+<li>les codecs de montage dont la priorité absolue est de conserver le plus d&rsquo;information possible sans se préoccuper de la taille du fichier</li>
+</ul>
+<h2 id="codecs-de-diffusion">Codecs de diffusion</h2>
+<ul>
+<li>MPEG-2 (norme et codec), le plus ancien, toujours utilisé par certaines chaînes de télévision</li>
+<li>H264 (ou AVC - Advanced Video Coding) fait partie de la norme MPEG-4 (différent de MP4, qui est un conteneur, voir plus bas)</li>
+<li>H265 (ou HEVC - High Efficiency Video Coding) qui à qualité visuelle également génèrera un fichier vidéo plus léger, il est surtout utilisé pour l&rsquo;enregistrement dans des petits dispositifs qui capturent en 4K/UHD comme des drones ou des caméras d&rsquo;action</li>
+<li>VP8/VP9, les codecs de Google sont plus performants que les H264 et H265, utilisé notamment par YouTube et qu&rsquo;il est recommandé d&rsquo;utiliser pour la publication sur la plateforme</li>
+<li>AV1, le plus performant actuellement, il est open source mais encore peu répandu même si très apprécié des plateformes de streaming</li>
+</ul>
+<p>D&rsquo;autres codecs sont à venir comme le H266 (ou VVC - Versatile Video Coding) et le AV2.</p>
+<p>Pour les métiers des VFX ou de l&rsquo;étalonnage, il est nécessaire d&rsquo;avoir les fichiers avec le plus d&rsquo;informations possibles. Ce n&rsquo;est pas recommandé non plus en montage, car plus un fichier est compressé, plus le décodage à la volée demandera des ressources à l&rsquo;ordinateur, et une quantité importante de vidéos compressées dans un logiciel de montage peut rendre l&rsquo;expérience plus difficile. De plus, ces codecs utilisent une méthode de compréhension nommée <strong>Long GOP</strong> (Group Of Pictures) dont le principe est de compresser via des groupes d&rsquo;images selon trois types :</p>
+<ul>
+<li>les I Frame (Intra Frame) où le codec va enregistrer toute l&rsquo;image, elle est peu ou pas compressée, elle sert de référence</li>
+<li>les P Frame (Predictive Frame) et B Frame (Bidirectional predictive Frame) qui ne garderont les différences avec l&rsquo;image de référence (I Frame)</li>
+</ul>
+<p><a href="#R-image-a3fb4f59df03c6556f20ee35aa4388e0" class="lightbox-link"><img alt="Schéma explicatif du long GOP" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/I_P_and_B_frames.svg/1920px-I_P_and_B_frames.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a3fb4f59df03c6556f20ee35aa4388e0"><img alt="Schéma explicatif du long GOP" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/I_P_and_B_frames.svg/1920px-I_P_and_B_frames.svg.png"></a></p>
+<p>C&rsquo;est pour cette raison, à chaque fois qu&rsquo;on fait un arrêt sur une frame précise, qu&rsquo;on a une chance sur X (dépend du codec) de tomber sur une P ou B Frame que l&rsquo;ordinateur doit recalculer à partir de son image de référence, ce qui n&rsquo;est absolument pas optimal.</p>
+<p>À noter qu&rsquo;il existe d&rsquo;autres méthodes de compression comme l&rsquo;INTRA qui ne contient que des I Frame, moins efficace que le Long GOP, plus utilisé dans les codecs de montage.</p>
+<h2 id="codecs-de-montage">Codecs de montage</h2>
+<p>Il en existe deux grandes familles. D&rsquo;abord, dans la famille <strong>Apple</strong>, créés avec l&rsquo;arrivée de Final Cut, dont les plus courants sont, du plus au moins compressif et donc du plus léger au plus lourd :</p>
+<ul>
+<li>Apple ProRes Proxy</li>
+<li>Apple ProRes 422</li>
+<li>Apple ProRes 422HQ</li>
+<li>Apple ProRes 4444</li>
+<li>Apple ProRes 4444 XQ</li>
+</ul>
+<p>Ces différents codecs existent aussi pour répondre aux besoins différents métiers, les monteurs nécessitent moins d&rsquo;informations que les étalonneurs ou les VFX.</p>
+<p>Bien que le transcodage permette par exemple de changer la méthode de compression d&rsquo;un codec de diffusion (H264) à un codec de montage (Apple ProRes Proxy), donc de Long GOP à INTRA, ce qui doit fluidifier le montage car il n&rsquo;y a plus que des I Frame, cela ne peut pas pour autant recréer les informations qui ont été perdues à l&rsquo;encodage.</p>
+<p>L&rsquo;autre famille c&rsquo;est <strong>DNx du constructeur AVID</strong> avec deux sous-familles le DNxHD, plus ancienne avec des codecs permettant d&rsquo;aller jusqu&rsquo;au Full HD dans des framerates très normés, et le DNxHR pour tout le reste.</p>
+<p>Dans l&rsquo;ordre du plus au moins compressif :</p>
+<ul>
+<li>DNxHD LB (anciennement <em>DNxHD 36</em>)</li>
+<li>DNxHD SQ (anciennement <em>DNxHD 120</em>)</li>
+<li>DNxHD HQ (anciennement <em>DNxHD 185</em>)</li>
+<li>DNxHD HQx (anciennement <em>DNxHD 185x</em>)
+et</li>
+<li>DNxHR LB</li>
+<li>DNxHR SQ</li>
+<li>DNxHR HQ</li>
+<li>DNxHR HQx</li>
+<li>DNxHR 444</li>
+</ul>
+<p>À cas d&rsquo;usage similaire, un codec équivalent de chaque famille est quasiment identique à quelques subtilités près.</p>
+<p>À noter que le <em>x</em> de HQx indique qu&rsquo;il peut aller jusqu&rsquo;à 10 bits de profondeur de pixel.</p>
+<h2 id="codecs-denregistrement">Codecs &ldquo;d&rsquo;enregistrement&rdquo;</h2>
+<p>Ces codecs issus essentiellement des fabricants de caméras compressent extrêmement peu. Ils peuvent en sortir régulièrement, et tous les logiciels ne sont pas compatibles avec tous ces codecs, il peut être utile de se renseigner auprès du constructeur afin de connaître son utilisation dans son workflow. Quand bien même ils possèdent souvent la dénomination RAW, c&rsquo;est un abus de langage car le simple fait que ce soit un codec n&rsquo;en fait pas du RAW.</p>
+<p>Dans les plus courants, on a :</p>
+<ul>
+<li>Blackmagic RAW</li>
+<li>REDcode RAW</li>
+<li>Sony X-OCN</li>
+<li>ArriRAW</li>
+<li>Apple ProRes RAW</li>
+</ul>
+<p>Bien qu&rsquo;étant peu compressés, ces codecs ne sont pas adaptés au montage car l&rsquo;immense quantité de données des fichiers en question rend la lecture très compliquée dû à la vitesse trop limitée des solutions de stockage (HDD, SDD). C&rsquo;est pourquoi on utilise des proxys parmi les codecs de montage.</p>
+<h2 id="bitrate--débit-vidéo">Bitrate / Débit vidéo</h2>
+<p>Définit comme la quantité d&rsquo;information par seconde de vidéo, notée en bits/seconde. Les codecs de montage n&rsquo;étant pas concerné par la question du poids, on s&rsquo;intéressera surtout au bitrate pour les codecs de diffusion.</p>
+<p>Par exemple, pour un fichier 1080p25 encodé en H264, la meilleure qualité visuelle atteignable se trouve pour un bitrate de 15Mbits/s. C&rsquo;est une valeur de référence connue. Dans ce cas, il est donc inutile d&rsquo;aller plus haut et à l&rsquo;inverse, on peut donc réduire le bitrate pour alléger le fichier, aux dépends de la qualité, sachant qu&rsquo;on garde une image magnifique entre 10 et 15Mbits/s.</p>
+<p>Logiquement pour une vidéo H264 en UHD à 25ips aura une qualité maximale à 60Mb/s (4 fois plus de pixels), 30Mb/s pour une vidéo Full HD à 50ips (2 fois plus d&rsquo;images).
+Pour les autres codecs, notamment plus performants comme VP8/VP9 ou AV1, forcément à qualité égale le bitrate sera plus faible, mais connaître cette valeur &ldquo;maximale&rdquo; est à chercher.</p>
+<h2 id="cbr--vbr">CBR / VBR</h2>
+<p>Ce sont deux traitements de débit vidéo différents :</p>
+<ul>
+<li>CBR : Constant BitRate</li>
+<li>VBR : Variable BitRate</li>
+</ul>
+<p>Dans le premier cas c&rsquo;est simple, chaque seconde de vidéo aura un bitrate fixe, par exemple 15Mb/s. Dans le deuxième, on choisit une fourchette, entre 10 et 15Mb/s par exemple, alors le codec donnera plus de bitrate pour les scènes compliquées à encoder, et moins pour les scènes plus simples. Ainsi, en VBR, la qualité sera équivalente au CBR mais le poids du fichier sera sensiblement plus léger, plus optimisé.</p>
+<p><a href="#R-image-9eefbcc480c0201cc5345dfdfe7097a7" class="lightbox-link"><img alt="Comparaison CBR / VBR" class="lazy lightbox figure-image" loading="lazy" src="https://streaminglearningcenter.com/wp-content/uploads/2021/07/OTT_MI_5-476x525.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9eefbcc480c0201cc5345dfdfe7097a7"><img alt="Comparaison CBR / VBR" class="lazy lightbox lightbox-image" loading="lazy" src="https://streaminglearningcenter.com/wp-content/uploads/2021/07/OTT_MI_5-476x525.png"></a></p>
+<h2 id="les-conteneurs">Les conteneurs</h2>
+<p>Différent du codec, improprement appelés extension, c&rsquo;est le grand tiroir dans lequel on range tous les flux (audio / vidéo / sous-titres…) du fichier vidéo.</p>
+<p>Quelques exemples connus :</p>
+<ul>
+<li>MOV (Apple QuickTime)</li>
+<li>MP4  (MPEG4)</li>
+<li>AVI</li>
+<li>MXF (AVID)</li>
+<li>MKV Matroska</li>
+<li>WebM</li>
+</ul>
+<p>Les conteneurs sont relativement indépendants des codecs, un MOV peut contenir du H264 comme du ProRes, le MP4 peut contenir du H264 également.</p>
+<h2 id="fichiers-raw">Fichiers RAW</h2>
+<p>Les fichiers RAW contiennent des images directement issues du capteur sans codec. Mais du coup, elles ne sont pas lisibles, l&rsquo;intérêt étant de pouvoir choisir le codec, et un espace colorimétrique, on appelle ça la débayerisation.</p>
+<p><a href="#R-image-0193fea77d952c26b683f03445ef7254" class="lightbox-link"><img alt="Matrice de Bayer" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bayer_pattern_on_sensor.svg/1024px-Bayer_pattern_on_sensor.svg.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0193fea77d952c26b683f03445ef7254"><img alt="Matrice de Bayer" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bayer_pattern_on_sensor.svg/1024px-Bayer_pattern_on_sensor.svg.png"></a></p>
+<p>Bien que la dénomination RAW sur les codecs d&rsquo;enregistrement, ils permettent tout de même d&rsquo;avoir plus la main sur le fichier et de pouvoir appliquer des traitements supplémentaires.</p>
 
   <footer class="footline">
   </footer>
@@ -180,13 +291,13 @@
       <div id="R-content-wrapper" class="highlightable">
         <div class="R-sidebarmenu R-shortcutmenu-main">
           <ul class="enlarge morespace collapsible-menu">
-            <li class="headless " data-nav-url=""><input type="checkbox" id="R-section-3275eb1e7e055f7cb2e04adbf9e09255" aria-controls="R-subsections-3275eb1e7e055f7cb2e04adbf9e09255"><label for="R-section-3275eb1e7e055f7cb2e04adbf9e09255"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Bases de la vidéo</span></label><span class="padding">&nbsp;<i class="fa-solid fa-photo-film"></i>&nbsp;Bases de la vidéo</span><ul id="R-subsections-3275eb1e7e055f7cb2e04adbf9e09255" class="collapsible-menu">
+            <li class="parent headless " data-nav-url=""><input type="checkbox" id="R-section-3275eb1e7e055f7cb2e04adbf9e09255" aria-controls="R-subsections-3275eb1e7e055f7cb2e04adbf9e09255" checked><label for="R-section-3275eb1e7e055f7cb2e04adbf9e09255"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Bases de la vidéo</span></label><span class="padding">&nbsp;<i class="fa-solid fa-photo-film"></i>&nbsp;Bases de la vidéo</span><ul id="R-subsections-3275eb1e7e055f7cb2e04adbf9e09255" class="collapsible-menu">
             <li class="" data-nav-url="/cours-eanis/01-bases-video/01-definition-image/index.html"><a class="padding" href="/cours-eanis/01-bases-video/01-definition-image/index.html">Définition Image</a></li>
             <li class="" data-nav-url="/cours-eanis/01-bases-video/02-aspect-ratio/index.html"><a class="padding" href="/cours-eanis/01-bases-video/02-aspect-ratio/index.html">Aspect Ratio</a></li>
             <li class="" data-nav-url="/cours-eanis/01-bases-video/03-framerate/index.html"><a class="padding" href="/cours-eanis/01-bases-video/03-framerate/index.html">Framerate</a></li>
             <li class="" data-nav-url="/cours-eanis/01-bases-video/04-anamorphose/index.html"><a class="padding" href="/cours-eanis/01-bases-video/04-anamorphose/index.html">Anamorphose</a></li>
             <li class="" data-nav-url="/cours-eanis/01-bases-video/05-affichage/index.html"><a class="padding" href="/cours-eanis/01-bases-video/05-affichage/index.html">Affichage</a></li>
-            <li class="" data-nav-url="/cours-eanis/01-bases-video/06-codecs/index.html"><a class="padding" href="/cours-eanis/01-bases-video/06-codecs/index.html">Codecs</a></li></ul></li>
+            <li class="active " data-nav-url="/cours-eanis/01-bases-video/06-codecs/index.html"><a class="padding" href="/cours-eanis/01-bases-video/06-codecs/index.html">Codecs</a></li></ul></li>
             <li class="headless " data-nav-url=""><input type="checkbox" id="R-section-783cdce1b229ff0287ad57aff1e76404" aria-controls="R-subsections-783cdce1b229ff0287ad57aff1e76404"><label for="R-section-783cdce1b229ff0287ad57aff1e76404"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Couleurs</span></label><span class="padding">&nbsp;<i class="fa-solid fa-palette"></i>&nbsp;Couleurs</span><ul id="R-subsections-783cdce1b229ff0287ad57aff1e76404" class="collapsible-menu">
             <li class="" data-nav-url="/cours-eanis/02-couleurs/01-espaces-colorimetriques/index.html"><a class="padding" href="/cours-eanis/02-couleurs/01-espaces-colorimetriques/index.html">Espaces Colorimétriques</a></li>
             <li class="" data-nav-url="/cours-eanis/02-couleurs/02-echantillonage/index.html"><a class="padding" href="/cours-eanis/02-couleurs/02-echantillonage/index.html">Échantillonage</a></li>

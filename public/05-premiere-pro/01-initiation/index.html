@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.152.2">
+    <meta name="generator" content="Relearn 8.1.1+9d74be278d6e8456f2f18305c9b27e38bc2de91c">
+    <meta name="description" content="Démarrage d’un projet, raccourcis…">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Initiation :: Cours EANIS">
+    <meta name="twitter:description" content="Démarrage d’un projet, raccourcis…">
+    <meta property="og:url" content="https://sylvainconny.github.io/cours-eanis/05-premiere-pro/01-initiation/index.html">
+    <meta property="og:site_name" content="Cours EANIS">
+    <meta property="og:title" content="Initiation :: Cours EANIS">
+    <meta property="og:description" content="Démarrage d’un projet, raccourcis…">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Initiation :: Cours EANIS">
+    <meta itemprop="description" content="Démarrage d’un projet, raccourcis…">
+    <meta itemprop="wordCount" content="1707">
+    <title>Initiation :: Cours EANIS</title>
+    <link href="/cours-eanis/05-premiere-pro/01-initiation/index.xml" rel="alternate" type="application/rss+xml" title="Initiation :: Cours EANIS">
+    <link href="/cours-eanis/css/auto-complete/auto-complete.min.css?1763198050" rel="stylesheet">
+    <script src="/cours-eanis/js/auto-complete/auto-complete.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/search-lunr.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/search.min.js?1763198050" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/cours-eanis/searchindex.fr.js?1763198050";
+    </script>
+    <script src="/cours-eanis/js/lunr/lunr.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.stemmer.support.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.multi.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/lunr/lunr.fr.min.js?1763198050" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['fr'];
+    </script>
+    <link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1763198050" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cours-eanis/fonts/fontawesome/css/fontawesome-all.min.css?1763198050" rel="stylesheet"></noscript>
+    <link href="/cours-eanis/css/perfect-scrollbar/perfect-scrollbar.min.css?1763198050" rel="stylesheet">
+    <link href="/cours-eanis/css/theme.min.css?1763198050" rel="stylesheet">
+    <link href="/cours-eanis/css/format-html.min.css?1763198050" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/05-premiere-pro\/01-initiation\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/sylvainconny.github.io\/cours-eanis';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copier dans le presse-papiers`;
+      window.T_Copied_to_clipboard = `Copié dans le presse-papiers!`;
+      window.T_Copy_link_to_clipboard = `Copier le lien dans le presse-papiers`;
+      window.T_Link_copied_to_clipboard = `Lien copié dans le presse-papiers!`;
+      window.T_Reset_view = `Réinitialiser la vue`;
+      window.T_View_reset = `Vue réinitialisée!`;
+      window.T_No_results_found = `Aucun résultat trouvé pour "{0}"`;
+      window.T_N_results_found = `{1} résultats trouvés pour "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/cours-eanis/05-premiere-pro/01-initiation/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table des matières (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#démarrage">Démarrage</a></li>
+    <li><a href="#créer-une-séquence">Créer une séquence</a></li>
+    <li><a href="#source">Source</a></li>
+    <li><a href="#outils">Outils</a>
+      <ul>
+        <li><a href="#sélection-par-défaut-hahahugoshortcode23s4hbhb">Sélection par défaut HAHAHUGOSHORTCODE23s4HBHB</a></li>
+        <li><a href="#sélection-en-amont-hahahugoshortcode23s6hbhb">Sélection en amont HAHAHUGOSHORTCODE23s6HBHB</a></li>
+        <li><a href="#allongement-hahahugoshortcode23s11hbhb">Allongement HAHAHUGOSHORTCODE23s11HBHB</a></li>
+        <li><a href="#déplacement-de-la-coupe-hahahugoshortcode23s12hbhb">Déplacement de la coupe HAHAHUGOSHORTCODE23s12HBHB</a></li>
+        <li><a href="#modification-de-la-vitesse-hahahugoshortcode23s13hbhb">Modification de la vitesse HAHAHUGOSHORTCODE23s13HBHB</a></li>
+        <li><a href="#cutter-hahahugoshortcode23s16hbhb">Cutter HAHAHUGOSHORTCODE23s16HBHB</a></li>
+        <li><a href="#déplacer-la-sélection-hahahugoshortcode23s20hbhb">Déplacer la sélection HAHAHUGOSHORTCODE23s20HBHB</a></li>
+        <li><a href="#déplacer-le-plan-hahahugoshortcode23s22hbhb">Déplacer le plan HAHAHUGOSHORTCODE23s22HBHB</a></li>
+        <li><a href="#outil-plume-hahahugoshortcode23s23hbhb">Outil plume HAHAHUGOSHORTCODE23s23HBHB</a></li>
+        <li><a href="#calques">Calques</a></li>
+        <li><a href="#main-hahahugoshortcode23s24hbhb">Main HAHAHUGOSHORTCODE23s24HBHB</a></li>
+        <li><a href="#zoom-hahahugoshortcode23s25hbhb">Zoom HAHAHUGOSHORTCODE23s25HBHB</a></li>
+        <li><a href="#texte-hahahugoshortcode23s30hbhb">Texte HAHAHUGOSHORTCODE23s30HBHB</a></li>
+        <li><a href="#magnétisme-hahahugoshortcode23s31hbhb">Magnétisme HAHAHUGOSHORTCODE23s31HBHB</a></li>
+        <li><a href="#marques-hahahugoshortcode23s32hbhb">Marques HAHAHUGOSHORTCODE23s32HBHB</a></li>
+      </ul>
+    </li>
+    <li><a href="#la-timeline">La timeline</a></li>
+    <li><a href="#différence-de-tailles">Différence de tailles</a></li>
+    <li><a href="#libellés">Libellés</a></li>
+    <li><a href="#match-frame">Match Frame</a></li>
+    <li><a href="#détection-dun-montage-de-scène">Détection d&rsquo;un montage de scène</a></li>
+    <li><a href="#auto-save">Auto-Save</a></li>
+    <li><a href="#top--tail">Top &amp; Tail</a></li>
+    <li><a href="#gestion-du-son">Gestion du son</a></li>
+    <li><a href="#calque-deffet">Calque d&rsquo;effet</a></li>
+    <li><a href="#raccourcis-utiles">Raccourcis utiles</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cours-eanis/index.html"><span itemprop="name">Accueil</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Premiere Pro</span><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Initiation</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/sylvainconny/cours-eanis/edit/main/content/05-premiere-pro/01-initiation/_index.md" rel="external" title="Éditer (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cours-eanis/04-analyse-filmique/07-couleurs/index.html" title="Couleurs (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cours-eanis/05-premiere-pro/02-effets/index.html" title="Effets (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Aller plus loin"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 05-premiere-pro" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="initiation">Initiation</h1>
+
+<p><strong>NB:</strong> les commandes écrites ici sont pour Windows sont équivalentes pour Mac, il faut remplacer <kbd>Ctrl</kbd> par <kbd>Cmd</kbd> et <kbd>Alt</kbd> par <kbd>Option</kbd>.</p>
+<h2 id="démarrage">Démarrage</h2>
+<ol>
+<li>Dans le panneau projet, créer trois chutiers :</li>
+</ol>
+
+<div class="list-tree"><ul>
+<li><i class="fa-fw fas fa-folder"></i><span>01_EDIT</span></li>
+<li><i class="fa-fw fas fa-folder"></i><span>02_RUSHES</span></li>
+<li><i class="fa-fw fas fa-folder"></i><span>03_AUDIO</span></li>
+<li><i class="fa-fw fas fa-folder"></i><span>04_HABILLAGES</span></li>
+</ul>
+</div>
+<ol start="2">
+<li>Glisser les rushes dans le dossier <strong>02_RUSHES</strong>  (on peut le faire à l&rsquo;import, dans l&rsquo;option <em>Nouveau chutier</em>, on peut aussi en profiter pour créer une séquence <em>Bout à bout</em>)</li>
+<li>Privilégier l&rsquo;affichage en mode liste des chutiers plutôt qu&rsquo;en mode Icône, ne serait-ce que pour économiser les ressources de l&rsquo;affichage des images</li>
+<li>Glisser les séquences (timelines) dans le dossier <strong>01_EDIT</strong></li>
+</ol>
+<pre class="mermaid align-center ">block-beta
+    columns 4
+        t[&#34;01:30:25:10&#34;]:4
+        HH MM SS Images</pre>
+<p>Afin d&rsquo;éviter que le panneau <em>Projet</em> ouvre un nouveau panneau à chaque fois qu&rsquo;on souhaite ouvrir un chutier, aller dans <strong>Edition &gt; Préférences &gt; Générales</strong>, dans l&rsquo;encadré Chutiers changer <em>Double-clic</em> en &ldquo;Ouvrir dans la fenêtre&rdquo;.</p>
+<p>En mode liste, on peut aussi modifier les métadonnées qu&rsquo;on affiche pour se limiter à la définition, la durée, la fréquence par exemple et enregistrer ces préférences.</p>
+<h2 id="créer-une-séquence">Créer une séquence</h2>
+<ol>
+<li>Dans le panneau projet, sur le bouton *Nouvel élément&quot;</li>
+<li>Choisir Séquence dans le menu contextuel</li>
+<li>Cliquer sur l&rsquo;onglet Réglages de la fenêtre <em>Nouvelle séquence</em></li>
+<li>Choisir <em>Personnalisé</em> sur le menu déroulant <em>Mode de montage</em></li>
+<li>Régler les paramètres de la séquence en fonction du contexte du projet</li>
+</ol>
+<p><a href="#R-image-2d494b34674b96c55279293f53dc3213" class="lightbox-link"><img alt="Nouvelle séquence" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/nouvelle-sequence.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2d494b34674b96c55279293f53dc3213"><img alt="Nouvelle séquence" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/nouvelle-sequence.png"></a></p>
+<p>À noter pour gérer les réglages plus rapidement, on peut glisser / déplacer un rush représentatif des paramètres souhaités sur le bouton <em>Nouvel élément</em>.</p>
+<h2 id="source">Source</h2>
+<p>Dans la fenêtre source, sous la visionneuse il y a deux icônes <em>Pellicule</em> et <em>Waveform</em> qui permettent de ne sélectionner que la vidéo ou que l&rsquo;audio de la sélection.</p>
+<p><a href="#R-image-83d10776578d1f4437607cbb4684d2cf" class="lightbox-link"><img alt="Panneau Source" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/panneau-source.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-83d10776578d1f4437607cbb4684d2cf"><img alt="Panneau Source" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/panneau-source.png"></a></p>
+<p>On peut n&rsquo;ajouter que l&rsquo;audio ou la vidéo en désélectionnant la source (A1 ou V1).</p>
+<p><a href="#R-image-683d9073521ea1f7ccaec9b050d48098" class="lightbox-link"><img alt="Entrée source" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/source-entree.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-683d9073521ea1f7ccaec9b050d48098"><img alt="Entrée source" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/source-entree.png"></a></p>
+<h2 id="outils">Outils</h2>
+<h3 id="sélection-par-défaut-hahahugoshortcode23s4hbhb">Sélection par défaut <kbd>V</kbd></h3>
+<p>Dans ce mode on peut sélectionner les vidéos et surtout raccourcir les plans :</p>
+<ul>
+<li>par défaut, l&rsquo;icône est rouge :
+<ul>
+<li>un raccourcissement laissera un blanc</li>
+<li>un rallongement détruira les plans connexes</li>
+</ul>
+</li>
+<li>en maintenant <kbd>Ctrl</kbd>
+<ul>
+<li>à la fin ou au début d&rsquo;un plan, l&rsquo;icône devient jaune et l&rsquo;outil devient Allongement</li>
+<li>la souris placée entre deux plans, l&rsquo;outil devient un déplacement de coupe</li>
+</ul>
+</li>
+</ul>
+<h3 id="sélection-en-amont-hahahugoshortcode23s6hbhb">Sélection en amont <kbd>A</kbd></h3>
+<p>Permet de sélectionner toutes les pistes qu&rsquo;il y a après la souris
+<a href="#R-image-6029354a5a74cb8866a354b7247bfd39" class="lightbox-link"><img alt="Sélection en amont" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/outils-selection-amont.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6029354a5a74cb8866a354b7247bfd39"><img alt="Sélection en amont" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/outils-selection-amont.png"></a></p>
+<ul>
+<li>Maintenir <kbd>Maj</kbd> permet de ne sélectionner qu&rsquo;une seule piste</li>
+<li><kbd>Maj</kbd> + <kbd>A</kbd> retourner la direction de la sélection, sélectionne tout ce qu&rsquo;il y a avant la souris (rappuyer sur <kbd>A</kbd> pour revenir à la sélection vers la droite)</li>
+</ul>
+<h3 id="allongement-hahahugoshortcode23s11hbhb">Allongement <kbd>B</kbd></h3>
+<ul>
+<li>Permet de réduire une vidéo sans laisser de vide, raccorde le reste de la timeline</li>
+<li>Peut également rallonger le plan sans destruction des vidéos connexes</li>
+</ul>
+<h3 id="déplacement-de-la-coupe-hahahugoshortcode23s12hbhb">Déplacement de la coupe <kbd>N</kbd></h3>
+<p>Entre deux plans, raccourci l&rsquo;un et rallonge l&rsquo;autre</p>
+<h3 id="modification-de-la-vitesse-hahahugoshortcode23s13hbhb">Modification de la vitesse <kbd>R</kbd></h3>
+<p>Permet d&rsquo;accélérer ou de ralentir un plan en sélectionnant / déplaçant les bords de la vidéo. Privilégier le raccourcis <kbd>Ctrl</kbd> + <kbd>R</kbd> qui permet de précisément définir la nouvelle vitesse.</p>
+<p><a href="#R-image-b425d68bb9594d5da73f9cf67412f6ca" class="lightbox-link"><img alt="Fenêtre Vitesse/Durée e l&rsquo;élément" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/vitesse-element.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b425d68bb9594d5da73f9cf67412f6ca"><img alt="Fenêtre Vitesse/Durée e l&rsquo;élément" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/vitesse-element.png"></a></p>
+<p>Cette fenêtre permet de modifier précisément la vitesse et la durée du clip. Si les deux sont liés, une vitesse à 200% réduira de moitié le clip, une vitesse à 50% doublera la durée. On peut cependant délier la vitesse et la durée, le logiciel ira récupérer des images sur la suite de la source si possible et nécessaire. Une vitesse négative inversera le déroulement de la vidéo.</p>
+<p>L&rsquo;option <em>Propagation (décalage des éléments de fin)</em> permet de ne pas créer de trou dans la timeline ou d&rsquo;écraser les éléments suivants.</p>
+<h3 id="cutter-hahahugoshortcode23s16hbhb">Cutter <kbd>C</kbd></h3>
+<p>Coupe un plan ou plusieurs plans, peut être utilisé avec la tête de lecture dans n&rsquo;importe quel mode avec <kbd>Ctrl</kbd> + <kbd>K/C</kbd> qu&rsquo;on aura modifié en <kbd>C</kbd> dans Raccourcis clavier (<em>Ajouter une coupe</em>) pour remplacer le passage à l&rsquo;outil cutter. Précision importante, l&rsquo;outil coupe soit le plan sélectionné, soit les plans des pistes sélectionnés.</p>
+<h3 id="déplacer-la-sélection-hahahugoshortcode23s20hbhb">Déplacer la sélection <kbd>Y</kbd></h3>
+<p>Permet de déplacer la position du <em>in</em> et du <em>out</em> de la vidéo sans changer la durée ou la position du plan dans la timeline.</p>
+<div class="video-container">
+  <video
+    controls
+    autoplay
+    loop
+    muted
+    playsinline
+  >
+    <source src="./deplacer-selection-y.webm" type="video/webm">
+    Votre navigateur ne supporte pas la vidéo WebM.
+  </video>
+</div>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;  
+  margin: 0 auto;    
+  aspect-ratio: 16 / 9;  
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+.video-container video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+</style>
+
+<h3 id="déplacer-le-plan-hahahugoshortcode23s22hbhb">Déplacer le plan <kbd>U</kbd></h3>
+<p>Fais glisser le plan dans la timeline sans modifier la position du <em>in</em> et du <em>out</em> de la vidéo en écrasant éventuellement les plans connexes. Ne modifie pas la timeline.</p>
+<h3 id="outil-plume-hahahugoshortcode23s23hbhb">Outil plume <kbd>P</kbd></h3>
+<p>Utile au masking ou l&rsquo;utilisation de keyframes, mais ce genre d&rsquo;actions est plus confortable sur Adobe After Effects.</p>
+<h3 id="calques">Calques</h3>
+<p>Comme l&rsquo;outil plume mais avec des formes prédéfinies : rectangle, ellipse, polygone.</p>
+<h3 id="main-hahahugoshortcode23s24hbhb">Main <kbd>H</kbd></h3>
+<p>Déplacement manuel de la  timeline ou déplacement.
+Permet également de déplacer la source ou le programme. En mode Sélection par défaut, on peut utiliser le bouton molette maintenu également.</p>
+<h3 id="zoom-hahahugoshortcode23s25hbhb">Zoom <kbd>Z</kbd></h3>
+<p>Zoom dans la timeline. <kbd>Alt</kbd> pour dézoomer.
+Meilleurs raccourcis dans d&rsquo;autres modes :</p>
+<ul>
+<li><kbd>+</kbd> pour dézoomer la timeline</li>
+<li><kbd>-</kbd> pour dézoomer la timeline</li>
+<li><kbd>Alt</kbd>+ molette pour zoomer / dézoomer la timeline</li>
+</ul>
+<h3 id="texte-hahahugoshortcode23s30hbhb">Texte <kbd>T</kbd></h3>
+<p>Permet d&rsquo;ajouter du texte dans le panneau programme.</p>
+<h3 id="magnétisme-hahahugoshortcode23s31hbhb">Magnétisme <kbd>S</kbd></h3>
+<p>Magnétise / démagnétise les plans les uns aux autres.</p>
+<h3 id="marques-hahahugoshortcode23s32hbhb">Marques <kbd>M</kbd></h3>
+<p>Ajoute des marques sur la timeline ou sur les plans sélectionnés.
+Pour éviter qu&rsquo;elles changent de place en fonction des modifications de la séquence, aller dans le menu &gt; <em>Marques</em> &gt; décocher <em>Les marques suivent la séquence</em>.</p>
+<p><a href="#R-image-a7dff833931e907c82d8d02e7c0b14ac" class="lightbox-link"><img alt="Marques" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/marques.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a7dff833931e907c82d8d02e7c0b14ac"><img alt="Marques" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/marques.png"></a></p>
+<h2 id="la-timeline">La timeline</h2>
+<ul>
+<li><strong>Déplacement horizontal</strong> :
+<ul>
+<li>la molette</li>
+<li>les touches <kbd>⬅</kbd> / <kbd>➡</kbd> du clavier pour un déplacement précis</li>
+<li><kbd>Maj</kbd> + <kbd>⬅</kbd> / <kbd>➡</kbd> permettent un déplacement plus rapide</li>
+<li>flèche du haut / flèche du bas pour un déplacement de cut en cut</li>
+<li>touche <kbd>Début</kbd> et touche <kbd>Fin</kbd> pour aller au début ou à la fin de la timeline</li>
+</ul>
+</li>
+<li><strong>Déplacement vertical</strong> : <kbd>Ctrl</kbd> + <kbd>molette</kbd></li>
+<li><strong>Changer la hauteur des pistes</strong> : dans la zone de description des pistes,
+<ul>
+<li><kbd>Maj</kbd> + <kbd>molette</kbd> change la taille de toutes les pistes audio ou vidéo</li>
+<li><kbd>Alt</kbd> + <kbd>molette</kbd> change la taille de la piste sur laquelle est positionnée la souris</li>
+<li><kbd>Double-clic</kbd> sur une piste change sa taille selon deux hauteurs prédéfinies</li>
+</ul>
+</li>
+<li><strong>Options de pistes</strong> :
+<ul>
+<li><em>Activer visibilité de la piste</em> permet de masquer une piste vidéo dans la visionneuse Programme</li>
+<li><em>Mute</em> désactive le son d&rsquo;une piste audio</li>
+<li><em>Solo</em> n&rsquo;active que cette piste audio et mute les autres</li>
+<li><em>Cadenas</em> verrouille la piste, donc les éléments audio ou vidéo qui y sont ne bougeront plus
+<a href="#R-image-3884fba79aa9af3fd4cb76a71ba4697f" class="lightbox-link"><img alt="Options pistes" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/options-pistes.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3884fba79aa9af3fd4cb76a71ba4697f"><img alt="Options pistes" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/options-pistes.png"></a></li>
+<li><em>Activer / Verrouillage de synchronisation</em> active ou désactive la synchronisation des pistes. Si une piste est déplacée, les pistes désynchronisées ne seront pas impactées
+<a href="#R-image-d0cebc03ded52d033f54db7e88c0cbbb" class="lightbox-link"><img alt="Activer / Verrouillage de synchronisation" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/synchronisation.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d0cebc03ded52d033f54db7e88c0cbbb"><img alt="Activer / Verrouillage de synchronisation" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/synchronisation.png"></a></li>
+</ul>
+</li>
+</ul>
+<h2 id="différence-de-tailles">Différence de tailles</h2>
+<p>Si on dans le menu contextuel d&rsquo;un plan moins défini que la séquence, on peut ajuster ou définir le plan en fonction de la taille de l&rsquo;image. Définir va modifier l&rsquo;échelle dans les <strong>options d&rsquo;effet</strong> ajuster va juste zoomer dans l&rsquo;image.</p>
+<h2 id="libellés">Libellés</h2>
+<p>Pratiques de changer la couleur des plans pour rapidement les différencier notamment dans le panneau <em>Projet</em>. On a utilisé le clavier numérique pour <strong>binder</strong> des libellés rapidement.</p>
+<div class="video-container">
+  <video
+    controls
+    autoplay
+    loop
+    muted
+    playsinline
+  >
+    <source src="./libelles.webm" type="video/webm">
+    Votre navigateur ne supporte pas la vidéo WebM.
+  </video>
+</div>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;  
+  margin: 0 auto;    
+  aspect-ratio: 16 / 9;  
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+.video-container video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+</style>
+
+<h2 id="match-frame">Match Frame</h2>
+<p>En appuyant sur <kbd>F</kbd> dans la <em>séquence</em>, ça permet d&rsquo;activer le <strong>Match Frame</strong> et de retrouver le plan dans la <em>source</em> qui sera présélectionné avec un <em>in</em> et un <em>out</em> avec l&rsquo;exact même moment que le plan de la séquence. Fonctionne avec l&rsquo;audio et la vidéo.</p>
+<h2 id="détection-dun-montage-de-scène">Détection d&rsquo;un montage de scène</h2>
+<p>Dans le menu, aller dans <strong>Elément &gt; Détection d&rsquo;un montage de scène</strong>, ouvre une fenêtre, choisir au moins la première case. Le logiciel va analyser l&rsquo;élément vidéo et découper chaque plan. Attention, il peut y avoir des erreurs même si cette fonctionnalité devient de plus en plus performante avec les versions.</p>
+<h2 id="auto-save">Auto-Save</h2>
+<p>Dans <strong>Edition &gt; Préférences &gt; Enregistrement automatique</strong>, on peut choisir tous les X minutes Premiere Pro fais une sauvegarde du projet et le nombre maximum du projet. Par défaut, on enregistre tous les 5 minutes jusqu&rsquo;à 20 projets, donc on peut revenir jusqu&rsquo;à 1h40 en arrière.</p>
+<h2 id="top--tail">Top &amp; Tail</h2>
+<p>Supprime toute une partie du plan depuis l&rsquo;emplacement de la tête de lecture,</p>
+<ul>
+<li>jusqu&rsquo;au début avec <strong>Top</strong> <kbd>Q</kbd></li>
+<li>jusqu&rsquo;à la fin avec <strong>Tail</strong> <kbd>W</kbd></li>
+</ul>
+<div class="video-container">
+  <video
+    controls
+    autoplay
+    loop
+    muted
+    playsinline
+  >
+    <source src="./top-tail.webm" type="video/webm">
+    Votre navigateur ne supporte pas la vidéo WebM.
+  </video>
+</div>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;  
+  margin: 0 auto;    
+  aspect-ratio: 16 / 9;  
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+.video-container video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+</style>
+
+<h2 id="gestion-du-son">Gestion du son</h2>
+<p><kbd>G</kbd> pour modifier le gain audio d&rsquo;un ou plusieurs audios sélectionnés.
+<a href="#R-image-8a642eaaef074cc1fd27dfb231ef813f" class="lightbox-link"><img alt="Gain audio" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/gain-audio.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a642eaaef074cc1fd27dfb231ef813f"><img alt="Gain audio" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/gain-audio.png"></a></p>
+<p>Sur l&rsquo;audio, on peut directement ajouter des <em>images clé</em> avec <kbd>Ctrl</kbd> + <kbd>Clic</kbd>, et faire varier le gain de ces différents points.</p>
+<p><a href="#R-image-8401d366257dfd6c89cd4b08c5673c44" class="lightbox-link"><img alt="Images clé" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/audio-keys.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8401d366257dfd6c89cd4b08c5673c44"><img alt="Images clé" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/audio-keys.png"></a></p>
+<p>On peut gérer également la tonalité de l&rsquo;audio avec l&rsquo;effet <strong>Transpositeur</strong>.</p>
+<p><a href="#R-image-2a5ed37f2f572911ba6044e04bb82a91" class="lightbox-link"><img alt="Transpositeur" class="lazy lightbox figure-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/transpositeur.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2a5ed37f2f572911ba6044e04bb82a91"><img alt="Transpositeur" class="lazy lightbox lightbox-image" loading="lazy" src="/cours-eanis/05-premiere-pro/01-initiation/transpositeur.png"></a></p>
+<p>Réduire les demi-tons rendra le son plus grave, le mettre au-dessus de 0 au contraire donnera un son plus aigu. Les centièmes sont juste une manière plus précise de gérer les demi-tons.</p>
+<h2 id="calque-deffet">Calque d&rsquo;effet</h2>
+<p><strong>Nouvel élément &gt; Calque d&rsquo;effet</strong> qui s&rsquo;ajoute sur la timeline. Tous les éléments sur les pistes inférieures au calque subiront les <em>effets</em>, comme un noir et blanc ou colorimétrie par exemple.</p>
+<div class="video-container">
+  <video
+    controls
+    autoplay
+    loop
+    muted
+    playsinline
+  >
+    <source src="./calque-d-effet.webm" type="video/webm">
+    Votre navigateur ne supporte pas la vidéo WebM.
+  </video>
+</div>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;  
+  margin: 0 auto;    
+  aspect-ratio: 16 / 9;  
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+.video-container video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+</style>
+
+<h2 id="raccourcis-utiles">Raccourcis utiles</h2>
+<ul>
+<li><kbd>Ctrl</kbd> + <kbd>-</kbd> réduire les lignes de la timeline</li>
+<li><kbd>Ctrl</kbd> + <kbd>+</kbd> agrandir les lignes de la timeline</li>
+<li><kbd>j</kbd>, <kbd>k</kbd> et <kbd>l</kbd> pour circuler dans la timeline</li>
+<li>Double clic dans le panneau projet ou <kbd>Ctrl</kbd> + <kbd>i</kbd> pour &ldquo;importer&rdquo; (lier) de nouveaux éléments</li>
+<li><kbd>Ctrl</kbd> + <kbd>Maj</kbd> + <kbd>X</kbd> pour annuler le <em>in</em> et <em>out</em> dans le panneau source</li>
+<li><kbd>Ctrl</kbd> + glisser/déplacer un plan dans la timeline permet de l&rsquo;intercaler facilement à un autre droit</li>
+<li><kbd>Maj</kbd>+<kbd>Suppr</kbd> supprime un élément dans la timeline et raccorde les éléments</li>
+<li><kbd>%</kbd> met le panneau survolé par la souris prend tout l&rsquo;espace dans la fenêtre Premiere Pro</li>
+<li><kbd>Ctrl</kbd> + <kbd>%</kbd> met la visionneuse Programme en plein écran</li>
+<li><kbd>Ctrl</kbd> + <kbd>:</kbd> créé un chutier</li>
+<li><kbd>Alt</kbd> + <kbd>⬆ / ⬇</kbd> déplace un plan d&rsquo;une ligne à l&rsquo;autre</li>
+<li><kbd>Alt</kbd> + <kbd>⬅ / ➡</kbd> déplace un plan sur une ligne</li>
+<li><kbd>Ctrl</kbd> + <kbd>Maj</kbd> + <kbd>X</kbd> supprime les points <em>in</em> et <em>out</em></li>
+<li>si une coupe involontaire a été faite <kbd>Ctrl</kbd> + <kbd>Click</kbd> en mode sélection par défaut (V) sur la coupe et <kbd>Suppr.</kbd> permet d&rsquo;annuler la coupe</li>
+<li><kbd>Ctrl</kbd> + <kbd>V</kbd> colle un plan dans la timeline par écrasement, <kbd>Ctrl</kbd> + <kbd>Maj</kbd> + <kbd>V</kbd> colle un plan en décalant les plans</li>
+<li><kbd>D</kbd> pour sélectionner l&rsquo;élément sous la tête de lecture</li>
+<li><kbd>X</kbd> pour placer le <em>in</em> et <em>out</em> autour de l&rsquo;élément sous la tête de lecture</li>
+<li><kbd>Maj</kbd> + <kbd>S</kbd> pour mettre la lecture en sourdine (audio scrub)</li>
+</ul>
+<p>Pour aller dans les différentes fenêtres</p>
+<ul>
+<li><kbd>Maj</kbd> + <kbd>&amp;</kbd> pour la fenêtre <strong>projet</strong></li>
+<li><kbd>Maj</kbd> + <kbd>é</kbd> pour la fenêtre <strong>effet</strong></li>
+<li><kbd>Maj</kbd> + <kbd>&quot;</kbd> pour la fenêtre <strong>séquence</strong> (permet également de passer d&rsquo;une séquence à l&rsquo;autre)</li>
+<li><kbd>Maj</kbd> + <kbd>'</kbd> pour la fenêtre <strong>programme</strong></li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/cours-eanis/index.html">
+            <div class="logo-title">Cours EANIS</div>
+          </a>
+        </div>
+        <search><form action="/cours-eanis/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Rechercher (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Rechercher</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Rechercher...">
+            <button class="search-clear" type="button" data-search-clear="" title="Recherche claire"><i class="fas fa-times" title="Recherche claire"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-url="/cours-eanis/index.html"><a class="padding" href="/cours-eanis/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="headless " data-nav-url=""><input type="checkbox" id="R-section-3275eb1e7e055f7cb2e04adbf9e09255" aria-controls="R-subsections-3275eb1e7e055f7cb2e04adbf9e09255"><label for="R-section-3275eb1e7e055f7cb2e04adbf9e09255"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Bases de la vidéo</span></label><span class="padding">&nbsp;<i class="fa-solid fa-photo-film"></i>&nbsp;Bases de la vidéo</span><ul id="R-subsections-3275eb1e7e055f7cb2e04adbf9e09255" class="collapsible-menu">
+            <li class="" data-nav-url="/cours-eanis/01-bases-video/01-definition-image/index.html"><a class="padding" href="/cours-eanis/01-bases-video/01-definition-image/index.html">Définition Image</a></li>
+            <li class="" data-nav-url="/cours-eanis/01-bases-video/02-aspect-ratio/index.html"><a class="padding" href="/cours-eanis/01-bases-video/02-aspect-ratio/index.html">Aspect Ratio</a></li>
+            <li class="" data-nav-url="/cours-eanis/01-bases-video/03-framerate/index.html"><a class="padding" href="/cours-eanis/01-bases-video/03-framerate/index.html">Framerate</a></li>
+            <li class="" data-nav-url="/cours-eanis/01-bases-video/04-anamorphose/index.html"><a class="padding" href="/cours-eanis/01-bases-video/04-anamorphose/index.html">Anamorphose</a></li>
+            <li class="" data-nav-url="/cours-eanis/01-bases-video/05-affichage/index.html"><a class="padding" href="/cours-eanis/01-bases-video/05-affichage/index.html">Affichage</a></li>
+            <li class="" data-nav-url="/cours-eanis/01-bases-video/06-codecs/index.html"><a class="padding" href="/cours-eanis/01-bases-video/06-codecs/index.html">Codecs</a></li></ul></li>
+            <li class="headless " data-nav-url=""><input type="checkbox" id="R-section-783cdce1b229ff0287ad57aff1e76404" aria-controls="R-subsections-783cdce1b229ff0287ad57aff1e76404"><label for="R-section-783cdce1b229ff0287ad57aff1e76404"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Couleurs</span></label><span class="padding">&nbsp;<i class="fa-solid fa-palette"></i>&nbsp;Couleurs</span><ul id="R-subsections-783cdce1b229ff0287ad57aff1e76404" class="collapsible-menu">
+            <li class="" data-nav-url="/cours-eanis/02-couleurs/01-espaces-colorimetriques/index.html"><a class="padding" href="/cours-eanis/02-couleurs/01-espaces-colorimetriques/index.html">Espaces Colorimétriques</a></li>
+            <li class="" data-nav-url="/cours-eanis/02-couleurs/02-echantillonage/index.html"><a class="padding" href="/cours-eanis/02-couleurs/02-echantillonage/index.html">Échantillonage</a></li>
+            <li class="" data-nav-url="/cours-eanis/02-couleurs/03-quantification/index.html"><a class="padding" href="/cours-eanis/02-couleurs/03-quantification/index.html">Quantification</a></li></ul></li>
+            <li class="" data-nav-url="/cours-eanis/03-sons/index.html"><a class="padding" href="/cours-eanis/03-sons/index.html">&nbsp;<i class="fa-solid fa-music"></i>&nbsp;Sons</a></li>
+            <li class="headless " data-nav-url=""><input type="checkbox" id="R-section-037a987df5d53947f1f525c47f7aee4e" aria-controls="R-subsections-037a987df5d53947f1f525c47f7aee4e"><label for="R-section-037a987df5d53947f1f525c47f7aee4e"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Analyse filmique</span></label><span class="padding">&nbsp;<i class="fa-solid fa-video"></i>&nbsp;Analyse filmique</span><ul id="R-subsections-037a987df5d53947f1f525c47f7aee4e" class="collapsible-menu">
+            <li class="" data-nav-url="/cours-eanis/04-analyse-filmique/01-metiers/index.html"><a class="padding" href="/cours-eanis/04-analyse-filmique/01-metiers/index.html">Corps de Métiers</a></li>
+            <li class="" data-nav-url="/cours-eanis/04-analyse-filmique/02-cadre/index.html"><a class="padding" href="/cours-eanis/04-analyse-filmique/02-cadre/index.html">Cadre</a></li>
+            <li class="" data-nav-url="/cours-eanis/04-analyse-filmique/03-profondeur/index.html"><a class="padding" href="/cours-eanis/04-analyse-filmique/03-profondeur/index.html">Profondeur</a></li>
+            <li class="" data-nav-url="/cours-eanis/04-analyse-filmique/04-plan/index.html"><a class="padding" href="/cours-eanis/04-analyse-filmique/04-plan/index.html">Plan</a></li>
+            <li class="" data-nav-url="/cours-eanis/04-analyse-filmique/05-mouvement/index.html"><a class="padding" href="/cours-eanis/04-analyse-filmique/05-mouvement/index.html">Mouvement</a></li>
+            <li class="" data-nav-url="/cours-eanis/04-analyse-filmique/06-lumiere/index.html"><a class="padding" href="/cours-eanis/04-analyse-filmique/06-lumiere/index.html">Lumière</a></li>
+            <li class="" data-nav-url="/cours-eanis/04-analyse-filmique/07-couleurs/index.html"><a class="padding" href="/cours-eanis/04-analyse-filmique/07-couleurs/index.html">Couleurs</a></li></ul></li>
+            <li class="parent headless " data-nav-url=""><input type="checkbox" id="R-section-4ed657e47e65cc8adfa73ca0ce997e5a" aria-controls="R-subsections-4ed657e47e65cc8adfa73ca0ce997e5a" checked><label for="R-section-4ed657e47e65cc8adfa73ca0ce997e5a"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Premiere Pro</span></label><span class="padding">&nbsp;<img style="height:1.2rem;vertical-align:middle;" src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg" alt="Pr" />&nbsp;Premiere Pro</span><ul id="R-subsections-4ed657e47e65cc8adfa73ca0ce997e5a" class="collapsible-menu">
+            <li class="active " data-nav-url="/cours-eanis/05-premiere-pro/01-initiation/index.html"><a class="padding" href="/cours-eanis/05-premiere-pro/01-initiation/index.html">Initiation</a></li>
+            <li class="" data-nav-url="/cours-eanis/05-premiere-pro/02-effets/index.html"><a class="padding" href="/cours-eanis/05-premiere-pro/02-effets/index.html">Effets</a></li>
+            <li class="" data-nav-url="/cours-eanis/05-premiere-pro/03-derush/index.html"><a class="padding" href="/cours-eanis/05-premiere-pro/03-derush/index.html">Derush</a></li></ul></li>
+            <li class="headless " data-nav-url=""><input type="checkbox" id="R-section-d9a11e535f38ddac01634bbd1f717f2f" aria-controls="R-subsections-d9a11e535f38ddac01634bbd1f717f2f"><label for="R-section-d9a11e535f38ddac01634bbd1f717f2f"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Da Vinci Resolve</span></label><span class="padding">&nbsp;<img style="height:1.2rem;vertical-align:middle;" src="https://upload.wikimedia.org/wikipedia/commons/9/90/DaVinci_Resolve_17_logo.svg" alt="Resolve" />&nbsp;Da Vinci Resolve</span><ul id="R-subsections-d9a11e535f38ddac01634bbd1f717f2f" class="collapsible-menu">
+            <li class="" data-nav-url="/cours-eanis/06-da-vinci-resolve/01-initiation/index.html"><a class="padding" href="/cours-eanis/06-da-vinci-resolve/01-initiation/index.html">Initiation</a></li></ul></li>
+            <li class="headless " data-nav-url=""><input type="checkbox" id="R-section-009f4bb7d5f5393b6b67d82f8f17cfaa" aria-controls="R-subsections-009f4bb7d5f5393b6b67d82f8f17cfaa"><label for="R-section-009f4bb7d5f5393b6b67d82f8f17cfaa"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Types de contenu</span></label><span class="padding">&nbsp;<i class="fa-solid fa-puzzle-piece"></i>&nbsp;Types de contenu</span><ul id="R-subsections-009f4bb7d5f5393b6b67d82f8f17cfaa" class="collapsible-menu">
+            <li class="" data-nav-url="/cours-eanis/08-types/01-bandes-annonces/index.html"><a class="padding" href="/cours-eanis/08-types/01-bandes-annonces/index.html">Bandes annonces</a></li>
+            <li class="" data-nav-url="/cours-eanis/08-types/02-publicite/index.html"><a class="padding" href="/cours-eanis/08-types/02-publicite/index.html">Publicité</a></li></ul></li>
+            <li class="" data-nav-url="/cours-eanis/99-liens-utiles/index.html"><a class="padding" href="/cours-eanis/99-liens-utiles/index.html">&nbsp;<i class="fa-solid fa-link"></i>&nbsp;Liens utiles</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/cours-eanis/js/js-yaml/js-yaml.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/d3/d3-color.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/d3/d3-dispatch.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/d3/d3-drag.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/d3/d3-ease.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/d3/d3-interpolate.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/d3/d3-selection.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/d3/d3-timer.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/d3/d3-transition.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/d3/d3-zoom.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/mermaid/mermaid.min.js?1763198050" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/cours-eanis/js/clipboard/clipboard.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/perfect-scrollbar/perfect-scrollbar.min.js?1763198050" defer></script>
+    <script src="/cours-eanis/js/theme.min.js?1763198050" defer></script>
+  </body>
+</html>

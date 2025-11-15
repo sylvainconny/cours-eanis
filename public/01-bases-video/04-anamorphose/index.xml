@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anamorphose :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/01-bases-video/04-anamorphose/index.html</link>
+    <description>Consiste en l’adaptation d’une image à son support de diffusion</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/01-bases-video/04-anamorphose/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codecs :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/01-bases-video/06-codecs/index.html</link>
+    <description>Littéralement ‘codeur / décodeur’, permet de compresser les fichiers vidéo afin de les rendre plus légers, et de les décompresser pour les rendre lisibles</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/01-bases-video/06-codecs/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

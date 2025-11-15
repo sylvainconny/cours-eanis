@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Profondeur :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/03-profondeur/index.html</link>
+    <description>Perspective La perspective est l’ensemble des techniques picturales destinées à représenter les trois dimensions d’un objet ou d’une scène par une image sur une surface, le plus souvent plane.&#xA;La perspectiva artificialis qui se base sur des points de fuites est celle se basant sur les points de fuites étant la plus proche de la perception de l’oeil humain.&#xA;Focales Profondeur de champ</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/03-profondeur/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

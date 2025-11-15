@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Définition Image :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/01-bases-video/01-definition-image/index.html</link>
+    <description>C’est le nombre de pixels dans une image. S’écrit avec un rapport largeur x hauteur.</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/01-bases-video/01-definition-image/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

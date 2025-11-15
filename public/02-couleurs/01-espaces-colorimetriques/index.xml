@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Espaces Colorimétriques :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/02-couleurs/01-espaces-colorimetriques/index.html</link>
+    <description>Un espace colorimétrique c’est une zone définie dans le diagramme de chromaticité, lequel représente l’ensemble des chrominances (ou couleurs pures sous-entendu sans luminance, sans les nuances de luminosité) visibles à l’œil nu</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/02-couleurs/01-espaces-colorimetriques/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liens utiles :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/99-liens-utiles/index.html</link>
+    <description>Sources UPOPI - Université Populaire des Images Ressources Pixabay Images, musiques et effets sonores libres de droit audionetwork Musique pour la TV, le cinéma, les marques, la publicité Idées Frameset Find the perfect frames with our powerful search Eyecandy Visual technique Library Outils Shutter Encoder Encodage / Conversion vidéo FFmpeg complete, cross-platform solution to record, convert and stream audio and video YT-DLP A feature-rich command-line audio/video downloader</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/99-liens-utiles/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

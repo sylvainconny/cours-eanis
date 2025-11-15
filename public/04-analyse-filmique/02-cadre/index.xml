@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cadre :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/02-cadre/index.html</link>
+    <description>Formats Hors champs / hors cadre Le hors-champ est l’ensemble des éléments qui n’apparaissent pas dans le cadre d’une image. Cette expression désigne notamment la partie de la scène qui n’apparaît pas dans un plan d’un film parce qu’elle n’est pas interceptée par le champ de l’optique de la caméra. Le hors-champ n’est ainsi pas enregistré sur la pellicule mais peut être suggéré par divers éléments de l’image ou du son.</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/02-cadre/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

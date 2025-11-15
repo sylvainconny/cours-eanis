@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plan :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/04-plan/index.html</link>
+    <description>Les valeurs de plan Par extension, l’échelle des plans constitue dans le langage cinématographique une aide précieuse pour le réalisateur. Il va donc se référer à un plan spécifique pour véhiculer le message qu’il souhaite. On distingue généralement 3 catégories générales de plans : Les plans larges (plan général, plan d’ensemble), les plans moyens (plan américain, plan italien), les plans de mise en avant des personnages (gros plans et très gros plans).</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/04-plan/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

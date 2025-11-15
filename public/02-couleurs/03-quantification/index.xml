@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantification :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/02-couleurs/03-quantification/index.html</link>
+    <description>Désigne la compression de la luminance du plus au moins compressés et donc le nombre de nuances de gris</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/02-couleurs/03-quantification/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

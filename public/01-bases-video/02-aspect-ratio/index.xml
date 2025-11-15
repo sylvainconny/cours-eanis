@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aspect Ratio :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/01-bases-video/02-aspect-ratio/index.html</link>
+    <description>L’aspect ratio  c’est le rapport entre la largeur et la hauteur de l’image</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/01-bases-video/02-aspect-ratio/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
