@@ -64,3 +64,8 @@ Il existe des sites pour calculer facilement ces opérations comme [unravel](htt
 * 3840x1536 | 2.5:1
 * 3840x2160 (UHD) | 1.77:1 (16/9)
 * 4096x2160 (4K) | 1.89:1 (mal nommé 17/9)
+
+{{<grid>}}
+{{<youtube id="Y_MUK6xSOP8">}}
+{{<youtube id="GbfHtMYsO44">}}
+{{</grid>}}

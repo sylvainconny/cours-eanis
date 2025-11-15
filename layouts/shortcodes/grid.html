@@ -1,7 +1,7 @@
 {{/* layouts/shortcodes/grid.html */}}
 
-{{- $columns := .Get "columns" | default "1fr" -}}
+{{- $min := .Get "min" | default "280px" -}}
 
-<div {{ printf `style="display:grid;gap:0.5rem;margin:1.5rem 0;grid-template-columns:%s"` $columns | safeHTMLAttr }}>
+<div {{ printf `style="display:grid;gap:0.5rem;margin:1.5rem 0;grid-template-columns:repeat(auto-fit, minmax(%s, 1fr));"` $min | safeHTMLAttr }}>
   {{ .Page.RenderString .Inner }}
 </div>

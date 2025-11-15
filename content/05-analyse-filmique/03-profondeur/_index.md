@@ -24,7 +24,7 @@ La **perspectiva artificialis** qui se base sur des points de fuites est celle s
 [![200 mm : point de vue éloigné,perspective écrasée](https://upload.wikimedia.org/wikipedia/commons/f/fd/Portrait200mm5_6.jpg)](https://fr.wikipedia.org/wiki/Focale)
 {{</flex>}}
 
-{{<grid columns="1fr 1fr">}}
+{{<grid>}}
 {{<vimeo id="237730230">}}
 {{<youtube id="2iiNz6c0lFI">}}
 {{</grid>}}

@@ -31,3 +31,9 @@ Dans **La nuit américaine** de *François Truffaut*, une mise en abîme où on 
 Plus compliqué, dans [**Kacey Mottet Klein, naissance d'un acteur**](https://www.film-documentaire.fr/4DACTION/w_fiche_film/45833_0) de *Ursula Meier*, on entend la réalisatrice parler dans le film sans la voir, elle est donc hors champ et techniquement hors cadre car le film est un documentaire reprenant des rushes d'un autre film.
 
 {{<vimeo id="237713937">}}
+
+
+## Diégèse
+La [diégèse](https://fr.wikipedia.org/wiki/Di%C3%A9g%C3%A8se) a deux acceptions. Premièrement, dans les mécanismes de narration, la diégèse est le fait de raconter les choses, et s'oppose au principe de mimèsis qui consiste à montrer les choses. Ensuite, c'est également l'univers d'une œuvre, le monde qu'elle évoque et dont elle représente une partie. 
+
+Diégétique fait partie de la diégèse, extradiégétique n'en fait pas partie.
