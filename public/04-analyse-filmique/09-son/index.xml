@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Son :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/09-son/index.html</link>
+    <description>Paroles, bruits et musique On peut distinguer trois catégories de sons au cinéma en fonction de leur nature : les bruits, les paroles, la musique. Certains critères de description sont communs à tous les sons : le volume, la hauteur, le timbre, le rythme. D’autres sont spécifiques à certains sons : l’accent, la prononciation, l’intonation pour la parole ; l’instrumentation, la composition, le style pour la musique. Les différents types de sons sont hiérarchisés les uns par rapport aux autres sur la bande son. Ils peuvent aussi se faire écho.</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/09-son/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

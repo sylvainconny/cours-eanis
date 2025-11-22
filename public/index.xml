@@ -3,7 +3,7 @@
   <channel>
     <title>Accueil :: Cours EANIS</title>
     <link>https://sylvainconny.github.io/cours-eanis/index.html</link>
-    <description>Workflow recommandé Pour chaque projet, créer une arborescence de ce genre :&#xA;PROJETS_EANIS NOM_PROJET RUSHES PROXY AUDIO VIDEO SONS SFX MUSIQUES ELEMENTS TITRES MOTION STOCK PROJETS PREMIERE AFTER yyyymmdd_nom_projet.aep yyyymmdd_nom_projet.aep EXPORTS FINAL RENDUS_3D AFTER Resolve Project Library</description>
+    <description>Workflow recommandé Pour chaque projet, créer une arborescence de ce genre :&#xA;PROJETS_EANIS NOM_PROJET RUSHES PROXY AUDIO VIDEO SONS SFX MUSIQUES ELEMENTS TITRES MOTION STOCK PROJETS PREMIERE AFTER yyyymmdd_nom_projet.aep yyyymmdd_nom_projet.aep EXPORTS FINAL RENDUS_3D AFTER Resolve Project Library Examen final Mise en situation professionnelle : 04 h 00 min A partir d’une consigne écrite qui présente les instructions et les intentions narratives et esthétiques du sujet d’information court, le candidat réalise le montage d’un portrait.</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
     <atom:link href="https://sylvainconny.github.io/cours-eanis/index.xml" rel="self" type="application/rss+xml" />
@@ -12,14 +12,14 @@
       <link>https://sylvainconny.github.io/cours-eanis/03-sons/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sylvainconny.github.io/cours-eanis/03-sons/index.html</guid>
-      <description>À l’export on aimerait :&#xA;les voix à -6db les musiques à -18db les SFX selon l’importance qu’ils ont, une explosion devra être plus perceptible qu’un bruit de pas ou de porte, à moins que ce soit important dans la scène</description>
+      <description>À l’export on aimerait :&#xA;les voix à -6db les musiques à -18db les SFX selon l’importance qu’ils ont, une explosion devra être plus perceptible qu’un bruit de pas ou de porte, à moins que ce soit important dans la scène Le niveau sonore global audible d’un montage (appelé master) se situe entre -14dB et -8dB, -4dB maximum.&#xA;Pour la norme DCP (cinéma), on sera plutôt autour de -20dB.</description>
     </item>
     <item>
       <title>Liens utiles</title>
       <link>https://sylvainconny.github.io/cours-eanis/99-liens-utiles/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sylvainconny.github.io/cours-eanis/99-liens-utiles/index.html</guid>
-      <description>Sources UPOPI - Université Populaire des Images Ressources Pixabay Images, musiques et effets sonores libres de droit audionetwork Musique pour la TV, le cinéma, les marques, la publicité Idées Frameset Find the perfect frames with our powerful search Eyecandy Visual technique Library Outils Shutter Encoder Encodage / Conversion vidéo FFmpeg complete, cross-platform solution to record, convert and stream audio and video YT-DLP A feature-rich command-line audio/video downloader</description>
+      <description>Sources UPOPI - Université Populaire des Images Ressources Pixabay Images, musiques et effets sonores libres de droit audionetwork Musique pour la TV, le cinéma, les marques, la publicité Idées Frameset Find the perfect frames with our powerful search Eyecandy Visual technique Library Outils Shutter Encoder Encodage / Conversion vidéo FFmpeg complete, cross-platform solution to record, convert and stream audio and video YT-DLP A feature-rich command-line audio/video downloader Studio Binder All-in-one video production planning for your whole team</description>
     </item>
   </channel>
 </rss>

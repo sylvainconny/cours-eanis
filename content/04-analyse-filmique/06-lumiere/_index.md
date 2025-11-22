@@ -19,4 +19,13 @@ C'est une méthode simple et très employée pour avoir un éclairage équilibr�
 - la **fill light** illumine aussi le sujet mais par un angle relatif à la key light, elle permet de déboucher les ombres créées par la key light et de réduire ainsi l'effet de clair-obscur
 - le **contrejour** (ou back light) illumine le sujet de dos
 
+![Illustration d'un éclairage trois points](./eclairage-3-points.jpg)
+
 {{<vimeo id="222498759">}}
+
+La lumière donne vie aux plans :
+- utiliser des éclairages directionnels pour mettre en valeur des éléments spécifiques du cadre
+- jouer avec les contrastes, le clair-obscur peut créer une atmosphère dramatique ou mystérieuse
+- exploiter la lumière naturelle ; pour des plans extérieurs réalistes, filmer pendant les heures dorées (lever ou coucher du soleil)
+
+{{<youtube id="SniPGD8RJ5s">}}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Montage :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/08-montage/index.html</link>
+    <description>Découpage Le découpage technique est un document qui sert de référence et donne toutes les indications utiles comme la grosseur de plan, l’angle de prise de vue, les mouvements ou les focales.&#xA;Il est souvent complété par un story board, qui utilise des dessins pour illustrer le découpage plan par plan.&#xA;Il existe également le découpage analytique qui contient d’autres indications comme le son, l’éclairage ou la composition.&#xA;Exemple à télécharger</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/04-analyse-filmique/08-montage/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

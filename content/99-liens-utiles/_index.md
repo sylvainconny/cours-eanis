@@ -25,3 +25,4 @@ type = 'chapter'
 - [Shutter Encoder](https://www.shutterencoder.com) Encodage / Conversion vidéo
 - [FFmpeg](https://www.ffmpeg.org) complete, cross-platform solution to record, convert and stream audio and video
 - [YT-DLP](https://github.com/yt-dlp/yt-dlp) A feature-rich command-line audio/video downloader
+- [Studio Binder](https://www.studiobinder.com/) All-in-one video production planning for your whole team

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Son :: Cours EANIS</title>
+    <link>https://sylvainconny.github.io/cours-eanis/07-avid/02-son/index.html</link>
+    <description>À noter qu’Avid Media Composer gère par défaut les pistes son en dual mono.&#xA;Waveform Les Waveform ne sont pas affichées par défaut, il faut se rendre dans le burger de la timeline &gt; Audio Data &gt; Waveform. Pour changer l’affichage des Waveform Ctrl + Alt + K et Ctrl + Alt + L.&#xA;Gain L’affichage du vuemètre se trouve dans Tools &gt; Audio Tool. Pour un mixage efficace, on va également chercher Tools &gt; Audio Mixer. Il peut également se gérer directement dans la timeline de façon moins précise sur un clip en l’affichant via burger de la timeline &gt; Audio Data &gt; Clip Gain.</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://sylvainconny.github.io/cours-eanis/07-avid/02-son/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -18,7 +18,7 @@ On parle aussi de Gamut pour la chrominance (soit l'ensemble des couleurs que l'
 
 Si un espace colorimétrique couvre une partie de gamut, il est généralement associé à un gamma parmi lesquels 2.2, 2.4, 2.6, 2.8.
 
-![Différents gamma](https://www.homecinema-fr.com/forum/ressources/image/176460)
+![Différents gamma](./gamma.jpg)
 
 ## Espaces de diffusion
 Dans l'ordre d'apparition et de grandeur :
